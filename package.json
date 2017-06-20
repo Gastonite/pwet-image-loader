@@ -1,6 +1,6 @@
 {
   "name": "pwet-image-loader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Pwet component for loading image",
   "main": "src/component.js",
   "repository": "https://github.com/Gastonite/pwet-image-loader",
