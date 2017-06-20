@@ -1,6 +1,6 @@
 # pwet-image-loader
 
-A [Pwet](https://github.com/Gastonyte/pwet) component for preload a set of images
+A [Pwet](https://github.com/Gastonyte/pwet) component to preload a set of images
  
 ### Show builded example
 
