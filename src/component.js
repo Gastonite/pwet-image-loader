@@ -19,7 +19,7 @@ internal.ImageLoader = (component) => {
 
   const { element } = component;
 
-  // console.log('ImageLoader()');
+  console.log('ImageLoader()');
 
   const _loadImage = (src, index = 0) => {
 
@@ -27,7 +27,7 @@ internal.ImageLoader = (component) => {
     const { status, loaded, failed, queue } = state;
     const { onComplete, onProgress, pipeline, onError, onLoad  } = properties;
 
-    // console.log('ImageLoader._loadImage()', state.index);
+    console.log('ImageLoader._loadImage()', state.index);
 
     component.editState({
       status: 'loading',
@@ -78,18 +78,18 @@ internal.ImageLoader = (component) => {
   };
 
   const attach = attach => {
-    // console.log('ImageLoader.attach()', component.properties, component.state);
-    attach();
+    console.log('ImageLoader.attach()', component.properties, component.state);
+    attach(!component.isRendered);
   };
 
   const detach = () => {
-    // console.log('ImageLoader.detach()');
+    console.log('ImageLoader.detach()');
 
   };
 
   const initialize = (newProperties, initialize) => {
 
-    // console.log('ImageLoader.initialize()', 'before', newProperties, component.properties, component.state);
+    console.log('ImageLoader.initialize()', 'before', newProperties, component.properties, component.state);
 
     const oldProperties = component.properties;
 

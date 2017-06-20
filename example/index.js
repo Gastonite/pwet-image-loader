@@ -3,7 +3,6 @@ import 'pwet/src/polyfills';
 import Component from 'pwet/src/component';
 import ImageLoader from '../src/component';
 import { renderImage, renderStrong } from 'idom-util';
-import { patch, text } from 'incremental-dom';
 import SpinnerImageUrl from 'url-loader!./spinner.gif?mimetype=image/gif';
 
 ImageLoader.maxWait = 1000;
@@ -12,14 +11,18 @@ Component.define(ImageLoader);
 
 const container = document.getElementById('container');
 const imageLoader = document.createElement('x-image-loader');
-container.appendChild(imageLoader);
 
 imageLoader.renderSpinner = (component, src) => {
   renderImage(SpinnerImageUrl)
 };
 
+container.appendChild(imageLoader);
+
 console.log('===============================');
-const src = new Array(42).fill(void 0).map((el, i) => `https://unsplash.it/600?image=${1084 - i}&${+new Date()}`);
+
+const src = new Array(42)
+  .fill(void 0)
+  .map((el, i) => `https://unsplash.it/600?image=${1084 - i}&${+new Date()}`);
 
 imageLoader.pwet.initialize({
   src,

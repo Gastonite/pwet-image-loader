@@ -11,10 +11,10 @@ Just open :
 ### Build example
 
 ```
-npm i && npm run demo
+yarn && yarn demo
 ```
 or
 ```
-yarn && yarn demo
+npm i && npm run demo
 ```
 Now the demo is visible at [http://localhost:3000](http://localhost:3000)
