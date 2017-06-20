@@ -15,16 +15,11 @@ internal.defaults = {
 
 internal.unsetListeners = image => image.onerror = image.onabort = image.onload = null;
 
-internal.defaults.onComplete = (loaded, failed) => {
-  console.log('All images were loaded', loaded);
-};
-
-
 internal.ImageLoader = (component) => {
 
   const { element } = component;
 
-  console.log('ImageLoader()');
+  // console.log('ImageLoader()');
 
   const _loadImage = (src, index = 0) => {
 
@@ -32,11 +27,10 @@ internal.ImageLoader = (component) => {
     const { status, loaded, failed, queue } = state;
     const { onComplete, onProgress, pipeline, onError, onLoad  } = properties;
 
-    console.log('ImageLoader._loadImage()', state.index);
+    // console.log('ImageLoader._loadImage()', state.index);
 
     component.editState({
       status: 'loading',
-      // index: status !== 'loading' ? 0 : ++index
     });
 
     index++;
@@ -84,23 +78,18 @@ internal.ImageLoader = (component) => {
   };
 
   const attach = attach => {
-    console.log('ImageLoader.attach()', component.properties, component.state);
+    // console.log('ImageLoader.attach()', component.properties, component.state);
     attach();
   };
 
   const detach = () => {
-    console.log('ImageLoader.detach()');
-    // if (!_loader)
-    //   return;
-    // _loader.onload = null;
-    // _loader.onerror = null;
-    // _loader = null;
+    // console.log('ImageLoader.detach()');
+
   };
 
   const initialize = (newProperties, initialize) => {
 
-    console.log('');
-    console.log('ImageLoader.initialize()', 'before', newProperties, component.properties, component.state);
+    // console.log('ImageLoader.initialize()', 'before', newProperties, component.properties, component.state);
 
     const oldProperties = component.properties;
 
@@ -111,8 +100,6 @@ internal.ImageLoader = (component) => {
 
       if (state.status === 'loading')
         return;
-
-      console.error('set queue');
 
       if (isString(newProperties.src))
         newProperties.src = [newProperties.src];
@@ -144,9 +131,6 @@ internal.ImageLoader = (component) => {
     console.log('ImageLoader.update()', state.progress+'%');
 
     update(true);
-
-    // if (component.state.status === 'loading' && !_loader)
-    //   _makeLoader();
 
   };
 
@@ -188,7 +172,6 @@ internal.ImageLoader.properties = {
   },
   onProgress: noop,
   renderSpinner(component, src) {
-    // console.error('default renderSpinner')
     text('loading...');
   },
   renderImage(component, src) {
