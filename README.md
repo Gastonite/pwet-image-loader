@@ -1,3 +1,20 @@
 # pwet-image-loader
 
-http://fragged.org/preloading-images-using-javascript-the-right-way-and-without-frameworks_744.html
+A [Pwet](https://github.com/Gastonyte/pwet) component for preload a set of images
+ 
+### Show builded example
+
+Just open :
+
+```example/build/index.html```
+
+### Build example
+
+```
+npm i && npm run demo
+```
+or
+```
+yarn && yarn demo
+```
+Now the demo is visible at [http://localhost:3000](http://localhost:3000)

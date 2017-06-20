@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "description": "A Pwet component for loading image",
   "main": "src/component.js",
-  "repository": "https://github.com/Gastonite/pwet-imageloader",
+  "repository": "https://github.com/Gastonite/pwet-image-loader",
   "author": "Clément Pasquier <clement@n00sphere.net>",
   "license": "GPL-3.0",
   "scripts": {
