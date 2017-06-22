@@ -2,9 +2,9 @@ import { object } from 'pwet/src/attribute';
 import Attribute from 'pwet/src/attribute';
 import { noop } from 'pwet/src/utilities';
 import Throttle from 'lodash.throttle';
-import { assert, isNull, isUndefined, isObject, isFunction, isArray, isString, isDeeplyEqual } from 'pwet/src/assertions';
+import StatefulComponent from 'pwet/src/decorators/stateful';
+import { assert, isArray, isString, isDeeplyEqual } from 'pwet/src/assertions';
 import { patch, patchOuter, currentElement, skip, skipNode, text } from 'incremental-dom';
-import { renderDiv } from 'idom-util';
 
 const internal = {};
 
@@ -159,11 +159,10 @@ internal.ImageLoader = (component) => {
   };
 };
 
-internal.ImageLoader.properties = {
-  src: {
-    attribute: Attribute.array,
+internal.ImageLoader.create = StatefulComponent;
 
-  },
+internal.ImageLoader.properties = {
+  src: Attribute.array(),
   pipeline: false,
   onLoad: noop,
   onError: noop,
