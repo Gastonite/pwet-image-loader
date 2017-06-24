@@ -4,7 +4,6 @@ import { noop } from 'pwet/src/utilities';
 import Throttle from 'lodash.throttle';
 import StatefulComponent from 'pwet/src/decorators/stateful';
 import { assert, isArray, isString, isDeeplyEqual } from 'pwet/src/assertions';
-import { patch, patchOuter, currentElement, skip, skipNode, text } from 'incremental-dom';
 
 const internal = {};
 
@@ -42,7 +41,7 @@ internal.ImageLoader = (component) => {
       const method = !returnValue ? onError : onLoad;
       const array = !returnValue ? failed : loaded;
 
-      array.push(src);
+      array.push(image);
 
       component.editState({
         loaded,
@@ -131,23 +130,20 @@ internal.ImageLoader = (component) => {
     console.log('ImageLoader.update()', state.progress+'%');
 
     update(true);
-
   };
 
   const render = () => {
     const { state, properties } = component;
     const { status, loaded } = state;
-    const { renderImage, renderSpinner } = properties;
+    const { renderImage, renderImages, renderSpinner } = properties;
 
     console.error('ImageLoader.render()', properties, state);
-
-    patch(element, () => {
 
       if (status === 'pending' || (status === 'loading' && loaded.length < 1))
         return void renderSpinner(component);
 
-      loaded.forEach(renderImage.bind(null, component))
-    });
+      renderImages(component, loaded);
+
   };
 
   return {
@@ -170,12 +166,8 @@ internal.ImageLoader.properties = {
     console.log(`default onComplete() loaded:${loaded.length} failed:${failed.length}`);
   },
   onProgress: noop,
-  renderSpinner(component, src) {
-    text('loading...');
-  },
-  renderImage(component, src) {
-    text(src);
-  }
+  renderImages: ({ element }, images) => images.map(image => element.appendChild(image)),
+  renderSpinner: ({ element }) => element.innerText = 'loading...'
 };
 
 internal.ImageLoader.initialState = {
