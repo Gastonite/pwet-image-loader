@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "8a7796fc92ead5a70f8b"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "75a1205f55476cd159c4"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -10706,8 +10706,7 @@ internal.ImageLoader = function (component) {
     var index = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
     var state = component.state,
         properties = component.properties;
-    var status = state.status,
-        loaded = state.loaded,
+    var loaded = state.loaded,
         failed = state.failed,
         queue = state.queue;
     var onComplete = properties.onComplete,
@@ -10770,7 +10769,7 @@ internal.ImageLoader = function (component) {
   };
 
   var initialize = function initialize(newProperties, _initialize) {
-    var properties = component.properties.properties;
+    var properties = component.properties;
 
 
     if (newProperties.src.length > 0 && newProperties.src !== properties.src) {

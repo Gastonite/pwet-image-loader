@@ -19,7 +19,7 @@ internal.ImageLoader = (component) => {
   const _loadImage = (src, index = 0) => {
 
     const { state, properties } = component;
-    const { status, loaded, failed, queue } = state;
+    const { loaded, failed, queue } = state;
     const { onComplete, onProgress, pipeline, onError, onLoad  } = properties;
 
     component.editState({
@@ -77,7 +77,7 @@ internal.ImageLoader = (component) => {
 
   const initialize = (newProperties, initialize) => {
 
-    const { properties } = component.properties;
+    const { properties } = component;
 
     if (newProperties.src.length > 0 && newProperties.src !== properties.src) {
 
