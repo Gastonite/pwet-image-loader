@@ -16,17 +16,11 @@ internal.unsetListeners = image => image.onerror = image.onabort = image.onload 
 
 internal.ImageLoader = (component) => {
 
-  const { element } = component;
-
-  console.log('ImageLoader()');
-
   const _loadImage = (src, index = 0) => {
 
     const { state, properties } = component;
     const { status, loaded, failed, queue } = state;
     const { onComplete, onProgress, pipeline, onError, onLoad  } = properties;
-
-    console.log('ImageLoader._loadImage()', state.index);
 
     component.editState({
       status: 'loading',
@@ -77,22 +71,15 @@ internal.ImageLoader = (component) => {
   };
 
   const attach = attach => {
-    console.log('ImageLoader.attach()', component.properties, component.state);
+
     attach(!component.isRendered);
-  };
-
-  const detach = () => {
-    console.log('ImageLoader.detach()');
-
   };
 
   const initialize = (newProperties, initialize) => {
 
-    console.log('ImageLoader.initialize()', 'before', newProperties, component.properties, component.state);
+    const { properties } = component.properties;
 
-    const oldProperties = component.properties;
-
-    if (newProperties.src.length > 0 && newProperties.src !== oldProperties.src) {
+    if (newProperties.src.length > 0 && newProperties.src !== properties.src) {
 
       const { state, properties  } = component;
       const { pipeline  } = properties;
@@ -118,7 +105,7 @@ internal.ImageLoader = (component) => {
     }
 
     initialize(
-      !component.isRendered || !isDeeplyEqual(oldProperties, newProperties)
+      !component.isRendered || !isDeeplyEqual(properties, newProperties)
     );
 
   };
@@ -127,28 +114,22 @@ internal.ImageLoader = (component) => {
 
     const { state } = component;
 
-    console.log('ImageLoader.update()', state.progress+'%');
-
     update(true);
   };
 
   const render = () => {
     const { state, properties } = component;
     const { status, loaded } = state;
-    const { renderImage, renderImages, renderSpinner } = properties;
+    const { renderImages, renderSpinner } = properties;
 
-    console.error('ImageLoader.render()', properties, state);
+    if (status === 'pending' || (status === 'loading' && loaded.length < 1))
+      return void renderSpinner(component);
 
-      if (status === 'pending' || (status === 'loading' && loaded.length < 1))
-        return void renderSpinner(component);
-
-      renderImages(component, loaded);
-
+    renderImages(component, loaded);
   };
 
   return {
     attach,
-    detach,
     update,
     initialize,
     render: Throttle(render, internal.ImageLoader.maxWait)

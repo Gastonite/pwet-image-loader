@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "50db9afc2d2681029417"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "8a7796fc92ead5a70f8b"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -711,7 +711,7 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "../../pwet/node_modules/@webcomponents/custom-elements/src/AlreadyConstructedMarker.js":
+/***/ "../node_modules/@webcomponents/custom-elements/src/AlreadyConstructedMarker.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -738,7 +738,7 @@ exports.default = new AlreadyConstructedMarker();
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/@webcomponents/custom-elements/src/CustomElementInternals.js":
+/***/ "../node_modules/@webcomponents/custom-elements/src/CustomElementInternals.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -750,11 +750,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _Utilities = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/Utilities.js");
+var _Utilities = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/Utilities.js");
 
 var Utilities = _interopRequireWildcard(_Utilities);
 
-var _CustomElementState = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/CustomElementState.js");
+var _CustomElementState = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/CustomElementState.js");
 
 var _CustomElementState2 = _interopRequireDefault(_CustomElementState);
 
@@ -1133,7 +1133,7 @@ exports.default = CustomElementInternals;
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/@webcomponents/custom-elements/src/CustomElementRegistry.js":
+/***/ "../node_modules/@webcomponents/custom-elements/src/CustomElementRegistry.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1145,19 +1145,19 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _CustomElementInternals = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/CustomElementInternals.js");
+var _CustomElementInternals = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/CustomElementInternals.js");
 
 var _CustomElementInternals2 = _interopRequireDefault(_CustomElementInternals);
 
-var _DocumentConstructionObserver = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/DocumentConstructionObserver.js");
+var _DocumentConstructionObserver = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/DocumentConstructionObserver.js");
 
 var _DocumentConstructionObserver2 = _interopRequireDefault(_DocumentConstructionObserver);
 
-var _Deferred = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/Deferred.js");
+var _Deferred = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/Deferred.js");
 
 var _Deferred2 = _interopRequireDefault(_Deferred);
 
-var _Utilities = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/Utilities.js");
+var _Utilities = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/Utilities.js");
 
 var Utilities = _interopRequireWildcard(_Utilities);
 
@@ -1401,7 +1401,7 @@ CustomElementRegistry.prototype['polyfillWrapFlushCallback'] = CustomElementRegi
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/@webcomponents/custom-elements/src/CustomElementState.js":
+/***/ "../node_modules/@webcomponents/custom-elements/src/CustomElementState.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1422,7 +1422,7 @@ exports.default = CustomElementState;
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/@webcomponents/custom-elements/src/Deferred.js":
+/***/ "../node_modules/@webcomponents/custom-elements/src/Deferred.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1507,7 +1507,7 @@ exports.default = Deferred;
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/@webcomponents/custom-elements/src/DocumentConstructionObserver.js":
+/***/ "../node_modules/@webcomponents/custom-elements/src/DocumentConstructionObserver.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1519,7 +1519,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _CustomElementInternals = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/CustomElementInternals.js");
+var _CustomElementInternals = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/CustomElementInternals.js");
 
 var _CustomElementInternals2 = _interopRequireDefault(_CustomElementInternals);
 
@@ -1604,7 +1604,7 @@ exports.default = DocumentConstructionObserver;
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/@webcomponents/custom-elements/src/Patch/Document.js":
+/***/ "../node_modules/@webcomponents/custom-elements/src/Patch/Document.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1684,19 +1684,19 @@ exports.default = function (internals) {
   });
 };
 
-var _Native = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/Patch/Native.js");
+var _Native = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/Patch/Native.js");
 
 var _Native2 = _interopRequireDefault(_Native);
 
-var _CustomElementInternals = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/CustomElementInternals.js");
+var _CustomElementInternals = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/CustomElementInternals.js");
 
 var _CustomElementInternals2 = _interopRequireDefault(_CustomElementInternals);
 
-var _Utilities = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/Utilities.js");
+var _Utilities = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/Utilities.js");
 
 var Utilities = _interopRequireWildcard(_Utilities);
 
-var _ParentNode = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/Patch/Interface/ParentNode.js");
+var _ParentNode = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/Patch/Interface/ParentNode.js");
 
 var _ParentNode2 = _interopRequireDefault(_ParentNode);
 
@@ -1712,7 +1712,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/@webcomponents/custom-elements/src/Patch/Element.js":
+/***/ "../node_modules/@webcomponents/custom-elements/src/Patch/Element.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1956,27 +1956,27 @@ exports.default = function (internals) {
   });
 };
 
-var _Native = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/Patch/Native.js");
+var _Native = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/Patch/Native.js");
 
 var _Native2 = _interopRequireDefault(_Native);
 
-var _CustomElementInternals = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/CustomElementInternals.js");
+var _CustomElementInternals = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/CustomElementInternals.js");
 
 var _CustomElementInternals2 = _interopRequireDefault(_CustomElementInternals);
 
-var _CustomElementState = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/CustomElementState.js");
+var _CustomElementState = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/CustomElementState.js");
 
 var _CustomElementState2 = _interopRequireDefault(_CustomElementState);
 
-var _Utilities = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/Utilities.js");
+var _Utilities = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/Utilities.js");
 
 var Utilities = _interopRequireWildcard(_Utilities);
 
-var _ParentNode = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/Patch/Interface/ParentNode.js");
+var _ParentNode = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/Patch/Interface/ParentNode.js");
 
 var _ParentNode2 = _interopRequireDefault(_ParentNode);
 
-var _ChildNode = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/Patch/Interface/ChildNode.js");
+var _ChildNode = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/Patch/Interface/ChildNode.js");
 
 var _ChildNode2 = _interopRequireDefault(_ChildNode);
 
@@ -1992,7 +1992,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/@webcomponents/custom-elements/src/Patch/HTMLElement.js":
+/***/ "../node_modules/@webcomponents/custom-elements/src/Patch/HTMLElement.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2049,19 +2049,19 @@ exports.default = function (internals) {
   }();
 };
 
-var _Native = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/Patch/Native.js");
+var _Native = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/Patch/Native.js");
 
 var _Native2 = _interopRequireDefault(_Native);
 
-var _CustomElementInternals = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/CustomElementInternals.js");
+var _CustomElementInternals = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/CustomElementInternals.js");
 
 var _CustomElementInternals2 = _interopRequireDefault(_CustomElementInternals);
 
-var _CustomElementState = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/CustomElementState.js");
+var _CustomElementState = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/CustomElementState.js");
 
 var _CustomElementState2 = _interopRequireDefault(_CustomElementState);
 
-var _AlreadyConstructedMarker = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/AlreadyConstructedMarker.js");
+var _AlreadyConstructedMarker = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/AlreadyConstructedMarker.js");
 
 var _AlreadyConstructedMarker2 = _interopRequireDefault(_AlreadyConstructedMarker);
 
@@ -2075,7 +2075,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/@webcomponents/custom-elements/src/Patch/Interface/ChildNode.js":
+/***/ "../node_modules/@webcomponents/custom-elements/src/Patch/Interface/ChildNode.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2190,11 +2190,11 @@ exports.default = function (internals, destination, builtIn) {
   };
 };
 
-var _CustomElementInternals = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/CustomElementInternals.js");
+var _CustomElementInternals = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/CustomElementInternals.js");
 
 var _CustomElementInternals2 = _interopRequireDefault(_CustomElementInternals);
 
-var _Utilities = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/Utilities.js");
+var _Utilities = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/Utilities.js");
 
 var Utilities = _interopRequireWildcard(_Utilities);
 
@@ -2221,7 +2221,7 @@ var ChildNodeNativeMethods = void 0;
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/@webcomponents/custom-elements/src/Patch/Interface/ParentNode.js":
+/***/ "../node_modules/@webcomponents/custom-elements/src/Patch/Interface/ParentNode.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2293,11 +2293,11 @@ exports.default = function (internals, destination, builtIn) {
   };
 };
 
-var _CustomElementInternals = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/CustomElementInternals.js");
+var _CustomElementInternals = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/CustomElementInternals.js");
 
 var _CustomElementInternals2 = _interopRequireDefault(_CustomElementInternals);
 
-var _Utilities = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/Utilities.js");
+var _Utilities = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/Utilities.js");
 
 var Utilities = _interopRequireWildcard(_Utilities);
 
@@ -2322,7 +2322,7 @@ var ParentNodeNativeMethods = void 0;
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/@webcomponents/custom-elements/src/Patch/Native.js":
+/***/ "../node_modules/@webcomponents/custom-elements/src/Patch/Native.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2365,7 +2365,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/@webcomponents/custom-elements/src/Patch/Node.js":
+/***/ "../node_modules/@webcomponents/custom-elements/src/Patch/Node.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2603,15 +2603,15 @@ exports.default = function (internals) {
   }
 };
 
-var _Native = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/Patch/Native.js");
+var _Native = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/Patch/Native.js");
 
 var _Native2 = _interopRequireDefault(_Native);
 
-var _CustomElementInternals = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/CustomElementInternals.js");
+var _CustomElementInternals = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/CustomElementInternals.js");
 
 var _CustomElementInternals2 = _interopRequireDefault(_CustomElementInternals);
 
-var _Utilities = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/Utilities.js");
+var _Utilities = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/Utilities.js");
 
 var Utilities = _interopRequireWildcard(_Utilities);
 
@@ -2627,7 +2627,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/@webcomponents/custom-elements/src/Utilities.js":
+/***/ "../node_modules/@webcomponents/custom-elements/src/Utilities.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2765,33 +2765,33 @@ function setPropertyUnchecked(destination, name, value) {
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/@webcomponents/custom-elements/src/custom-elements.js":
+/***/ "../node_modules/@webcomponents/custom-elements/src/custom-elements.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _CustomElementInternals = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/CustomElementInternals.js");
+var _CustomElementInternals = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/CustomElementInternals.js");
 
 var _CustomElementInternals2 = _interopRequireDefault(_CustomElementInternals);
 
-var _CustomElementRegistry = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/CustomElementRegistry.js");
+var _CustomElementRegistry = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/CustomElementRegistry.js");
 
 var _CustomElementRegistry2 = _interopRequireDefault(_CustomElementRegistry);
 
-var _HTMLElement = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/Patch/HTMLElement.js");
+var _HTMLElement = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/Patch/HTMLElement.js");
 
 var _HTMLElement2 = _interopRequireDefault(_HTMLElement);
 
-var _Document = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/Patch/Document.js");
+var _Document = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/Patch/Document.js");
 
 var _Document2 = _interopRequireDefault(_Document);
 
-var _Node = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/Patch/Node.js");
+var _Node = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/Patch/Node.js");
 
 var _Node2 = _interopRequireDefault(_Node);
 
-var _Element = __webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/Patch/Element.js");
+var _Element = __webpack_require__("../node_modules/@webcomponents/custom-elements/src/Patch/Element.js");
 
 var _Element2 = _interopRequireDefault(_Element);
 
@@ -2833,14 +2833,14 @@ if (!priorCustomElements || priorCustomElements['forcePolyfill'] || typeof prior
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/array.from/implementation.js":
+/***/ "../node_modules/array.from/implementation.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var ES = __webpack_require__("../../pwet/node_modules/es-abstract/es6.js");
-var supportsDescriptors = __webpack_require__("../../pwet/node_modules/define-properties/index.js").supportsDescriptors;
+var ES = __webpack_require__("../node_modules/es-abstract/es6.js");
+var supportsDescriptors = __webpack_require__("../node_modules/define-properties/index.js").supportsDescriptors;
 
 /*! https://mths.be/array-from v0.2.0 by @mathias */
 module.exports = function from(arrayLike) {
@@ -2889,17 +2889,17 @@ module.exports = function from(arrayLike) {
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/array.from/index.js":
+/***/ "../node_modules/array.from/index.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var define = __webpack_require__("../../pwet/node_modules/define-properties/index.js");
+var define = __webpack_require__("../node_modules/define-properties/index.js");
 
-var implementation = __webpack_require__("../../pwet/node_modules/array.from/implementation.js");
-var getPolyfill = __webpack_require__("../../pwet/node_modules/array.from/polyfill.js");
-var shim = __webpack_require__("../../pwet/node_modules/array.from/shim.js");
+var implementation = __webpack_require__("../node_modules/array.from/implementation.js");
+var getPolyfill = __webpack_require__("../node_modules/array.from/polyfill.js");
+var shim = __webpack_require__("../node_modules/array.from/shim.js");
 
 // eslint-disable-next-line no-unused-vars
 var boundFromShim = function from(array) {
@@ -2917,14 +2917,14 @@ module.exports = boundFromShim;
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/array.from/polyfill.js":
+/***/ "../node_modules/array.from/polyfill.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var ES = __webpack_require__("../../pwet/node_modules/es-abstract/es6.js");
-var implementation = __webpack_require__("../../pwet/node_modules/array.from/implementation.js");
+var ES = __webpack_require__("../node_modules/es-abstract/es6.js");
+var implementation = __webpack_require__("../node_modules/array.from/implementation.js");
 
 var tryCall = function tryCall(fn) {
 	try {
@@ -2947,14 +2947,14 @@ module.exports = function getPolyfill() {
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/array.from/shim.js":
+/***/ "../node_modules/array.from/shim.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var define = __webpack_require__("../../pwet/node_modules/define-properties/index.js");
-var getPolyfill = __webpack_require__("../../pwet/node_modules/array.from/polyfill.js");
+var define = __webpack_require__("../node_modules/define-properties/index.js");
+var getPolyfill = __webpack_require__("../node_modules/array.from/polyfill.js");
 
 module.exports = function shimArrayFrom() {
 	var polyfill = getPolyfill();
@@ -2970,7 +2970,7 @@ module.exports = function shimArrayFrom() {
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/define-properties/index.js":
+/***/ "../node_modules/define-properties/index.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2978,8 +2978,8 @@ module.exports = function shimArrayFrom() {
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-var keys = __webpack_require__("../../pwet/node_modules/object-keys/index.js");
-var foreach = __webpack_require__("../../pwet/node_modules/foreach/index.js");
+var keys = __webpack_require__("../node_modules/object-keys/index.js");
+var foreach = __webpack_require__("../node_modules/foreach/index.js");
 var hasSymbols = typeof Symbol === 'function' && _typeof(Symbol()) === 'symbol';
 
 var toStr = Object.prototype.toString;
@@ -3038,7 +3038,7 @@ module.exports = defineProperties;
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/es-abstract/es5.js":
+/***/ "../node_modules/es-abstract/es5.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3046,14 +3046,14 @@ module.exports = defineProperties;
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-var $isNaN = __webpack_require__("../../pwet/node_modules/es-abstract/helpers/isNaN.js");
-var $isFinite = __webpack_require__("../../pwet/node_modules/es-abstract/helpers/isFinite.js");
+var $isNaN = __webpack_require__("../node_modules/es-abstract/helpers/isNaN.js");
+var $isFinite = __webpack_require__("../node_modules/es-abstract/helpers/isFinite.js");
 
-var sign = __webpack_require__("../../pwet/node_modules/es-abstract/helpers/sign.js");
-var mod = __webpack_require__("../../pwet/node_modules/es-abstract/helpers/mod.js");
+var sign = __webpack_require__("../node_modules/es-abstract/helpers/sign.js");
+var mod = __webpack_require__("../node_modules/es-abstract/helpers/mod.js");
 
-var IsCallable = __webpack_require__("../../pwet/node_modules/is-callable/index.js");
-var toPrimitive = __webpack_require__("../../pwet/node_modules/es-to-primitive/es5.js");
+var IsCallable = __webpack_require__("../node_modules/is-callable/index.js");
+var toPrimitive = __webpack_require__("../node_modules/es-to-primitive/es5.js");
 
 // https://es5.github.io/#x9
 var ES5 = {
@@ -3142,7 +3142,7 @@ module.exports = ES5;
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/es-abstract/es6.js":
+/***/ "../node_modules/es-abstract/es6.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3154,17 +3154,17 @@ var toStr = Object.prototype.toString;
 var hasSymbols = typeof Symbol === 'function' && _typeof(Symbol.iterator) === 'symbol';
 var symbolToStr = hasSymbols ? Symbol.prototype.toString : toStr;
 
-var $isNaN = __webpack_require__("../../pwet/node_modules/es-abstract/helpers/isNaN.js");
-var $isFinite = __webpack_require__("../../pwet/node_modules/es-abstract/helpers/isFinite.js");
+var $isNaN = __webpack_require__("../node_modules/es-abstract/helpers/isNaN.js");
+var $isFinite = __webpack_require__("../node_modules/es-abstract/helpers/isFinite.js");
 var MAX_SAFE_INTEGER = Number.MAX_SAFE_INTEGER || Math.pow(2, 53) - 1;
 
-var assign = __webpack_require__("../../pwet/node_modules/es-abstract/helpers/assign.js");
-var sign = __webpack_require__("../../pwet/node_modules/es-abstract/helpers/sign.js");
-var mod = __webpack_require__("../../pwet/node_modules/es-abstract/helpers/mod.js");
-var isPrimitive = __webpack_require__("../../pwet/node_modules/es-abstract/helpers/isPrimitive.js");
-var toPrimitive = __webpack_require__("../../pwet/node_modules/es-to-primitive/es6.js");
+var assign = __webpack_require__("../node_modules/es-abstract/helpers/assign.js");
+var sign = __webpack_require__("../node_modules/es-abstract/helpers/sign.js");
+var mod = __webpack_require__("../node_modules/es-abstract/helpers/mod.js");
+var isPrimitive = __webpack_require__("../node_modules/es-abstract/helpers/isPrimitive.js");
+var toPrimitive = __webpack_require__("../node_modules/es-to-primitive/es6.js");
 var parseInteger = parseInt;
-var bind = __webpack_require__("../../pwet/node_modules/function-bind/index.js");
+var bind = __webpack_require__("../node_modules/function-bind/index.js");
 var strSlice = bind.call(Function.call, String.prototype.slice);
 var isBinary = bind.call(Function.call, RegExp.prototype.test, /^0b[01]+$/i);
 var isOctal = bind.call(Function.call, RegExp.prototype.test, /^0o[0-7]+$/i);
@@ -3183,9 +3183,9 @@ var trim = function trim(value) {
 	return replace(value, trimRegex, '');
 };
 
-var ES5 = __webpack_require__("../../pwet/node_modules/es-abstract/es5.js");
+var ES5 = __webpack_require__("../node_modules/es-abstract/es5.js");
 
-var hasRegExpMatcher = __webpack_require__("../../pwet/node_modules/is-regex/index.js");
+var hasRegExpMatcher = __webpack_require__("../node_modules/is-regex/index.js");
 
 // https://people.mozilla.org/~jorendorff/es6-draft.html#sec-abstract-operations
 var ES6 = assign(assign({}, ES5), {
@@ -3501,7 +3501,7 @@ module.exports = ES6;
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/es-abstract/helpers/assign.js":
+/***/ "../node_modules/es-abstract/helpers/assign.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3519,7 +3519,7 @@ module.exports = Object.assign || function assign(target, source) {
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/es-abstract/helpers/isFinite.js":
+/***/ "../node_modules/es-abstract/helpers/isFinite.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3535,7 +3535,7 @@ module.exports = Number.isFinite || function (x) {
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/es-abstract/helpers/isNaN.js":
+/***/ "../node_modules/es-abstract/helpers/isNaN.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3547,7 +3547,7 @@ module.exports = Number.isNaN || function isNaN(a) {
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/es-abstract/helpers/isPrimitive.js":
+/***/ "../node_modules/es-abstract/helpers/isPrimitive.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3561,7 +3561,7 @@ module.exports = function isPrimitive(value) {
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/es-abstract/helpers/mod.js":
+/***/ "../node_modules/es-abstract/helpers/mod.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3574,7 +3574,7 @@ module.exports = function mod(number, modulo) {
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/es-abstract/helpers/sign.js":
+/***/ "../node_modules/es-abstract/helpers/sign.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3586,7 +3586,7 @@ module.exports = function sign(number) {
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/es-to-primitive/es5.js":
+/***/ "../node_modules/es-to-primitive/es5.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3594,9 +3594,9 @@ module.exports = function sign(number) {
 
 var toStr = Object.prototype.toString;
 
-var isPrimitive = __webpack_require__("../../pwet/node_modules/es-to-primitive/helpers/isPrimitive.js");
+var isPrimitive = __webpack_require__("../node_modules/es-to-primitive/helpers/isPrimitive.js");
 
-var isCallable = __webpack_require__("../../pwet/node_modules/is-callable/index.js");
+var isCallable = __webpack_require__("../node_modules/is-callable/index.js");
 
 // https://es5.github.io/#x8.12
 var ES5internalSlots = {
@@ -3630,7 +3630,7 @@ module.exports = function ToPrimitive(input, PreferredType) {
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/es-to-primitive/es6.js":
+/***/ "../node_modules/es-to-primitive/es6.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3640,10 +3640,10 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 var hasSymbols = typeof Symbol === 'function' && _typeof(Symbol.iterator) === 'symbol';
 
-var isPrimitive = __webpack_require__("../../pwet/node_modules/es-to-primitive/helpers/isPrimitive.js");
-var isCallable = __webpack_require__("../../pwet/node_modules/is-callable/index.js");
-var isDate = __webpack_require__("../../pwet/node_modules/is-date-object/index.js");
-var isSymbol = __webpack_require__("../../pwet/node_modules/is-symbol/index.js");
+var isPrimitive = __webpack_require__("../node_modules/es-to-primitive/helpers/isPrimitive.js");
+var isCallable = __webpack_require__("../node_modules/is-callable/index.js");
+var isDate = __webpack_require__("../node_modules/is-date-object/index.js");
+var isSymbol = __webpack_require__("../node_modules/is-symbol/index.js");
 
 var ordinaryToPrimitive = function OrdinaryToPrimitive(O, hint) {
 	if (typeof O === 'undefined' || O === null) {
@@ -3713,7 +3713,7 @@ module.exports = function ToPrimitive(input, PreferredType) {
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/es-to-primitive/helpers/isPrimitive.js":
+/***/ "../node_modules/es-to-primitive/helpers/isPrimitive.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3727,7 +3727,7 @@ module.exports = function isPrimitive(value) {
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/es6-promise/dist/es6-promise.js":
+/***/ "../node_modules/es6-promise/dist/es6-promise.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4899,7 +4899,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/foreach/index.js":
+/***/ "../node_modules/foreach/index.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4928,7 +4928,7 @@ module.exports = function forEach(obj, fn, ctx) {
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/function-bind/implementation.js":
+/***/ "../node_modules/function-bind/implementation.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4979,31 +4979,1771 @@ module.exports = function bind(that) {
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/function-bind/index.js":
+/***/ "../node_modules/function-bind/index.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var implementation = __webpack_require__("../../pwet/node_modules/function-bind/implementation.js");
+var implementation = __webpack_require__("../node_modules/function-bind/implementation.js");
 
 module.exports = Function.prototype.bind || implementation;
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/has/src/index.js":
+/***/ "../node_modules/has/src/index.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var bind = __webpack_require__("../../pwet/node_modules/function-bind/index.js");
+var bind = __webpack_require__("../node_modules/function-bind/index.js");
 
 module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/is-callable/index.js":
+/***/ "../node_modules/idom-util/src/button.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _element = __webpack_require__("../node_modules/idom-util/src/element.js");
+
+var _element2 = _interopRequireDefault(_element);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = _element2.default.bind(null, 'button');
+
+/***/ }),
+
+/***/ "../node_modules/idom-util/src/div.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _element = __webpack_require__("../node_modules/idom-util/src/element.js");
+
+var _element2 = _interopRequireDefault(_element);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = _element2.default.bind(null, 'div');
+
+/***/ }),
+
+/***/ "../node_modules/idom-util/src/element.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _incrementalDom = __webpack_require__("../node_modules/incremental-dom/dist/incremental-dom-cjs.js");
+
+exports.default = function (tagName) {
+  for (var _len = arguments.length, args = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+    args[_key - 1] = arguments[_key];
+  }
+
+  var renderContent = args.pop();
+
+  _incrementalDom.elementOpen.apply(undefined, [tagName].concat(args));
+  typeof renderContent === 'function' && renderContent();
+  (0, _incrementalDom.elementClose)(tagName);
+};
+
+/***/ }),
+
+/***/ "../node_modules/idom-util/src/h3.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _element = __webpack_require__("../node_modules/idom-util/src/element.js");
+
+var _element2 = _interopRequireDefault(_element);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = _element2.default.bind(null, 'h3');
+
+/***/ }),
+
+/***/ "../node_modules/idom-util/src/image.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _incrementalDom = __webpack_require__("../node_modules/incremental-dom/dist/incremental-dom-cjs.js");
+
+exports.default = function (src) {
+  for (var _len = arguments.length, args = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+    args[_key - 1] = arguments[_key];
+  }
+
+  var key = args.shift();
+  var staticProperties = args.shift();
+
+  return _incrementalDom.elementVoid.apply(undefined, ['img', key, staticProperties, 'src', src].concat(args));
+};
+
+/***/ }),
+
+/***/ "../node_modules/idom-util/src/index.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.renderH3 = exports.renderPre = exports.renderStrong = exports.renderStyle = exports.renderUl = exports.renderLi = exports.renderImage = exports.renderButton = exports.renderSpan = exports.renderDiv = exports.renderElement = undefined;
+
+var _element = __webpack_require__("../node_modules/idom-util/src/element.js");
+
+var _element2 = _interopRequireDefault(_element);
+
+var _div = __webpack_require__("../node_modules/idom-util/src/div.js");
+
+var _div2 = _interopRequireDefault(_div);
+
+var _span = __webpack_require__("../node_modules/idom-util/src/span.js");
+
+var _span2 = _interopRequireDefault(_span);
+
+var _button = __webpack_require__("../node_modules/idom-util/src/button.js");
+
+var _button2 = _interopRequireDefault(_button);
+
+var _image = __webpack_require__("../node_modules/idom-util/src/image.js");
+
+var _image2 = _interopRequireDefault(_image);
+
+var _li = __webpack_require__("../node_modules/idom-util/src/li.js");
+
+var _li2 = _interopRequireDefault(_li);
+
+var _ul = __webpack_require__("../node_modules/idom-util/src/ul.js");
+
+var _ul2 = _interopRequireDefault(_ul);
+
+var _style = __webpack_require__("../node_modules/idom-util/src/style.js");
+
+var _style2 = _interopRequireDefault(_style);
+
+var _strong = __webpack_require__("../node_modules/idom-util/src/strong.js");
+
+var _strong2 = _interopRequireDefault(_strong);
+
+var _pre = __webpack_require__("../node_modules/idom-util/src/pre.js");
+
+var _pre2 = _interopRequireDefault(_pre);
+
+var _h = __webpack_require__("../node_modules/idom-util/src/h3.js");
+
+var _h2 = _interopRequireDefault(_h);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.renderElement = _element2.default;
+exports.renderDiv = _div2.default;
+exports.renderSpan = _span2.default;
+exports.renderButton = _button2.default;
+exports.renderImage = _image2.default;
+exports.renderLi = _li2.default;
+exports.renderUl = _ul2.default;
+exports.renderStyle = _style2.default;
+exports.renderStrong = _strong2.default;
+exports.renderPre = _pre2.default;
+exports.renderH3 = _h2.default;
+
+/***/ }),
+
+/***/ "../node_modules/idom-util/src/li.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _element = __webpack_require__("../node_modules/idom-util/src/element.js");
+
+var _element2 = _interopRequireDefault(_element);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = _element2.default.bind(null, 'li');
+
+/***/ }),
+
+/***/ "../node_modules/idom-util/src/pre.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _element = __webpack_require__("../node_modules/idom-util/src/element.js");
+
+var _element2 = _interopRequireDefault(_element);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = _element2.default.bind(null, 'pre');
+
+/***/ }),
+
+/***/ "../node_modules/idom-util/src/span.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _element = __webpack_require__("../node_modules/idom-util/src/element.js");
+
+var _element2 = _interopRequireDefault(_element);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = _element2.default.bind(null, 'span');
+
+/***/ }),
+
+/***/ "../node_modules/idom-util/src/strong.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _element = __webpack_require__("../node_modules/idom-util/src/element.js");
+
+var _element2 = _interopRequireDefault(_element);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = _element2.default.bind(null, 'strong');
+
+/***/ }),
+
+/***/ "../node_modules/idom-util/src/style.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _element = __webpack_require__("../node_modules/idom-util/src/element.js");
+
+var _element2 = _interopRequireDefault(_element);
+
+var _incrementalDom = __webpack_require__("../node_modules/incremental-dom/dist/incremental-dom-cjs.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = function (style) {
+  for (var _len = arguments.length, args = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+    args[_key - 1] = arguments[_key];
+  }
+
+  return _element2.default.apply(undefined, ['style'].concat(args, [_incrementalDom.text.bind(null, style)]));
+};
+
+/***/ }),
+
+/***/ "../node_modules/idom-util/src/ul.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _element = __webpack_require__("../node_modules/idom-util/src/element.js");
+
+var _element2 = _interopRequireDefault(_element);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = _element2.default.bind(null, 'ul');
+
+/***/ }),
+
+/***/ "../node_modules/incremental-dom/dist/incremental-dom-cjs.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process) {
+/**
+ * @license
+ * Copyright 2015 The Incremental DOM Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS-IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+
+
+/**
+ * Copyright 2015 The Incremental DOM Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS-IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/**
+ * A cached reference to the hasOwnProperty function.
+ */
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+var hasOwnProperty = Object.prototype.hasOwnProperty;
+
+/**
+ * A constructor function that will create blank objects.
+ * @constructor
+ */
+function Blank() {}
+
+Blank.prototype = Object.create(null);
+
+/**
+ * Used to prevent property collisions between our "map" and its prototype.
+ * @param {!Object<string, *>} map The map to check.
+ * @param {string} property The property to check.
+ * @return {boolean} Whether map has property.
+ */
+var has = function has(map, property) {
+  return hasOwnProperty.call(map, property);
+};
+
+/**
+ * Creates an map object without a prototype.
+ * @return {!Object}
+ */
+var createMap = function createMap() {
+  return new Blank();
+};
+
+/**
+ * Keeps track of information needed to perform diffs for a given DOM node.
+ * @param {!string} nodeName
+ * @param {?string=} key
+ * @constructor
+ */
+function NodeData(nodeName, key) {
+  /**
+   * The attributes and their values.
+   * @const {!Object<string, *>}
+   */
+  this.attrs = createMap();
+
+  /**
+   * An array of attribute name/value pairs, used for quickly diffing the
+   * incomming attributes to see if the DOM node's attributes need to be
+   * updated.
+   * @const {Array<*>}
+   */
+  this.attrsArr = [];
+
+  /**
+   * The incoming attributes for this Node, before they are updated.
+   * @const {!Object<string, *>}
+   */
+  this.newAttrs = createMap();
+
+  /**
+   * Whether or not the statics have been applied for the node yet.
+   * {boolean}
+   */
+  this.staticsApplied = false;
+
+  /**
+   * The key used to identify this node, used to preserve DOM nodes when they
+   * move within their parent.
+   * @const
+   */
+  this.key = key;
+
+  /**
+   * Keeps track of children within this node by their key.
+   * {!Object<string, !Element>}
+   */
+  this.keyMap = createMap();
+
+  /**
+   * Whether or not the keyMap is currently valid.
+   * @type {boolean}
+   */
+  this.keyMapValid = true;
+
+  /**
+   * Whether or the associated node is, or contains, a focused Element.
+   * @type {boolean}
+   */
+  this.focused = false;
+
+  /**
+   * The node name for this node.
+   * @const {string}
+   */
+  this.nodeName = nodeName;
+
+  /**
+   * @type {?string}
+   */
+  this.text = null;
+}
+
+/**
+ * Initializes a NodeData object for a Node.
+ *
+ * @param {Node} node The node to initialize data for.
+ * @param {string} nodeName The node name of node.
+ * @param {?string=} key The key that identifies the node.
+ * @return {!NodeData} The newly initialized data object
+ */
+var initData = function initData(node, nodeName, key) {
+  var data = new NodeData(nodeName, key);
+  node['__incrementalDOMData'] = data;
+  return data;
+};
+
+/**
+ * Retrieves the NodeData object for a Node, creating it if necessary.
+ *
+ * @param {?Node} node The Node to retrieve the data for.
+ * @return {!NodeData} The NodeData for this Node.
+ */
+var getData = function getData(node) {
+  importNode(node);
+  return node['__incrementalDOMData'];
+};
+
+/**
+ * Imports node and its subtree, initializing caches.
+ *
+ * @param {?Node} node The Node to import.
+ */
+var importNode = function importNode(node) {
+  if (node['__incrementalDOMData']) {
+    return;
+  }
+
+  var isElement = node instanceof Element;
+  var nodeName = isElement ? node.localName : node.nodeName;
+  var key = isElement ? node.getAttribute('key') : null;
+  var data = initData(node, nodeName, key);
+
+  if (key) {
+    getData(node.parentNode).keyMap[key] = node;
+  }
+
+  if (isElement) {
+    var attributes = node.attributes;
+    var attrs = data.attrs;
+    var newAttrs = data.newAttrs;
+    var attrsArr = data.attrsArr;
+
+    for (var i = 0; i < attributes.length; i += 1) {
+      var attr = attributes[i];
+      var name = attr.name;
+      var value = attr.value;
+
+      attrs[name] = value;
+      newAttrs[name] = undefined;
+      attrsArr.push(name);
+      attrsArr.push(value);
+    }
+  }
+
+  for (var child = node.firstChild; child; child = child.nextSibling) {
+    importNode(child);
+  }
+};
+
+/**
+ * Gets the namespace to create an element (of a given tag) in.
+ * @param {string} tag The tag to get the namespace for.
+ * @param {?Node} parent
+ * @return {?string} The namespace to create the tag in.
+ */
+var getNamespaceForTag = function getNamespaceForTag(tag, parent) {
+  if (tag === 'svg') {
+    return 'http://www.w3.org/2000/svg';
+  }
+
+  if (getData(parent).nodeName === 'foreignObject') {
+    return null;
+  }
+
+  return parent.namespaceURI;
+};
+
+/**
+ * Creates an Element.
+ * @param {Document} doc The document with which to create the Element.
+ * @param {?Node} parent
+ * @param {string} tag The tag for the Element.
+ * @param {?string=} key A key to identify the Element.
+ * @return {!Element}
+ */
+var createElement = function createElement(doc, parent, tag, key) {
+  var namespace = getNamespaceForTag(tag, parent);
+  var el = undefined;
+
+  if (namespace) {
+    el = doc.createElementNS(namespace, tag);
+  } else {
+    el = doc.createElement(tag);
+  }
+
+  initData(el, tag, key);
+
+  return el;
+};
+
+/**
+ * Creates a Text Node.
+ * @param {Document} doc The document with which to create the Element.
+ * @return {!Text}
+ */
+var createText = function createText(doc) {
+  var node = doc.createTextNode('');
+  initData(node, '#text', null);
+  return node;
+};
+
+/**
+ * Copyright 2015 The Incremental DOM Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS-IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/** @const */
+var notifications = {
+  /**
+   * Called after patch has compleated with any Nodes that have been created
+   * and added to the DOM.
+   * @type {?function(Array<!Node>)}
+   */
+  nodesCreated: null,
+
+  /**
+   * Called after patch has compleated with any Nodes that have been removed
+   * from the DOM.
+   * Note it's an applications responsibility to handle any childNodes.
+   * @type {?function(Array<!Node>)}
+   */
+  nodesDeleted: null
+};
+
+/**
+ * Keeps track of the state of a patch.
+ * @constructor
+ */
+function Context() {
+  /**
+   * @type {(Array<!Node>|undefined)}
+   */
+  this.created = notifications.nodesCreated && [];
+
+  /**
+   * @type {(Array<!Node>|undefined)}
+   */
+  this.deleted = notifications.nodesDeleted && [];
+}
+
+/**
+ * @param {!Node} node
+ */
+Context.prototype.markCreated = function (node) {
+  if (this.created) {
+    this.created.push(node);
+  }
+};
+
+/**
+ * @param {!Node} node
+ */
+Context.prototype.markDeleted = function (node) {
+  if (this.deleted) {
+    this.deleted.push(node);
+  }
+};
+
+/**
+ * Notifies about nodes that were created during the patch opearation.
+ */
+Context.prototype.notifyChanges = function () {
+  if (this.created && this.created.length > 0) {
+    notifications.nodesCreated(this.created);
+  }
+
+  if (this.deleted && this.deleted.length > 0) {
+    notifications.nodesDeleted(this.deleted);
+  }
+};
+
+/**
+ * Copyright 2015 The Incremental DOM Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS-IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/**
+  * Keeps track whether or not we are in an attributes declaration (after
+  * elementOpenStart, but before elementOpenEnd).
+  * @type {boolean}
+  */
+var inAttributes = false;
+
+/**
+  * Keeps track whether or not we are in an element that should not have its
+  * children cleared.
+  * @type {boolean}
+  */
+var inSkip = false;
+
+/**
+ * Makes sure that there is a current patch context.
+ * @param {string} functionName
+ * @param {*} context
+ */
+var assertInPatch = function assertInPatch(functionName, context) {
+  if (!context) {
+    throw new Error('Cannot call ' + functionName + '() unless in patch.');
+  }
+};
+
+/**
+ * Makes sure that a patch closes every node that it opened.
+ * @param {?Node} openElement
+ * @param {!Node|!DocumentFragment} root
+ */
+var assertNoUnclosedTags = function assertNoUnclosedTags(openElement, root) {
+  if (openElement === root) {
+    return;
+  }
+
+  var currentElement = openElement;
+  var openTags = [];
+  while (currentElement && currentElement !== root) {
+    openTags.push(currentElement.nodeName.toLowerCase());
+    currentElement = currentElement.parentNode;
+  }
+
+  throw new Error('One or more tags were not closed:\n' + openTags.join('\n'));
+};
+
+/**
+ * Makes sure that the caller is not where attributes are expected.
+ * @param {string} functionName
+ */
+var assertNotInAttributes = function assertNotInAttributes(functionName) {
+  if (inAttributes) {
+    throw new Error(functionName + '() can not be called between ' + 'elementOpenStart() and elementOpenEnd().');
+  }
+};
+
+/**
+ * Makes sure that the caller is not inside an element that has declared skip.
+ * @param {string} functionName
+ */
+var assertNotInSkip = function assertNotInSkip(functionName) {
+  if (inSkip) {
+    throw new Error(functionName + '() may not be called inside an element ' + 'that has called skip().');
+  }
+};
+
+/**
+ * Makes sure that the caller is where attributes are expected.
+ * @param {string} functionName
+ */
+var assertInAttributes = function assertInAttributes(functionName) {
+  if (!inAttributes) {
+    throw new Error(functionName + '() can only be called after calling ' + 'elementOpenStart().');
+  }
+};
+
+/**
+ * Makes sure the patch closes virtual attributes call
+ */
+var assertVirtualAttributesClosed = function assertVirtualAttributesClosed() {
+  if (inAttributes) {
+    throw new Error('elementOpenEnd() must be called after calling ' + 'elementOpenStart().');
+  }
+};
+
+/**
+  * Makes sure that tags are correctly nested.
+  * @param {string} nodeName
+  * @param {string} tag
+  */
+var assertCloseMatchesOpenTag = function assertCloseMatchesOpenTag(nodeName, tag) {
+  if (nodeName !== tag) {
+    throw new Error('Received a call to close "' + tag + '" but "' + nodeName + '" was open.');
+  }
+};
+
+/**
+ * Makes sure that no children elements have been declared yet in the current
+ * element.
+ * @param {string} functionName
+ * @param {?Node} previousNode
+ */
+var assertNoChildrenDeclaredYet = function assertNoChildrenDeclaredYet(functionName, previousNode) {
+  if (previousNode !== null) {
+    throw new Error(functionName + '() must come before any child ' + 'declarations inside the current element.');
+  }
+};
+
+/**
+ * Checks that a call to patchOuter actually patched the element.
+ * @param {?Node} startNode The value for the currentNode when the patch
+ *     started.
+ * @param {?Node} currentNode The currentNode when the patch finished.
+ * @param {?Node} expectedNextNode The Node that is expected to follow the
+ *    currentNode after the patch;
+ * @param {?Node} expectedPrevNode The Node that is expected to preceed the
+ *    currentNode after the patch.
+ */
+var assertPatchElementNoExtras = function assertPatchElementNoExtras(startNode, currentNode, expectedNextNode, expectedPrevNode) {
+  var wasUpdated = currentNode.nextSibling === expectedNextNode && currentNode.previousSibling === expectedPrevNode;
+  var wasChanged = currentNode.nextSibling === startNode.nextSibling && currentNode.previousSibling === expectedPrevNode;
+  var wasRemoved = currentNode === startNode;
+
+  if (!wasUpdated && !wasChanged && !wasRemoved) {
+    throw new Error('There must be exactly one top level call corresponding ' + 'to the patched element.');
+  }
+};
+
+/**
+ * Updates the state of being in an attribute declaration.
+ * @param {boolean} value
+ * @return {boolean} the previous value.
+ */
+var setInAttributes = function setInAttributes(value) {
+  var previous = inAttributes;
+  inAttributes = value;
+  return previous;
+};
+
+/**
+ * Updates the state of being in a skip element.
+ * @param {boolean} value
+ * @return {boolean} the previous value.
+ */
+var setInSkip = function setInSkip(value) {
+  var previous = inSkip;
+  inSkip = value;
+  return previous;
+};
+
+/**
+ * Copyright 2016 The Incremental DOM Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS-IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/**
+ * @param {!Node} node
+ * @return {boolean} True if the node the root of a document, false otherwise.
+ */
+var isDocumentRoot = function isDocumentRoot(node) {
+  // For ShadowRoots, check if they are a DocumentFragment instead of if they
+  // are a ShadowRoot so that this can work in 'use strict' if ShadowRoots are
+  // not supported.
+  return node instanceof Document || node instanceof DocumentFragment;
+};
+
+/**
+ * @param {!Node} node The node to start at, inclusive.
+ * @param {?Node} root The root ancestor to get until, exclusive.
+ * @return {!Array<!Node>} The ancestry of DOM nodes.
+ */
+var getAncestry = function getAncestry(node, root) {
+  var ancestry = [];
+  var cur = node;
+
+  while (cur !== root) {
+    ancestry.push(cur);
+    cur = cur.parentNode;
+  }
+
+  return ancestry;
+};
+
+/**
+ * @param {!Node} node
+ * @return {!Node} The root node of the DOM tree that contains node.
+ */
+var getRoot = function getRoot(node) {
+  var cur = node;
+  var prev = cur;
+
+  while (cur) {
+    prev = cur;
+    cur = cur.parentNode;
+  }
+
+  return prev;
+};
+
+/**
+ * @param {!Node} node The node to get the activeElement for.
+ * @return {?Element} The activeElement in the Document or ShadowRoot
+ *     corresponding to node, if present.
+ */
+var getActiveElement = function getActiveElement(node) {
+  var root = getRoot(node);
+  return isDocumentRoot(root) ? root.activeElement : null;
+};
+
+/**
+ * Gets the path of nodes that contain the focused node in the same document as
+ * a reference node, up until the root.
+ * @param {!Node} node The reference node to get the activeElement for.
+ * @param {?Node} root The root to get the focused path until.
+ * @return {!Array<Node>}
+ */
+var getFocusedPath = function getFocusedPath(node, root) {
+  var activeElement = getActiveElement(node);
+
+  if (!activeElement || !node.contains(activeElement)) {
+    return [];
+  }
+
+  return getAncestry(activeElement, root);
+};
+
+/**
+ * Like insertBefore, but instead instead of moving the desired node, instead
+ * moves all the other nodes after.
+ * @param {?Node} parentNode
+ * @param {!Node} node
+ * @param {?Node} referenceNode
+ */
+var moveBefore = function moveBefore(parentNode, node, referenceNode) {
+  var insertReferenceNode = node.nextSibling;
+  var cur = referenceNode;
+
+  while (cur !== node) {
+    var next = cur.nextSibling;
+    parentNode.insertBefore(cur, insertReferenceNode);
+    cur = next;
+  }
+};
+
+/** @type {?Context} */
+var context = null;
+
+/** @type {?Node} */
+var currentNode = null;
+
+/** @type {?Node} */
+var currentParent = null;
+
+/** @type {?Document} */
+var doc = null;
+
+/**
+ * @param {!Array<Node>} focusPath The nodes to mark.
+ * @param {boolean} focused Whether or not they are focused.
+ */
+var markFocused = function markFocused(focusPath, focused) {
+  for (var i = 0; i < focusPath.length; i += 1) {
+    getData(focusPath[i]).focused = focused;
+  }
+};
+
+/**
+ * Returns a patcher function that sets up and restores a patch context,
+ * running the run function with the provided data.
+ * @param {function((!Element|!DocumentFragment),!function(T),T=): ?Node} run
+ * @return {function((!Element|!DocumentFragment),!function(T),T=): ?Node}
+ * @template T
+ */
+var patchFactory = function patchFactory(run) {
+  /**
+   * TODO(moz): These annotations won't be necessary once we switch to Closure
+   * Compiler's new type inference. Remove these once the switch is done.
+   *
+   * @param {(!Element|!DocumentFragment)} node
+   * @param {!function(T)} fn
+   * @param {T=} data
+   * @return {?Node} node
+   * @template T
+   */
+  var f = function f(node, fn, data) {
+    var prevContext = context;
+    var prevDoc = doc;
+    var prevCurrentNode = currentNode;
+    var prevCurrentParent = currentParent;
+    var previousInAttributes = false;
+    var previousInSkip = false;
+
+    context = new Context();
+    doc = node.ownerDocument;
+    currentParent = node.parentNode;
+
+    if (process.env.NODE_ENV !== 'production') {
+      previousInAttributes = setInAttributes(false);
+      previousInSkip = setInSkip(false);
+    }
+
+    var focusPath = getFocusedPath(node, currentParent);
+    markFocused(focusPath, true);
+    var retVal = run(node, fn, data);
+    markFocused(focusPath, false);
+
+    if (process.env.NODE_ENV !== 'production') {
+      assertVirtualAttributesClosed();
+      setInAttributes(previousInAttributes);
+      setInSkip(previousInSkip);
+    }
+
+    context.notifyChanges();
+
+    context = prevContext;
+    doc = prevDoc;
+    currentNode = prevCurrentNode;
+    currentParent = prevCurrentParent;
+
+    return retVal;
+  };
+  return f;
+};
+
+/**
+ * Patches the document starting at node with the provided function. This
+ * function may be called during an existing patch operation.
+ * @param {!Element|!DocumentFragment} node The Element or Document
+ *     to patch.
+ * @param {!function(T)} fn A function containing elementOpen/elementClose/etc.
+ *     calls that describe the DOM.
+ * @param {T=} data An argument passed to fn to represent DOM state.
+ * @return {!Node} The patched node.
+ * @template T
+ */
+var patchInner = patchFactory(function (node, fn, data) {
+  currentNode = node;
+
+  enterNode();
+  fn(data);
+  exitNode();
+
+  if (process.env.NODE_ENV !== 'production') {
+    assertNoUnclosedTags(currentNode, node);
+  }
+
+  return node;
+});
+
+/**
+ * Patches an Element with the the provided function. Exactly one top level
+ * element call should be made corresponding to `node`.
+ * @param {!Element} node The Element where the patch should start.
+ * @param {!function(T)} fn A function containing elementOpen/elementClose/etc.
+ *     calls that describe the DOM. This should have at most one top level
+ *     element call.
+ * @param {T=} data An argument passed to fn to represent DOM state.
+ * @return {?Node} The node if it was updated, its replacedment or null if it
+ *     was removed.
+ * @template T
+ */
+var patchOuter = patchFactory(function (node, fn, data) {
+  var startNode = /** @type {!Element} */{ nextSibling: node };
+  var expectedNextNode = null;
+  var expectedPrevNode = null;
+
+  if (process.env.NODE_ENV !== 'production') {
+    expectedNextNode = node.nextSibling;
+    expectedPrevNode = node.previousSibling;
+  }
+
+  currentNode = startNode;
+  fn(data);
+
+  if (process.env.NODE_ENV !== 'production') {
+    assertPatchElementNoExtras(startNode, currentNode, expectedNextNode, expectedPrevNode);
+  }
+
+  if (node !== currentNode && node.parentNode) {
+    removeChild(currentParent, node, getData(currentParent).keyMap);
+  }
+
+  return startNode === currentNode ? null : currentNode;
+});
+
+/**
+ * Checks whether or not the current node matches the specified nodeName and
+ * key.
+ *
+ * @param {!Node} matchNode A node to match the data to.
+ * @param {?string} nodeName The nodeName for this node.
+ * @param {?string=} key An optional key that identifies a node.
+ * @return {boolean} True if the node matches, false otherwise.
+ */
+var matches = function matches(matchNode, nodeName, key) {
+  var data = getData(matchNode);
+
+  // Key check is done using double equals as we want to treat a null key the
+  // same as undefined. This should be okay as the only values allowed are
+  // strings, null and undefined so the == semantics are not too weird.
+  return nodeName === data.nodeName && key == data.key;
+};
+
+/**
+ * Aligns the virtual Element definition with the actual DOM, moving the
+ * corresponding DOM node to the correct location or creating it if necessary.
+ * @param {string} nodeName For an Element, this should be a valid tag string.
+ *     For a Text, this should be #text.
+ * @param {?string=} key The key used to identify this element.
+ */
+var alignWithDOM = function alignWithDOM(nodeName, key) {
+  if (currentNode && matches(currentNode, nodeName, key)) {
+    return;
+  }
+
+  var parentData = getData(currentParent);
+  var currentNodeData = currentNode && getData(currentNode);
+  var keyMap = parentData.keyMap;
+  var node = undefined;
+
+  // Check to see if the node has moved within the parent.
+  if (key) {
+    var keyNode = keyMap[key];
+    if (keyNode) {
+      if (matches(keyNode, nodeName, key)) {
+        node = keyNode;
+      } else if (keyNode === currentNode) {
+        context.markDeleted(keyNode);
+      } else {
+        removeChild(currentParent, keyNode, keyMap);
+      }
+    }
+  }
+
+  // Create the node if it doesn't exist.
+  if (!node) {
+    if (nodeName === '#text') {
+      node = createText(doc);
+    } else {
+      node = createElement(doc, currentParent, nodeName, key);
+    }
+
+    if (key) {
+      keyMap[key] = node;
+    }
+
+    context.markCreated(node);
+  }
+
+  // Re-order the node into the right position, preserving focus if either
+  // node or currentNode are focused by making sure that they are not detached
+  // from the DOM.
+  if (getData(node).focused) {
+    // Move everything else before the node.
+    moveBefore(currentParent, node, currentNode);
+  } else if (currentNodeData && currentNodeData.key && !currentNodeData.focused) {
+    // Remove the currentNode, which can always be added back since we hold a
+    // reference through the keyMap. This prevents a large number of moves when
+    // a keyed item is removed or moved backwards in the DOM.
+    currentParent.replaceChild(node, currentNode);
+    parentData.keyMapValid = false;
+  } else {
+    currentParent.insertBefore(node, currentNode);
+  }
+
+  currentNode = node;
+};
+
+/**
+ * @param {?Node} node
+ * @param {?Node} child
+ * @param {?Object<string, !Element>} keyMap
+ */
+var removeChild = function removeChild(node, child, keyMap) {
+  node.removeChild(child);
+  context.markDeleted( /** @type {!Node}*/child);
+
+  var key = getData(child).key;
+  if (key) {
+    delete keyMap[key];
+  }
+};
+
+/**
+ * Clears out any unvisited Nodes, as the corresponding virtual element
+ * functions were never called for them.
+ */
+var clearUnvisitedDOM = function clearUnvisitedDOM() {
+  var node = currentParent;
+  var data = getData(node);
+  var keyMap = data.keyMap;
+  var keyMapValid = data.keyMapValid;
+  var child = node.lastChild;
+  var key = undefined;
+
+  if (child === currentNode && keyMapValid) {
+    return;
+  }
+
+  while (child !== currentNode) {
+    removeChild(node, child, keyMap);
+    child = node.lastChild;
+  }
+
+  // Clean the keyMap, removing any unusued keys.
+  if (!keyMapValid) {
+    for (key in keyMap) {
+      child = keyMap[key];
+      if (child.parentNode !== node) {
+        context.markDeleted(child);
+        delete keyMap[key];
+      }
+    }
+
+    data.keyMapValid = true;
+  }
+};
+
+/**
+ * Changes to the first child of the current node.
+ */
+var enterNode = function enterNode() {
+  currentParent = currentNode;
+  currentNode = null;
+};
+
+/**
+ * @return {?Node} The next Node to be patched.
+ */
+var getNextNode = function getNextNode() {
+  if (currentNode) {
+    return currentNode.nextSibling;
+  } else {
+    return currentParent.firstChild;
+  }
+};
+
+/**
+ * Changes to the next sibling of the current node.
+ */
+var nextNode = function nextNode() {
+  currentNode = getNextNode();
+};
+
+/**
+ * Changes to the parent of the current node, removing any unvisited children.
+ */
+var exitNode = function exitNode() {
+  clearUnvisitedDOM();
+
+  currentNode = currentParent;
+  currentParent = currentParent.parentNode;
+};
+
+/**
+ * Makes sure that the current node is an Element with a matching tagName and
+ * key.
+ *
+ * @param {string} tag The element's tag.
+ * @param {?string=} key The key used to identify this element. This can be an
+ *     empty string, but performance may be better if a unique value is used
+ *     when iterating over an array of items.
+ * @return {!Element} The corresponding Element.
+ */
+var coreElementOpen = function coreElementOpen(tag, key) {
+  nextNode();
+  alignWithDOM(tag, key);
+  enterNode();
+  return (/** @type {!Element} */currentParent
+  );
+};
+
+/**
+ * Closes the currently open Element, removing any unvisited children if
+ * necessary.
+ *
+ * @return {!Element} The corresponding Element.
+ */
+var coreElementClose = function coreElementClose() {
+  if (process.env.NODE_ENV !== 'production') {
+    setInSkip(false);
+  }
+
+  exitNode();
+  return (/** @type {!Element} */currentNode
+  );
+};
+
+/**
+ * Makes sure the current node is a Text node and creates a Text node if it is
+ * not.
+ *
+ * @return {!Text} The corresponding Text Node.
+ */
+var coreText = function coreText() {
+  nextNode();
+  alignWithDOM('#text', null);
+  return (/** @type {!Text} */currentNode
+  );
+};
+
+/**
+ * Gets the current Element being patched.
+ * @return {!Element}
+ */
+var currentElement = function currentElement() {
+  if (process.env.NODE_ENV !== 'production') {
+    assertInPatch('currentElement', context);
+    assertNotInAttributes('currentElement');
+  }
+  return (/** @type {!Element} */currentParent
+  );
+};
+
+/**
+ * @return {Node} The Node that will be evaluated for the next instruction.
+ */
+var currentPointer = function currentPointer() {
+  if (process.env.NODE_ENV !== 'production') {
+    assertInPatch('currentPointer', context);
+    assertNotInAttributes('currentPointer');
+  }
+  return getNextNode();
+};
+
+/**
+ * Skips the children in a subtree, allowing an Element to be closed without
+ * clearing out the children.
+ */
+var skip = function skip() {
+  if (process.env.NODE_ENV !== 'production') {
+    assertNoChildrenDeclaredYet('skip', currentNode);
+    setInSkip(true);
+  }
+  currentNode = currentParent.lastChild;
+};
+
+/**
+ * Skips the next Node to be patched, moving the pointer forward to the next
+ * sibling of the current pointer.
+ */
+var skipNode = nextNode;
+
+/**
+ * Copyright 2015 The Incremental DOM Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS-IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/** @const */
+var symbols = {
+  default: '__default'
+};
+
+/**
+ * @param {string} name
+ * @return {string|undefined} The namespace to use for the attribute.
+ */
+var getNamespace = function getNamespace(name) {
+  if (name.lastIndexOf('xml:', 0) === 0) {
+    return 'http://www.w3.org/XML/1998/namespace';
+  }
+
+  if (name.lastIndexOf('xlink:', 0) === 0) {
+    return 'http://www.w3.org/1999/xlink';
+  }
+};
+
+/**
+ * Applies an attribute or property to a given Element. If the value is null
+ * or undefined, it is removed from the Element. Otherwise, the value is set
+ * as an attribute.
+ * @param {!Element} el
+ * @param {string} name The attribute's name.
+ * @param {?(boolean|number|string)=} value The attribute's value.
+ */
+var applyAttr = function applyAttr(el, name, value) {
+  if (value == null) {
+    el.removeAttribute(name);
+  } else {
+    var attrNS = getNamespace(name);
+    if (attrNS) {
+      el.setAttributeNS(attrNS, name, value);
+    } else {
+      el.setAttribute(name, value);
+    }
+  }
+};
+
+/**
+ * Applies a property to a given Element.
+ * @param {!Element} el
+ * @param {string} name The property's name.
+ * @param {*} value The property's value.
+ */
+var applyProp = function applyProp(el, name, value) {
+  el[name] = value;
+};
+
+/**
+ * Applies a value to a style declaration. Supports CSS custom properties by
+ * setting properties containing a dash using CSSStyleDeclaration.setProperty.
+ * @param {CSSStyleDeclaration} style
+ * @param {!string} prop
+ * @param {*} value
+ */
+var setStyleValue = function setStyleValue(style, prop, value) {
+  if (prop.indexOf('-') >= 0) {
+    style.setProperty(prop, /** @type {string} */value);
+  } else {
+    style[prop] = value;
+  }
+};
+
+/**
+ * Applies a style to an Element. No vendor prefix expansion is done for
+ * property names/values.
+ * @param {!Element} el
+ * @param {string} name The attribute's name.
+ * @param {*} style The style to set. Either a string of css or an object
+ *     containing property-value pairs.
+ */
+var applyStyle = function applyStyle(el, name, style) {
+  if (typeof style === 'string') {
+    el.style.cssText = style;
+  } else {
+    el.style.cssText = '';
+    var elStyle = el.style;
+    var obj = /** @type {!Object<string,string>} */style;
+
+    for (var prop in obj) {
+      if (has(obj, prop)) {
+        setStyleValue(elStyle, prop, obj[prop]);
+      }
+    }
+  }
+};
+
+/**
+ * Updates a single attribute on an Element.
+ * @param {!Element} el
+ * @param {string} name The attribute's name.
+ * @param {*} value The attribute's value. If the value is an object or
+ *     function it is set on the Element, otherwise, it is set as an HTML
+ *     attribute.
+ */
+var applyAttributeTyped = function applyAttributeTyped(el, name, value) {
+  var type = typeof value === 'undefined' ? 'undefined' : _typeof(value);
+
+  if (type === 'object' || type === 'function') {
+    applyProp(el, name, value);
+  } else {
+    applyAttr(el, name, /** @type {?(boolean|number|string)} */value);
+  }
+};
+
+/**
+ * Calls the appropriate attribute mutator for this attribute.
+ * @param {!Element} el
+ * @param {string} name The attribute's name.
+ * @param {*} value The attribute's value.
+ */
+var updateAttribute = function updateAttribute(el, name, value) {
+  var data = getData(el);
+  var attrs = data.attrs;
+
+  if (attrs[name] === value) {
+    return;
+  }
+
+  var mutator = attributes[name] || attributes[symbols.default];
+  mutator(el, name, value);
+
+  attrs[name] = value;
+};
+
+/**
+ * A publicly mutable object to provide custom mutators for attributes.
+ * @const {!Object<string, function(!Element, string, *)>}
+ */
+var attributes = createMap();
+
+// Special generic mutator that's called for any attribute that does not
+// have a specific mutator.
+attributes[symbols.default] = applyAttributeTyped;
+
+attributes['style'] = applyStyle;
+
+/**
+ * The offset in the virtual element declaration where the attributes are
+ * specified.
+ * @const
+ */
+var ATTRIBUTES_OFFSET = 3;
+
+/**
+ * Builds an array of arguments for use with elementOpenStart, attr and
+ * elementOpenEnd.
+ * @const {Array<*>}
+ */
+var argsBuilder = [];
+
+/**
+ * @param {string} tag The element's tag.
+ * @param {?string=} key The key used to identify this element. This can be an
+ *     empty string, but performance may be better if a unique value is used
+ *     when iterating over an array of items.
+ * @param {?Array<*>=} statics An array of attribute name/value pairs of the
+ *     static attributes for the Element. These will only be set once when the
+ *     Element is created.
+ * @param {...*} var_args, Attribute name/value pairs of the dynamic attributes
+ *     for the Element.
+ * @return {!Element} The corresponding Element.
+ */
+var elementOpen = function elementOpen(tag, key, statics, var_args) {
+  if (process.env.NODE_ENV !== 'production') {
+    assertNotInAttributes('elementOpen');
+    assertNotInSkip('elementOpen');
+  }
+
+  var node = coreElementOpen(tag, key);
+  var data = getData(node);
+
+  if (!data.staticsApplied) {
+    if (statics) {
+      for (var _i = 0; _i < statics.length; _i += 2) {
+        var name = /** @type {string} */statics[_i];
+        var value = statics[_i + 1];
+        updateAttribute(node, name, value);
+      }
+    }
+    // Down the road, we may want to keep track of the statics array to use it
+    // as an additional signal about whether a node matches or not. For now,
+    // just use a marker so that we do not reapply statics.
+    data.staticsApplied = true;
+  }
+
+  /*
+   * Checks to see if one or more attributes have changed for a given Element.
+   * When no attributes have changed, this is much faster than checking each
+   * individual argument. When attributes have changed, the overhead of this is
+   * minimal.
+   */
+  var attrsArr = data.attrsArr;
+  var newAttrs = data.newAttrs;
+  var isNew = !attrsArr.length;
+  var i = ATTRIBUTES_OFFSET;
+  var j = 0;
+
+  for (; i < arguments.length; i += 2, j += 2) {
+    var _attr = arguments[i];
+    if (isNew) {
+      attrsArr[j] = _attr;
+      newAttrs[_attr] = undefined;
+    } else if (attrsArr[j] !== _attr) {
+      break;
+    }
+
+    var value = arguments[i + 1];
+    if (isNew || attrsArr[j + 1] !== value) {
+      attrsArr[j + 1] = value;
+      updateAttribute(node, _attr, value);
+    }
+  }
+
+  if (i < arguments.length || j < attrsArr.length) {
+    for (; i < arguments.length; i += 1, j += 1) {
+      attrsArr[j] = arguments[i];
+    }
+
+    if (j < attrsArr.length) {
+      attrsArr.length = j;
+    }
+
+    /*
+     * Actually perform the attribute update.
+     */
+    for (i = 0; i < attrsArr.length; i += 2) {
+      var name = /** @type {string} */attrsArr[i];
+      var value = attrsArr[i + 1];
+      newAttrs[name] = value;
+    }
+
+    for (var _attr2 in newAttrs) {
+      updateAttribute(node, _attr2, newAttrs[_attr2]);
+      newAttrs[_attr2] = undefined;
+    }
+  }
+
+  return node;
+};
+
+/**
+ * Declares a virtual Element at the current location in the document. This
+ * corresponds to an opening tag and a elementClose tag is required. This is
+ * like elementOpen, but the attributes are defined using the attr function
+ * rather than being passed as arguments. Must be folllowed by 0 or more calls
+ * to attr, then a call to elementOpenEnd.
+ * @param {string} tag The element's tag.
+ * @param {?string=} key The key used to identify this element. This can be an
+ *     empty string, but performance may be better if a unique value is used
+ *     when iterating over an array of items.
+ * @param {?Array<*>=} statics An array of attribute name/value pairs of the
+ *     static attributes for the Element. These will only be set once when the
+ *     Element is created.
+ */
+var elementOpenStart = function elementOpenStart(tag, key, statics) {
+  if (process.env.NODE_ENV !== 'production') {
+    assertNotInAttributes('elementOpenStart');
+    setInAttributes(true);
+  }
+
+  argsBuilder[0] = tag;
+  argsBuilder[1] = key;
+  argsBuilder[2] = statics;
+};
+
+/***
+ * Defines a virtual attribute at this point of the DOM. This is only valid
+ * when called between elementOpenStart and elementOpenEnd.
+ *
+ * @param {string} name
+ * @param {*} value
+ */
+var attr = function attr(name, value) {
+  if (process.env.NODE_ENV !== 'production') {
+    assertInAttributes('attr');
+  }
+
+  argsBuilder.push(name);
+  argsBuilder.push(value);
+};
+
+/**
+ * Closes an open tag started with elementOpenStart.
+ * @return {!Element} The corresponding Element.
+ */
+var elementOpenEnd = function elementOpenEnd() {
+  if (process.env.NODE_ENV !== 'production') {
+    assertInAttributes('elementOpenEnd');
+    setInAttributes(false);
+  }
+
+  var node = elementOpen.apply(null, argsBuilder);
+  argsBuilder.length = 0;
+  return node;
+};
+
+/**
+ * Closes an open virtual Element.
+ *
+ * @param {string} tag The element's tag.
+ * @return {!Element} The corresponding Element.
+ */
+var elementClose = function elementClose(tag) {
+  if (process.env.NODE_ENV !== 'production') {
+    assertNotInAttributes('elementClose');
+  }
+
+  var node = coreElementClose();
+
+  if (process.env.NODE_ENV !== 'production') {
+    assertCloseMatchesOpenTag(getData(node).nodeName, tag);
+  }
+
+  return node;
+};
+
+/**
+ * Declares a virtual Element at the current location in the document that has
+ * no children.
+ * @param {string} tag The element's tag.
+ * @param {?string=} key The key used to identify this element. This can be an
+ *     empty string, but performance may be better if a unique value is used
+ *     when iterating over an array of items.
+ * @param {?Array<*>=} statics An array of attribute name/value pairs of the
+ *     static attributes for the Element. These will only be set once when the
+ *     Element is created.
+ * @param {...*} var_args Attribute name/value pairs of the dynamic attributes
+ *     for the Element.
+ * @return {!Element} The corresponding Element.
+ */
+var elementVoid = function elementVoid(tag, key, statics, var_args) {
+  elementOpen.apply(null, arguments);
+  return elementClose(tag);
+};
+
+/**
+ * Declares a virtual Text at this point in the document.
+ *
+ * @param {string|number|boolean} value The value of the Text.
+ * @param {...(function((string|number|boolean)):string)} var_args
+ *     Functions to format the value which are called only when the value has
+ *     changed.
+ * @return {!Text} The corresponding text node.
+ */
+var text = function text(value, var_args) {
+  if (process.env.NODE_ENV !== 'production') {
+    assertNotInAttributes('text');
+    assertNotInSkip('text');
+  }
+
+  var node = coreText();
+  var data = getData(node);
+
+  if (data.text !== value) {
+    data.text = /** @type {string} */value;
+
+    var formatted = value;
+    for (var i = 1; i < arguments.length; i += 1) {
+      /*
+       * Call the formatter function directly to prevent leaking arguments.
+       * https://github.com/google/incremental-dom/pull/204#issuecomment-178223574
+       */
+      var fn = arguments[i];
+      formatted = fn(formatted);
+    }
+
+    node.data = formatted;
+  }
+
+  return node;
+};
+
+exports.patch = patchInner;
+exports.patchInner = patchInner;
+exports.patchOuter = patchOuter;
+exports.currentElement = currentElement;
+exports.currentPointer = currentPointer;
+exports.skip = skip;
+exports.skipNode = skipNode;
+exports.elementVoid = elementVoid;
+exports.elementOpenStart = elementOpenStart;
+exports.elementOpenEnd = elementOpenEnd;
+exports.elementOpen = elementOpen;
+exports.elementClose = elementClose;
+exports.text = text;
+exports.attr = attr;
+exports.symbols = symbols;
+exports.attributes = attributes;
+exports.applyAttr = applyAttr;
+exports.applyProp = applyProp;
+exports.notifications = notifications;
+exports.importNode = importNode;
+
+//# sourceMappingURL=incremental-dom-cjs.js.map
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__("../node_modules/process/browser.js")))
+
+/***/ }),
+
+/***/ "../node_modules/is-callable/index.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5061,7 +6801,7 @@ module.exports = function isCallable(value) {
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/is-date-object/index.js":
+/***/ "../node_modules/is-date-object/index.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5092,7 +6832,7 @@ module.exports = function isDateObject(value) {
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/is-regex/index.js":
+/***/ "../node_modules/is-regex/index.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5100,7 +6840,7 @@ module.exports = function isDateObject(value) {
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-var has = __webpack_require__("../../pwet/node_modules/has/src/index.js");
+var has = __webpack_require__("../node_modules/has/src/index.js");
 var regexExec = RegExp.prototype.exec;
 var gOPD = Object.getOwnPropertyDescriptor;
 
@@ -5140,7 +6880,7 @@ module.exports = function isRegex(value) {
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/is-symbol/index.js":
+/***/ "../node_modules/is-symbol/index.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5182,7 +6922,7 @@ if (hasSymbols) {
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/lodash.isequal/index.js":
+/***/ "../node_modules/lodash.isequal/index.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7000,2968 +8740,6 @@ module.exports = isEqual;
 
 /***/ }),
 
-/***/ "../../pwet/node_modules/object-keys/index.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-// modified from https://github.com/es-shims/es5-shim
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-var has = Object.prototype.hasOwnProperty;
-var toStr = Object.prototype.toString;
-var slice = Array.prototype.slice;
-var isArgs = __webpack_require__("../../pwet/node_modules/object-keys/isArguments.js");
-var isEnumerable = Object.prototype.propertyIsEnumerable;
-var hasDontEnumBug = !isEnumerable.call({ toString: null }, 'toString');
-var hasProtoEnumBug = isEnumerable.call(function () {}, 'prototype');
-var dontEnums = ['toString', 'toLocaleString', 'valueOf', 'hasOwnProperty', 'isPrototypeOf', 'propertyIsEnumerable', 'constructor'];
-var equalsConstructorPrototype = function equalsConstructorPrototype(o) {
-	var ctor = o.constructor;
-	return ctor && ctor.prototype === o;
-};
-var excludedKeys = {
-	$console: true,
-	$external: true,
-	$frame: true,
-	$frameElement: true,
-	$frames: true,
-	$innerHeight: true,
-	$innerWidth: true,
-	$outerHeight: true,
-	$outerWidth: true,
-	$pageXOffset: true,
-	$pageYOffset: true,
-	$parent: true,
-	$scrollLeft: true,
-	$scrollTop: true,
-	$scrollX: true,
-	$scrollY: true,
-	$self: true,
-	$webkitIndexedDB: true,
-	$webkitStorageInfo: true,
-	$window: true
-};
-var hasAutomationEqualityBug = function () {
-	/* global window */
-	if (typeof window === 'undefined') {
-		return false;
-	}
-	for (var k in window) {
-		try {
-			if (!excludedKeys['$' + k] && has.call(window, k) && window[k] !== null && _typeof(window[k]) === 'object') {
-				try {
-					equalsConstructorPrototype(window[k]);
-				} catch (e) {
-					return true;
-				}
-			}
-		} catch (e) {
-			return true;
-		}
-	}
-	return false;
-}();
-var equalsConstructorPrototypeIfNotBuggy = function equalsConstructorPrototypeIfNotBuggy(o) {
-	/* global window */
-	if (typeof window === 'undefined' || !hasAutomationEqualityBug) {
-		return equalsConstructorPrototype(o);
-	}
-	try {
-		return equalsConstructorPrototype(o);
-	} catch (e) {
-		return false;
-	}
-};
-
-var keysShim = function keys(object) {
-	var isObject = object !== null && (typeof object === 'undefined' ? 'undefined' : _typeof(object)) === 'object';
-	var isFunction = toStr.call(object) === '[object Function]';
-	var isArguments = isArgs(object);
-	var isString = isObject && toStr.call(object) === '[object String]';
-	var theKeys = [];
-
-	if (!isObject && !isFunction && !isArguments) {
-		throw new TypeError('Object.keys called on a non-object');
-	}
-
-	var skipProto = hasProtoEnumBug && isFunction;
-	if (isString && object.length > 0 && !has.call(object, 0)) {
-		for (var i = 0; i < object.length; ++i) {
-			theKeys.push(String(i));
-		}
-	}
-
-	if (isArguments && object.length > 0) {
-		for (var j = 0; j < object.length; ++j) {
-			theKeys.push(String(j));
-		}
-	} else {
-		for (var name in object) {
-			if (!(skipProto && name === 'prototype') && has.call(object, name)) {
-				theKeys.push(String(name));
-			}
-		}
-	}
-
-	if (hasDontEnumBug) {
-		var skipConstructor = equalsConstructorPrototypeIfNotBuggy(object);
-
-		for (var k = 0; k < dontEnums.length; ++k) {
-			if (!(skipConstructor && dontEnums[k] === 'constructor') && has.call(object, dontEnums[k])) {
-				theKeys.push(dontEnums[k]);
-			}
-		}
-	}
-	return theKeys;
-};
-
-keysShim.shim = function shimObjectKeys() {
-	if (Object.keys) {
-		var keysWorksWithArguments = function () {
-			// Safari 5.0 bug
-			return (Object.keys(arguments) || '').length === 2;
-		}(1, 2);
-		if (!keysWorksWithArguments) {
-			var originalKeys = Object.keys;
-			Object.keys = function keys(object) {
-				if (isArgs(object)) {
-					return originalKeys(slice.call(object));
-				} else {
-					return originalKeys(object);
-				}
-			};
-		}
-	} else {
-		Object.keys = keysShim;
-	}
-	return Object.keys || keysShim;
-};
-
-module.exports = keysShim;
-
-/***/ }),
-
-/***/ "../../pwet/node_modules/object-keys/isArguments.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-var toStr = Object.prototype.toString;
-
-module.exports = function isArguments(value) {
-	var str = toStr.call(value);
-	var isArgs = str === '[object Arguments]';
-	if (!isArgs) {
-		isArgs = str !== '[object Array]' && value !== null && (typeof value === 'undefined' ? 'undefined' : _typeof(value)) === 'object' && typeof value.length === 'number' && value.length >= 0 && toStr.call(value.callee) === '[object Function]';
-	}
-	return isArgs;
-};
-
-/***/ }),
-
-/***/ "../../pwet/node_modules/object.assign/hasSymbols.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-var keys = __webpack_require__("../../pwet/node_modules/object-keys/index.js");
-
-module.exports = function hasSymbols() {
-	if (typeof Symbol !== 'function' || typeof Object.getOwnPropertySymbols !== 'function') {
-		return false;
-	}
-	if (_typeof(Symbol.iterator) === 'symbol') {
-		return true;
-	}
-
-	var obj = {};
-	var sym = Symbol('test');
-	var symObj = Object(sym);
-	if (typeof sym === 'string') {
-		return false;
-	}
-
-	if (Object.prototype.toString.call(sym) !== '[object Symbol]') {
-		return false;
-	}
-	if (Object.prototype.toString.call(symObj) !== '[object Symbol]') {
-		return false;
-	}
-
-	// temp disabled per https://github.com/ljharb/object.assign/issues/17
-	// if (sym instanceof Symbol) { return false; }
-	// temp disabled per https://github.com/WebReflection/get-own-property-symbols/issues/4
-	// if (!(symObj instanceof Symbol)) { return false; }
-
-	var symVal = 42;
-	obj[sym] = symVal;
-	for (sym in obj) {
-		return false;
-	}
-	if (keys(obj).length !== 0) {
-		return false;
-	}
-	if (typeof Object.keys === 'function' && Object.keys(obj).length !== 0) {
-		return false;
-	}
-
-	if (typeof Object.getOwnPropertyNames === 'function' && Object.getOwnPropertyNames(obj).length !== 0) {
-		return false;
-	}
-
-	var syms = Object.getOwnPropertySymbols(obj);
-	if (syms.length !== 1 || syms[0] !== sym) {
-		return false;
-	}
-
-	if (!Object.prototype.propertyIsEnumerable.call(obj, sym)) {
-		return false;
-	}
-
-	if (typeof Object.getOwnPropertyDescriptor === 'function') {
-		var descriptor = Object.getOwnPropertyDescriptor(obj, sym);
-		if (descriptor.value !== symVal || descriptor.enumerable !== true) {
-			return false;
-		}
-	}
-
-	return true;
-};
-
-/***/ }),
-
-/***/ "../../pwet/node_modules/object.assign/implementation.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-// modified from https://github.com/es-shims/es6-shim
-
-var keys = __webpack_require__("../../pwet/node_modules/object-keys/index.js");
-var bind = __webpack_require__("../../pwet/node_modules/function-bind/index.js");
-var canBeObject = function canBeObject(obj) {
-	return typeof obj !== 'undefined' && obj !== null;
-};
-var hasSymbols = __webpack_require__("../../pwet/node_modules/object.assign/hasSymbols.js")();
-var toObject = Object;
-var push = bind.call(Function.call, Array.prototype.push);
-var propIsEnumerable = bind.call(Function.call, Object.prototype.propertyIsEnumerable);
-var originalGetSymbols = hasSymbols ? Object.getOwnPropertySymbols : null;
-
-module.exports = function assign(target, source1) {
-	if (!canBeObject(target)) {
-		throw new TypeError('target must be an object');
-	}
-	var objTarget = toObject(target);
-	var s, source, i, props, syms, value, key;
-	for (s = 1; s < arguments.length; ++s) {
-		source = toObject(arguments[s]);
-		props = keys(source);
-		var getSymbols = hasSymbols && (Object.getOwnPropertySymbols || originalGetSymbols);
-		if (getSymbols) {
-			syms = getSymbols(source);
-			for (i = 0; i < syms.length; ++i) {
-				key = syms[i];
-				if (propIsEnumerable(source, key)) {
-					push(props, key);
-				}
-			}
-		}
-		for (i = 0; i < props.length; ++i) {
-			key = props[i];
-			value = source[key];
-			if (propIsEnumerable(source, key)) {
-				objTarget[key] = value;
-			}
-		}
-	}
-	return objTarget;
-};
-
-/***/ }),
-
-/***/ "../../pwet/node_modules/object.assign/index.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var defineProperties = __webpack_require__("../../pwet/node_modules/define-properties/index.js");
-
-var implementation = __webpack_require__("../../pwet/node_modules/object.assign/implementation.js");
-var getPolyfill = __webpack_require__("../../pwet/node_modules/object.assign/polyfill.js");
-var shim = __webpack_require__("../../pwet/node_modules/object.assign/shim.js");
-
-var polyfill = getPolyfill();
-
-defineProperties(polyfill, {
-	implementation: implementation,
-	getPolyfill: getPolyfill,
-	shim: shim
-});
-
-module.exports = polyfill;
-
-/***/ }),
-
-/***/ "../../pwet/node_modules/object.assign/polyfill.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var implementation = __webpack_require__("../../pwet/node_modules/object.assign/implementation.js");
-
-var lacksProperEnumerationOrder = function lacksProperEnumerationOrder() {
-	if (!Object.assign) {
-		return false;
-	}
-	// v8, specifically in node 4.x, has a bug with incorrect property enumeration order
-	// note: this does not detect the bug unless there's 20 characters
-	var str = 'abcdefghijklmnopqrst';
-	var letters = str.split('');
-	var map = {};
-	for (var i = 0; i < letters.length; ++i) {
-		map[letters[i]] = letters[i];
-	}
-	var obj = Object.assign({}, map);
-	var actual = '';
-	for (var k in obj) {
-		actual += k;
-	}
-	return str !== actual;
-};
-
-var assignHasPendingExceptions = function assignHasPendingExceptions() {
-	if (!Object.assign || !Object.preventExtensions) {
-		return false;
-	}
-	// Firefox 37 still has "pending exception" logic in its Object.assign implementation,
-	// which is 72% slower than our shim, and Firefox 40's native implementation.
-	var thrower = Object.preventExtensions({ 1: 2 });
-	try {
-		Object.assign(thrower, 'xy');
-	} catch (e) {
-		return thrower[1] === 'y';
-	}
-	return false;
-};
-
-module.exports = function getPolyfill() {
-	if (!Object.assign) {
-		return implementation;
-	}
-	if (lacksProperEnumerationOrder()) {
-		return implementation;
-	}
-	if (assignHasPendingExceptions()) {
-		return implementation;
-	}
-	return Object.assign;
-};
-
-/***/ }),
-
-/***/ "../../pwet/node_modules/object.assign/shim.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var define = __webpack_require__("../../pwet/node_modules/define-properties/index.js");
-var getPolyfill = __webpack_require__("../../pwet/node_modules/object.assign/polyfill.js");
-
-module.exports = function shimAssign() {
-	var polyfill = getPolyfill();
-	define(Object, { assign: polyfill }, { assign: function assign() {
-			return Object.assign !== polyfill;
-		} });
-	return polyfill;
-};
-
-/***/ }),
-
-/***/ "../../pwet/src/assertions.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.isUnknownElement = exports.isElement = exports.isComponent = exports.isInteger = exports.isNumber = exports.isFunction = exports.isString = exports.isBoolean = exports.isEmpty = exports.isObject = exports.ofType = exports.isArray = exports.isInstanceOf = exports.isNull = exports.isUndefined = exports.isTrue = exports.isEqualTo = exports.isDeeplyEqual = exports.assert = undefined;
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-var _lodash = __webpack_require__("../../pwet/node_modules/lodash.isequal/index.js");
-
-var _lodash2 = _interopRequireDefault(_lodash);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var assert = exports.assert = function assert(condition, message) {
-
-  if (condition) return condition;
-
-  throw new Error(message);
-};
-
-var isDeeplyEqual = exports.isDeeplyEqual = _lodash2.default;
-var isEqualTo = exports.isEqualTo = function isEqualTo(value, input) {
-  return input === value;
-};
-var isTrue = exports.isTrue = function isTrue(input) {
-  return isEqualTo(true, input);
-};
-var isUndefined = exports.isUndefined = function isUndefined(input) {
-  return isEqualTo(void 0, input);
-};
-var isNull = exports.isNull = function isNull(input) {
-  return isEqualTo(null, input);
-};
-var isInstanceOf = exports.isInstanceOf = function isInstanceOf(type, input) {
-  return input instanceof type;
-};
-var isArray = exports.isArray = function isArray(input) {
-  return isInstanceOf(Array, input);
-};
-var ofType = exports.ofType = function ofType(type, input) {
-  return isEqualTo(type, typeof input === 'undefined' ? 'undefined' : _typeof(input));
-};
-var isObject = exports.isObject = function isObject(input) {
-  return ofType('object', input);
-};
-var isEmpty = exports.isEmpty = function isEmpty(input) {
-  return !input || input.length < 1;
-};
-var isBoolean = exports.isBoolean = function isBoolean(input) {
-  return ofType('boolean', input);
-};
-var isString = exports.isString = function isString(input) {
-
-  return ofType('string', input);
-};
-var isFunction = exports.isFunction = function isFunction(input) {
-  return ofType('function', input) && input;
-};
-var isNumber = exports.isNumber = function isNumber(input) {
-  return ofType('number', input);
-};
-var isInteger = exports.isInteger = function isInteger(input) {
-  return Number.isInteger(input);
-};
-var isComponent = exports.isComponent = function isComponent(input) {
-  return isObject(input) && input.isPwetComponent === true;
-};
-var isElement = exports.isElement = function isElement(input) {
-  return isInstanceOf(HTMLElement, input);
-};
-var isUnknownElement = exports.isUnknownElement = function isUnknownElement(input) {
-  return Object.prototype.toString.call(input) === '[object HTMLUnknownElement]';
-};
-
-/***/ }),
-
-/***/ "../../pwet/src/attribute.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _utilities = __webpack_require__("../../pwet/src/utilities.js");
-
-var _assertions = __webpack_require__("../../pwet/src/assertions.js");
-
-var internal = {};
-
-internal.empty = function (val) {
-  return val == null;
-};
-internal.nullOrType = function (type) {
-  return function (val) {
-    return !val ? null : type(val);
-  };
-};
-internal.zeroOrNumber = function (val) {
-  return !val ? 0 : Number(val);
-};
-
-internal.Attribute = module.exports = function (attribute) {
-
-  (0, _assertions.assert)((0, _assertions.isObject)(attribute), '\'attribute\' must be an object');
-
-  var _attribute$stringify = attribute.stringify,
-      stringify = _attribute$stringify === undefined ? JSON.stringify : _attribute$stringify,
-      _attribute$parse = attribute.parse,
-      parse = _attribute$parse === undefined ? JSON.parse : _attribute$parse,
-      _attribute$coerce = attribute.coerce,
-      coerce = _attribute$coerce === undefined ? _utilities.identity : _attribute$coerce,
-      defaultValue = attribute.defaultValue;
-
-
-  (0, _assertions.assert)((0, _assertions.isFunction)(stringify), '\'stringify\' must be a function');
-  (0, _assertions.assert)((0, _assertions.isFunction)(parse), '\'parse\' must be a function');
-
-  return Object.assign(attribute, {
-    isAttribute: true,
-    stringify: stringify,
-    parse: parse,
-    coerce: coerce,
-    defaultValue: defaultValue
-  });
-};
-
-internal.Attribute.array = function () {
-  var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-  return internal.Attribute(Object.assign({
-    coerce: function coerce(val) {
-      return Array.isArray(val) ? val : !val ? null : [val];
-    },
-    defaultValue: []
-  }, options));
-};
-
-internal.Attribute.boolean = function () {
-  var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-  return internal.Attribute(Object.assign({
-    coerce: Boolean,
-    defaultValue: false,
-    parse: function parse(val) {
-      return !!val;
-    },
-    stringify: function stringify(val) {
-      return val ? '' : null;
-    }
-  }, options));
-};
-
-internal.Attribute.number = function () {
-  var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-  return internal.Attribute(Object.assign({
-    defaultValue: 0,
-    coerce: internal.zeroOrNumber,
-    parse: internal.zeroOrNumber,
-    stringify: internal.nullOrType(Number)
-  }, options));
-};
-
-internal.Attribute.integer = function () {
-  var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-  return internal.Attribute.number(Object.assign(options, {
-    coerce: parseInt,
-    parse: parseInt
-  }));
-};
-
-internal.Attribute.float = function () {
-  var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-  return internal.Attribute.number(Object.assign(options, {
-    coerce: parseFloat,
-    parse: parseFloat
-  }));
-};
-
-internal.Attribute.object = function () {
-  var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-  return internal.Attribute(Object.assign({
-    defaultValue: {}
-  }, options));
-};
-
-internal.Attribute.string = function () {
-  var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-  return internal.Attribute(Object.assign({
-    defaultValue: '',
-    coerce: String,
-    stringify: internal.nullOrType(String)
-  }, options));
-};
-
-/***/ }),
-
-/***/ "../../pwet/src/component.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = exports.StatefulComponent = undefined;
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _utilities = __webpack_require__("../../pwet/src/utilities.js");
-
-var _filters = __webpack_require__("../../pwet/src/filters.js");
-
-var _assertions = __webpack_require__("../../pwet/src/assertions.js");
-
-var _property = __webpack_require__("../../pwet/src/property.js");
-
-var _property2 = _interopRequireDefault(_property);
-
-var _stateful = __webpack_require__("../../pwet/src/decorators/stateful.js");
-
-var _stateful2 = _interopRequireDefault(_stateful);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-var internal = {
-  factories: [],
-  allowedHooks: ['attach', 'detach', 'initialize', 'render']
-};
-
-internal.parseProperties = function (input) {
-
-  var properties = [];
-
-  if (!(0, _assertions.isObject)(input)) return properties;
-
-  var keys = Object.keys(input);
-
-  if ((0, _assertions.isEmpty)(keys)) return properties;
-
-  return keys.reduce(function (properties, key) {
-
-    var property = input[key];
-
-    if (!(0, _assertions.isObject)(property)) property = { defaultValue: property };
-
-    property.name = key;
-
-    property = (0, _property2.default)(property);
-
-    properties.push(property);
-
-    return properties;
-  }, properties);
-};
-
-internal.StatelessError = function () {
-  throw new Error('Component is Stateless');
-};
-
-internal.defaultsHooks = {
-  attach: function attach(component, _attach) {
-    _attach(!component.isRendered);
-  },
-  initialize: function initialize(component, newProperties, _initialize) {
-    _initialize(true);
-  }
-};
-
-var Component = function Component(factory, element) {
-
-  (0, _assertions.assert)(Component.get(factory), '\'factory\' must be a defined component factory');
-  (0, _assertions.assert)((0, _assertions.isElement)(element), '\'element\' must be a HTMLElement');
-
-  if (element.pwet !== void 0) return;
-
-  var _isAttached = false;
-  var _isRendered = false;
-  var _isInitializing = false;
-  var _properties = {};
-
-  var attach = function attach() {
-    // console.log('Component.attach()');
-
-    if (_isAttached) return;
-
-    if (factory.shadowRoot) element.shadowRoot = element.attachShadow(factory.shadowRoot);
-
-    component.hooks.attach(function () {
-      var shouldRender = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
-
-
-      console.log('shouldRender', shouldRender);
-      _isAttached = true;
-
-      if (shouldRender) component.render();
-    });
-  };
-
-  var detach = function detach() {
-    // console.log('Component.detach()');
-
-    if (!_isAttached) return;
-
-    _isAttached = false;
-
-    component.hooks.detach();
-  };
-
-  var initialize = function initialize() {
-    var newProperties = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-
-    // console.log('Component.initialize()', 'before', _isInitializing);
-
-    if (_isInitializing) return;
-
-    (0, _assertions.assert)((0, _assertions.isObject)(newProperties) && !(0, _assertions.isNull)(newProperties), '\'newProperties\' must be an object');
-
-    _isInitializing = true;
-
-    newProperties = factory.properties.reduce(function (properties, _ref) {
-      var name = _ref.name,
-          coerce = _ref.coerce,
-          defaultValue = _ref.defaultValue;
-
-
-      return Object.assign(properties, _defineProperty({}, name, !(0, _assertions.isUndefined)(newProperties[name]) ? coerce(newProperties[name]) : !(0, _assertions.isUndefined)(_properties[name]) ? _properties[name] : defaultValue));
-    }, {});
-
-    component.hooks.initialize(newProperties, function () {
-      var shouldRender = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
-
-
-      _properties = newProperties;
-
-      if (shouldRender) component.render();
-
-      _isInitializing = false;
-    });
-  };
-
-  var render = function render() {
-    // console.log('Component.render()', _isAttached);
-
-    if (!_isAttached) return;
-
-    component.hooks.render();
-
-    _isRendered = true;
-  };
-
-  var component = element.pwet = {
-    isPwetComponent: true,
-    element: element,
-    attach: attach,
-    detach: detach,
-    initialize: initialize,
-    render: render,
-    get isRendered() {
-      return _isRendered;
-    },
-    get isAttached() {
-      return _isAttached;
-    },
-    get isInitializing() {
-      return _isInitializing;
-    },
-    get hooks() {
-      return _hooks;
-    },
-    get state() {
-      return _hooks;
-    },
-    set properties(newValue) {
-      return _hooks;
-    }
-  };
-
-  var _hooks = factory.allowedHooks.reduce(function (hooks, key) {
-    return Object.assign(hooks, _defineProperty({}, key, factory[key].bind(null, component)));
-  }, {});
-
-  (0, _assertions.assert)(_hooks.render !== _utilities.noop, '\'render\' method is required');
-
-  Object.defineProperty(component, 'state', {
-    configurable: true,
-    get: internal.StatelessError,
-    set: internal.StatelessError
-  });
-
-  Object.defineProperty(component, 'properties', {
-    get: function get() {
-      return Object.assign({}, _properties);
-    },
-
-    set: initialize
-  });
-
-  factory.create(component, factory);
-
-  var returned = factory(component);
-
-  if (!(0, _assertions.isObject)(returned) || (0, _assertions.isNull)(returned)) return component;
-
-  // let _initialProperties = {};
-
-  Object.keys(returned).forEach(function (key) {
-
-    // if (key === 'properties') {
-    //
-    //   _initialProperties = returned.properties;
-    //   return;
-    // }
-
-    if (!factory.allowedHooks.includes(key)) return;
-
-    var hook = returned[key];
-
-    (0, _assertions.assert)((0, _assertions.isFunction)(hook), '\'' + key + '\' hook must be a function');
-
-    _hooks[key] = hook;
-  });
-
-  // First initialization
-  component.properties = factory.properties.reduce(function (properties, _ref2) {
-    var name = _ref2.name,
-        attribute = _ref2.attribute,
-        defaultValue = _ref2.defaultValue;
-
-
-    Object.defineProperty(element, name, {
-      get: function get() {
-        return component.properties[name];
-      },
-      set: function set(newValue) {
-
-        component.properties = Object.assign(component.properties, _defineProperty({}, name, newValue));
-      }
-    });
-
-    var value = defaultValue;
-
-    if (attribute !== false) {
-
-      var attributeValue = element.dataset[name];
-
-      if (!(0, _assertions.isUndefined)(attributeValue)) value = attributeValue;
-    }
-
-    return Object.assign(properties, _defineProperty({}, name, value));
-  }, {});
-
-  return component;
-};
-
-Component.get = function (input) {
-  return internal.factories.find((0, _filters.EqualFilter)(input));
-};
-
-Component.define = function (factory, options) {
-
-  (0, _assertions.assert)((0, _assertions.isFunction)(factory), '\'factory\' must be a function');
-
-  if (!(0, _assertions.isUndefined)(options)) (0, _assertions.assert)((0, _assertions.isObject)(options), '\'options\' must be an object');
-
-  var tagName = factory.tagName,
-      _factory$attributes = factory.attributes,
-      attributes = _factory$attributes === undefined ? {} : _factory$attributes;
-
-
-  (0, _assertions.assert)((0, _assertions.isString)(tagName) && /[a-z0-9-]+/i, '\'tagName\' must be a string');
-  (0, _assertions.assert)(!Component.get(factory), 'That component factory is already defined');
-  (0, _assertions.assert)(!internal.factories.find((0, _filters.ByFilter)('tagName', tagName)), '\'' + tagName + '\' component is already defined');
-
-  factory.properties = internal.parseProperties(factory.properties);
-
-  var _attributes = factory.properties.filter(function (property) {
-    return property.isAttribute === true;
-  });
-
-  var _attributesNames = _attributes.map(function (property) {
-    return property.name;
-  });
-
-  if (!(0, _assertions.isFunction)(factory.attach)) factory.attach = internal.defaultsHooks.attach;
-  if (!(0, _assertions.isFunction)(factory.initialize)) factory.initialize = internal.defaultsHooks.initialize;
-  if (!(0, _assertions.isFunction)(factory.detach)) factory.detach = _utilities.noop;
-  if (!(0, _assertions.isFunction)(factory.render)) factory.render = _utilities.noop;
-  if (!(0, _assertions.isFunction)(factory.create)) factory.create = _utilities.identity;
-
-  factory.allowedHooks = internal.allowedHooks; //.concat(allowedHooks);
-
-  if ((0, _assertions.isFunction)(factory.create.define)) factory.create.define(factory);
-
-  internal.factories.push(factory);
-
-  customElements.define(tagName, function (_HTMLElement) {
-    _inherits(_class, _HTMLElement);
-
-    function _class() {
-      _classCallCheck(this, _class);
-
-      var _this = _possibleConstructorReturn(this, (_class.__proto__ || Object.getPrototypeOf(_class)).call(this));
-
-      Component(factory, _this);
-      return _this;
-    }
-
-    _createClass(_class, [{
-      key: 'connectedCallback',
-      value: function connectedCallback() {
-
-        this.pwet.attach();
-      }
-    }, {
-      key: 'disconnectedCallback',
-      value: function disconnectedCallback() {
-
-        this.pwet.detach();
-      }
-    }, {
-      key: 'attributeChangedCallback',
-      value: function attributeChangedCallback(name, oldValue, newValue) {
-        var properties = this.pwet.properties;
-
-
-        var attribute = _attributes.find(function (attribute) {
-          return attribute.name === name;
-        });
-
-        properties[name] = attribute.parse(newValue);
-
-        this.pwet.properties = properties;
-      }
-    }], [{
-      key: 'observedAttributes',
-      get: function get() {
-
-        return _attributesNames;
-      }
-    }]);
-
-    return _class;
-  }(HTMLElement));
-};
-
-exports.StatefulComponent = _stateful2.default;
-exports.default = Component;
-
-/***/ }),
-
-/***/ "../../pwet/src/decorators/stateful.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _utilities = __webpack_require__("../../pwet/src/utilities.js");
-
-var _assertions = __webpack_require__("../../pwet/src/assertions.js");
-
-var internal = {
-  allowedHooks: ['update']
-};
-
-internal.defaultsHooks = {
-  update: function update(component, newState, _update) {
-    _update(true);
-  }
-};
-
-var StatefulComponent = function StatefulComponent(component, factory) {
-
-  var _state = factory.initialState();
-  var _isUpdating = false;
-
-  var editState = function editState(partialState) {
-
-    (0, _assertions.assert)((0, _assertions.isObject)(partialState) && !(0, _assertions.isNull)(partialState), '\'partialState\' must be an object');
-
-    var state = component.state;
-
-    Object.assign(state, partialState);
-
-    update(state);
-  };
-
-  var update = function update(newState) {
-
-    if (_isUpdating) return;
-
-    (0, _assertions.assert)((0, _assertions.isObject)(newState) && !(0, _assertions.isNull)(newState), '\'newState\' must be an object');
-
-    (0, _assertions.assert)(_state !== newState, '\'newState\' must not be equal to previous state');
-
-    if (component.isInitializing) return void (_state = newState);
-
-    _isUpdating = true;
-
-    component.hooks.update(newState, function () {
-      var shouldRender = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
-
-
-      _state = newState;
-
-      if (shouldRender) component.render();
-
-      _isUpdating = false;
-    });
-  };
-
-  Object.assign(component, {
-    editState: editState,
-    update: update,
-    get isUpdating() {
-      return _isUpdating;
-    }
-  });
-
-  Object.defineProperty(component, 'state', {
-    configurable: true,
-    get: function get() {
-      return Object.assign({}, _state);
-    },
-    set: function set(newState) {
-
-      if (!_isUpdating) component.update(newState);
-    }
-  });
-
-  return component;
-};
-
-StatefulComponent.define = function (factory) {
-  var initialState = factory.initialState,
-      allowedHooks = factory.allowedHooks;
-
-
-  (0, _assertions.assert)((0, _assertions.isArray)(allowedHooks) && allowedHooks.every(_assertions.isString), '\'allowedHooks\' must be an array of string');
-
-  factory.allowedHooks = allowedHooks.concat(internal.allowedHooks);
-
-  factory.initialState = (0, _assertions.isObject)(initialState) && !(0, _assertions.isNull)(initialState) ? _utilities.identity.bind(null, initialState) : (0, _assertions.assert)((0, _assertions.isFunction)(initialState), '\'initialState\' must be an object or a function');
-
-  if (!(0, _assertions.isFunction)(factory.update)) factory.update = internal.defaultsHooks.update;
-};
-
-exports.default = StatefulComponent;
-
-/***/ }),
-
-/***/ "../../pwet/src/filters.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-var ByFilter = exports.ByFilter = function ByFilter(key, value) {
-  return function (item) {
-    return item[key] === value;
-  };
-};
-var EqualFilter = exports.EqualFilter = function EqualFilter(value) {
-  return function (item) {
-    return item === value;
-  };
-};
-
-/***/ }),
-
-/***/ "../../pwet/src/polyfills/index.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-// NOTE!!!
-//
-// We have to load polyfills directly from source as non-minified files are not
-// published by the polyfills. An issue was raised to discuss this problem and
-// to see if it can be resolved.
-//
-// See https://github.com/webcomponents/custom-elements/issues/45
-
-// ES2015 polyfills required for the polyfills to work in older browsers.
-__webpack_require__("../../pwet/node_modules/array.from/index.js").shim();
-__webpack_require__("../../pwet/node_modules/object.assign/index.js").shim();
-__webpack_require__("../../pwet/node_modules/es6-promise/dist/es6-promise.js").polyfill();
-
-// We have to include this first so that it can patch native. This must be done
-// before any polyfills are loaded.
-__webpack_require__("../../pwet/src/polyfills/native-shim.js");
-
-// // Template polyfill is necessary to use shadycss in IE11
-// // this comes before custom elements because of
-// // https://github.com/webcomponents/template/blob/master/template.js#L39
-// require('@webcomponents/template');
-
-// This comes after the native shim because it requries it to be patched first.
-__webpack_require__("../../pwet/node_modules/@webcomponents/custom-elements/src/custom-elements.js");
-
-// // Force the polyfill in Safari 10.0.0 and 10.0.1.
-// const { navigator } = window;
-// const { userAgent } = navigator;
-// const safari = userAgent.indexOf('Safari/60') !== -1;
-// const safariVersion = safari && userAgent.match(/Version\/([^\s]+)/)[1];
-// const safariVersions = [0, 1].map(v => `10.0.${v}`).concat(['10.0']);
-//
-// if (safari && safariVersions.indexOf(safariVersion) > -1) {
-//   window.ShadyDOM = { force: true };
-// }
-//
-// // ShadyDOM comes first. Both because it may need to be forced and the
-// // ShadyCSS polyfill requires it to function.
-// require('cloudydom/src/shadydom');
-// require('@webcomponents/shadycss/index');
-
-/***/ }),
-
-/***/ "../../pwet/src/polyfills/native-shim.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-window.customElements && eval("/**\n * @license\n * Copyright (c) 2016 The Polymer Project Authors. All rights reserved.\n * This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt\n * The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt\n * The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt\n * Code distributed by Google as part of the polymer project is also\n * subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt\n */\n\n/**\n * This shim allows elements written in, or compiled to, ES5 to work on native\n * implementations of Custom Elements.\n *\n * ES5-style classes don't work with native Custom Elements because the\n * HTMLElement constructor uses the value of `new.target` to look up the custom\n * element definition for the currently called constructor. `new.target` is only\n * set when `new` is called and is only propagated via super() calls. super()\n * is not emulatable in ES5. The pattern of `SuperClass.call(this)`` only works\n * when extending other ES5-style classes, and does not propagate `new.target`.\n *\n * This shim allows the native HTMLElement constructor to work by generating and\n * registering a stand-in class instead of the users custom element class. This\n * stand-in class's constructor has an actual call to super().\n * `customElements.define()` and `customElements.get()` are both overridden to\n * hide this stand-in class from users.\n *\n * In order to create instance of the user-defined class, rather than the stand\n * in, the stand-in's constructor swizzles its instances prototype and invokes\n * the user-defined constructor. When the user-defined constructor is called\n * directly it creates an instance of the stand-in class to get a real extension\n * of HTMLElement and returns that.\n *\n * There are two important constructors: A patched HTMLElement constructor, and\n * the StandInElement constructor. They both will be called to create an element\n * but which is called first depends on whether the browser creates the element\n * or the user-defined constructor is called directly. The variables\n * `browserConstruction` and `userConstruction` control the flow between the\n * two constructors.\n *\n * This shim should be better than forcing the polyfill because:\n *   1. It's smaller\n *   2. All reaction timings are the same as native (mostly synchronous)\n *   3. All reaction triggering DOM operations are automatically supported\n *\n * There are some restrictions and requirements on ES5 constructors:\n *   1. All constructors in a inheritance hierarchy must be ES5-style, so that\n *      they can be called with Function.call(). This effectively means that the\n *      whole application must be compiled to ES5.\n *   2. Constructors must return the value of the emulated super() call. Like\n *      `return SuperClass.call(this)`\n *   3. The `this` reference should not be used before the emulated super() call\n *      just like `this` is illegal to use before super() in ES6.\n *   4. Constructors should not create other custom elements before the emulated\n *      super() call. This is the same restriction as with native custom\n *      elements.\n *\n *  Compiling valid class-based custom elements to ES5 will satisfy these\n *  requirements with the latest version of popular transpilers.\n */\n(() => {\n  'use strict';\n\n  // Do nothing if `customElements` does not exist.\n  if (!window.customElements) return;\n\n  const NativeHTMLElement = window.HTMLElement;\n  const nativeDefine = window.customElements.define;\n  const nativeGet = window.customElements.get;\n\n  /**\n   * Map of user-provided constructors to tag names.\n   *\n   * @type {Map<Function, string>}\n   */\n  const tagnameByConstructor = new Map();\n\n  /**\n   * Map of tag names to user-provided constructors.\n   *\n   * @type {Map<string, Function>}\n   */\n  const constructorByTagname = new Map();\n\n\n  /**\n   * Whether the constructors are being called by a browser process, ie parsing\n   * or createElement.\n   */\n  let browserConstruction = false;\n\n  /**\n   * Whether the constructors are being called by a user-space process, ie\n   * calling an element constructor.\n   */\n  let userConstruction = false;\n\n  window.HTMLElement = function() {\n    if (!browserConstruction) {\n      const tagname = tagnameByConstructor.get(this.constructor);\n      const fakeClass = nativeGet.call(window.customElements, tagname);\n\n      // Make sure that the fake constructor doesn't call back to this constructor\n      userConstruction = true;\n      const instance = new (fakeClass)();\n      return instance;\n    }\n    // Else do nothing. This will be reached by ES5-style classes doing\n    // HTMLElement.call() during initialization\n    browserConstruction = false;\n  };\n  // By setting the patched HTMLElement's prototype property to the native\n  // HTMLElement's prototype we make sure that:\n  //     document.createElement('a') instanceof HTMLElement\n  // works because instanceof uses HTMLElement.prototype, which is on the\n  // ptototype chain of built-in elements.\n  window.HTMLElement.prototype = NativeHTMLElement.prototype;\n\n  window.customElements.define = (tagname, elementClass) => {\n    const elementProto = elementClass.prototype;\n    const StandInElement = class extends NativeHTMLElement {\n      constructor() {\n        // Call the native HTMLElement constructor, this gives us the\n        // under-construction instance as `this`:\n        super();\n\n        // The prototype will be wrong up because the browser used our fake\n        // class, so fix it:\n        Object.setPrototypeOf(this, elementProto);\n\n        if (!userConstruction) {\n          // Make sure that user-defined constructor bottom's out to a do-nothing\n          // HTMLElement() call\n          browserConstruction = true;\n          // Call the user-defined constructor on our instance:\n          elementClass.call(this);\n        }\n        userConstruction = false;\n      }\n    };\n    const standInProto = StandInElement.prototype;\n    StandInElement.observedAttributes = elementClass.observedAttributes;\n    standInProto.connectedCallback = elementProto.connectedCallback;\n    standInProto.disconnectedCallback = elementProto.disconnectedCallback;\n    standInProto.attributeChangedCallback = elementProto.attributeChangedCallback;\n    standInProto.adoptedCallback = elementProto.adoptedCallback;\n\n    tagnameByConstructor.set(elementClass, tagname);\n    constructorByTagname.set(tagname, elementClass);\n    nativeDefine.call(window.customElements, tagname, StandInElement);\n  };\n\n  window.customElements.get = (tagname) => constructorByTagname.get(tagname);\n\n})();\n");
-
-/***/ }),
-
-/***/ "../../pwet/src/property.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _utilities = __webpack_require__("../../pwet/src/utilities.js");
-
-var _assertions = __webpack_require__("../../pwet/src/assertions.js");
-
-var internal = {};
-
-internal.Property = module.exports = function (property) {
-
-  (0, _assertions.assert)((0, _assertions.isObject)(property), '\'property\' must be an object');
-
-  var name = property.name,
-      _property$coerce = property.coerce,
-      coerce = _property$coerce === undefined ? _utilities.identity : _property$coerce,
-      defaultValue = property.defaultValue;
-
-  // console.log(property)
-
-  (0, _assertions.assert)((0, _assertions.isString)(name), '\'name\' must be a string');
-  (0, _assertions.assert)((0, _assertions.isFunction)(coerce), '\'coerce\' must be a function');
-
-  // if (attribute) {
-  //
-  //   assert(Attribute.isAttribute(attribute), `'attribute' is not an Attribute object`);
-  //
-  //   if (isUndefined(defaultValue) && !isUndefined(attribute.defaultValue))
-  //     defaultValue = attribute.defaultValue;
-  //
-  //   if (attribute.coerce !== coerce)
-  //     coerce = attribute.coerce;
-  //
-  // }
-
-  return Object.freeze(Object.assign(property, {
-    name: name,
-    coerce: coerce,
-    defaultValue: defaultValue
-  }));
-};
-
-/***/ }),
-
-/***/ "../../pwet/src/utilities.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.isAttached = exports.not = exports.toggle = exports.identity = exports.noop = exports.clone = undefined;
-
-var _assertions = __webpack_require__("../../pwet/src/assertions.js");
-
-var clone = exports.clone = function clone(input) {
-  return !(0, _assertions.isArray)(input) ? (0, _assertions.isObject)(input) ? Object.assign({}, input) : input : input.map(clone);
-};
-
-var noop = exports.noop = function noop() {};
-var identity = exports.identity = function identity(arg) {
-  return arg;
-};
-var toggle = exports.toggle = function toggle(input) {
-  return !input;
-};
-var not = exports.not = toggle;
-var isAttached = exports.isAttached = function isAttached(element) {
-
-  if (element === document) return true;
-
-  element = element.parentNode;
-  if (element) return isAttached(element);
-
-  return false;
-};
-
-/***/ }),
-
-/***/ "../node_modules/idom-util/src/button.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _element = __webpack_require__("../node_modules/idom-util/src/element.js");
-
-var _element2 = _interopRequireDefault(_element);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = _element2.default.bind(null, 'button');
-
-/***/ }),
-
-/***/ "../node_modules/idom-util/src/div.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _element = __webpack_require__("../node_modules/idom-util/src/element.js");
-
-var _element2 = _interopRequireDefault(_element);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = _element2.default.bind(null, 'div');
-
-/***/ }),
-
-/***/ "../node_modules/idom-util/src/element.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _incrementalDom = __webpack_require__("../node_modules/incremental-dom/dist/incremental-dom-cjs.js");
-
-exports.default = function (tagName) {
-  for (var _len = arguments.length, args = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
-    args[_key - 1] = arguments[_key];
-  }
-
-  var renderContent = args.pop();
-
-  _incrementalDom.elementOpen.apply(undefined, [tagName].concat(args));
-  typeof renderContent === 'function' && renderContent();
-  (0, _incrementalDom.elementClose)(tagName);
-};
-
-/***/ }),
-
-/***/ "../node_modules/idom-util/src/h3.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _element = __webpack_require__("../node_modules/idom-util/src/element.js");
-
-var _element2 = _interopRequireDefault(_element);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = _element2.default.bind(null, 'h3');
-
-/***/ }),
-
-/***/ "../node_modules/idom-util/src/image.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _incrementalDom = __webpack_require__("../node_modules/incremental-dom/dist/incremental-dom-cjs.js");
-
-exports.default = function (src) {
-  for (var _len = arguments.length, args = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
-    args[_key - 1] = arguments[_key];
-  }
-
-  var key = args.shift();
-  var staticProperties = args.shift();
-
-  return _incrementalDom.elementVoid.apply(undefined, ['img', key, staticProperties, 'src', src].concat(args));
-};
-
-/***/ }),
-
-/***/ "../node_modules/idom-util/src/index.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.renderH3 = exports.renderPre = exports.renderStrong = exports.renderStyle = exports.renderUl = exports.renderLi = exports.renderImage = exports.renderButton = exports.renderSpan = exports.renderDiv = exports.renderElement = undefined;
-
-var _element = __webpack_require__("../node_modules/idom-util/src/element.js");
-
-var _element2 = _interopRequireDefault(_element);
-
-var _div = __webpack_require__("../node_modules/idom-util/src/div.js");
-
-var _div2 = _interopRequireDefault(_div);
-
-var _span = __webpack_require__("../node_modules/idom-util/src/span.js");
-
-var _span2 = _interopRequireDefault(_span);
-
-var _button = __webpack_require__("../node_modules/idom-util/src/button.js");
-
-var _button2 = _interopRequireDefault(_button);
-
-var _image = __webpack_require__("../node_modules/idom-util/src/image.js");
-
-var _image2 = _interopRequireDefault(_image);
-
-var _li = __webpack_require__("../node_modules/idom-util/src/li.js");
-
-var _li2 = _interopRequireDefault(_li);
-
-var _ul = __webpack_require__("../node_modules/idom-util/src/ul.js");
-
-var _ul2 = _interopRequireDefault(_ul);
-
-var _style = __webpack_require__("../node_modules/idom-util/src/style.js");
-
-var _style2 = _interopRequireDefault(_style);
-
-var _strong = __webpack_require__("../node_modules/idom-util/src/strong.js");
-
-var _strong2 = _interopRequireDefault(_strong);
-
-var _pre = __webpack_require__("../node_modules/idom-util/src/pre.js");
-
-var _pre2 = _interopRequireDefault(_pre);
-
-var _h = __webpack_require__("../node_modules/idom-util/src/h3.js");
-
-var _h2 = _interopRequireDefault(_h);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.renderElement = _element2.default;
-exports.renderDiv = _div2.default;
-exports.renderSpan = _span2.default;
-exports.renderButton = _button2.default;
-exports.renderImage = _image2.default;
-exports.renderLi = _li2.default;
-exports.renderUl = _ul2.default;
-exports.renderStyle = _style2.default;
-exports.renderStrong = _strong2.default;
-exports.renderPre = _pre2.default;
-exports.renderH3 = _h2.default;
-
-/***/ }),
-
-/***/ "../node_modules/idom-util/src/li.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _element = __webpack_require__("../node_modules/idom-util/src/element.js");
-
-var _element2 = _interopRequireDefault(_element);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = _element2.default.bind(null, 'li');
-
-/***/ }),
-
-/***/ "../node_modules/idom-util/src/pre.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _element = __webpack_require__("../node_modules/idom-util/src/element.js");
-
-var _element2 = _interopRequireDefault(_element);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = _element2.default.bind(null, 'pre');
-
-/***/ }),
-
-/***/ "../node_modules/idom-util/src/span.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _element = __webpack_require__("../node_modules/idom-util/src/element.js");
-
-var _element2 = _interopRequireDefault(_element);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = _element2.default.bind(null, 'span');
-
-/***/ }),
-
-/***/ "../node_modules/idom-util/src/strong.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _element = __webpack_require__("../node_modules/idom-util/src/element.js");
-
-var _element2 = _interopRequireDefault(_element);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = _element2.default.bind(null, 'strong');
-
-/***/ }),
-
-/***/ "../node_modules/idom-util/src/style.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _element = __webpack_require__("../node_modules/idom-util/src/element.js");
-
-var _element2 = _interopRequireDefault(_element);
-
-var _incrementalDom = __webpack_require__("../node_modules/incremental-dom/dist/incremental-dom-cjs.js");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = function (style) {
-  for (var _len = arguments.length, args = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
-    args[_key - 1] = arguments[_key];
-  }
-
-  return _element2.default.apply(undefined, ['style'].concat(args, [_incrementalDom.text.bind(null, style)]));
-};
-
-/***/ }),
-
-/***/ "../node_modules/idom-util/src/ul.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _element = __webpack_require__("../node_modules/idom-util/src/element.js");
-
-var _element2 = _interopRequireDefault(_element);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = _element2.default.bind(null, 'ul');
-
-/***/ }),
-
-/***/ "../node_modules/incremental-dom/dist/incremental-dom-cjs.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(process) {
-/**
- * @license
- * Copyright 2015 The Incremental DOM Authors. All Rights Reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS-IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-
-
-/**
- * Copyright 2015 The Incremental DOM Authors. All Rights Reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS-IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-/**
- * A cached reference to the hasOwnProperty function.
- */
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-var hasOwnProperty = Object.prototype.hasOwnProperty;
-
-/**
- * A constructor function that will create blank objects.
- * @constructor
- */
-function Blank() {}
-
-Blank.prototype = Object.create(null);
-
-/**
- * Used to prevent property collisions between our "map" and its prototype.
- * @param {!Object<string, *>} map The map to check.
- * @param {string} property The property to check.
- * @return {boolean} Whether map has property.
- */
-var has = function has(map, property) {
-  return hasOwnProperty.call(map, property);
-};
-
-/**
- * Creates an map object without a prototype.
- * @return {!Object}
- */
-var createMap = function createMap() {
-  return new Blank();
-};
-
-/**
- * Keeps track of information needed to perform diffs for a given DOM node.
- * @param {!string} nodeName
- * @param {?string=} key
- * @constructor
- */
-function NodeData(nodeName, key) {
-  /**
-   * The attributes and their values.
-   * @const {!Object<string, *>}
-   */
-  this.attrs = createMap();
-
-  /**
-   * An array of attribute name/value pairs, used for quickly diffing the
-   * incomming attributes to see if the DOM node's attributes need to be
-   * updated.
-   * @const {Array<*>}
-   */
-  this.attrsArr = [];
-
-  /**
-   * The incoming attributes for this Node, before they are updated.
-   * @const {!Object<string, *>}
-   */
-  this.newAttrs = createMap();
-
-  /**
-   * Whether or not the statics have been applied for the node yet.
-   * {boolean}
-   */
-  this.staticsApplied = false;
-
-  /**
-   * The key used to identify this node, used to preserve DOM nodes when they
-   * move within their parent.
-   * @const
-   */
-  this.key = key;
-
-  /**
-   * Keeps track of children within this node by their key.
-   * {!Object<string, !Element>}
-   */
-  this.keyMap = createMap();
-
-  /**
-   * Whether or not the keyMap is currently valid.
-   * @type {boolean}
-   */
-  this.keyMapValid = true;
-
-  /**
-   * Whether or the associated node is, or contains, a focused Element.
-   * @type {boolean}
-   */
-  this.focused = false;
-
-  /**
-   * The node name for this node.
-   * @const {string}
-   */
-  this.nodeName = nodeName;
-
-  /**
-   * @type {?string}
-   */
-  this.text = null;
-}
-
-/**
- * Initializes a NodeData object for a Node.
- *
- * @param {Node} node The node to initialize data for.
- * @param {string} nodeName The node name of node.
- * @param {?string=} key The key that identifies the node.
- * @return {!NodeData} The newly initialized data object
- */
-var initData = function initData(node, nodeName, key) {
-  var data = new NodeData(nodeName, key);
-  node['__incrementalDOMData'] = data;
-  return data;
-};
-
-/**
- * Retrieves the NodeData object for a Node, creating it if necessary.
- *
- * @param {?Node} node The Node to retrieve the data for.
- * @return {!NodeData} The NodeData for this Node.
- */
-var getData = function getData(node) {
-  importNode(node);
-  return node['__incrementalDOMData'];
-};
-
-/**
- * Imports node and its subtree, initializing caches.
- *
- * @param {?Node} node The Node to import.
- */
-var importNode = function importNode(node) {
-  if (node['__incrementalDOMData']) {
-    return;
-  }
-
-  var isElement = node instanceof Element;
-  var nodeName = isElement ? node.localName : node.nodeName;
-  var key = isElement ? node.getAttribute('key') : null;
-  var data = initData(node, nodeName, key);
-
-  if (key) {
-    getData(node.parentNode).keyMap[key] = node;
-  }
-
-  if (isElement) {
-    var attributes = node.attributes;
-    var attrs = data.attrs;
-    var newAttrs = data.newAttrs;
-    var attrsArr = data.attrsArr;
-
-    for (var i = 0; i < attributes.length; i += 1) {
-      var attr = attributes[i];
-      var name = attr.name;
-      var value = attr.value;
-
-      attrs[name] = value;
-      newAttrs[name] = undefined;
-      attrsArr.push(name);
-      attrsArr.push(value);
-    }
-  }
-
-  for (var child = node.firstChild; child; child = child.nextSibling) {
-    importNode(child);
-  }
-};
-
-/**
- * Gets the namespace to create an element (of a given tag) in.
- * @param {string} tag The tag to get the namespace for.
- * @param {?Node} parent
- * @return {?string} The namespace to create the tag in.
- */
-var getNamespaceForTag = function getNamespaceForTag(tag, parent) {
-  if (tag === 'svg') {
-    return 'http://www.w3.org/2000/svg';
-  }
-
-  if (getData(parent).nodeName === 'foreignObject') {
-    return null;
-  }
-
-  return parent.namespaceURI;
-};
-
-/**
- * Creates an Element.
- * @param {Document} doc The document with which to create the Element.
- * @param {?Node} parent
- * @param {string} tag The tag for the Element.
- * @param {?string=} key A key to identify the Element.
- * @return {!Element}
- */
-var createElement = function createElement(doc, parent, tag, key) {
-  var namespace = getNamespaceForTag(tag, parent);
-  var el = undefined;
-
-  if (namespace) {
-    el = doc.createElementNS(namespace, tag);
-  } else {
-    el = doc.createElement(tag);
-  }
-
-  initData(el, tag, key);
-
-  return el;
-};
-
-/**
- * Creates a Text Node.
- * @param {Document} doc The document with which to create the Element.
- * @return {!Text}
- */
-var createText = function createText(doc) {
-  var node = doc.createTextNode('');
-  initData(node, '#text', null);
-  return node;
-};
-
-/**
- * Copyright 2015 The Incremental DOM Authors. All Rights Reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS-IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-/** @const */
-var notifications = {
-  /**
-   * Called after patch has compleated with any Nodes that have been created
-   * and added to the DOM.
-   * @type {?function(Array<!Node>)}
-   */
-  nodesCreated: null,
-
-  /**
-   * Called after patch has compleated with any Nodes that have been removed
-   * from the DOM.
-   * Note it's an applications responsibility to handle any childNodes.
-   * @type {?function(Array<!Node>)}
-   */
-  nodesDeleted: null
-};
-
-/**
- * Keeps track of the state of a patch.
- * @constructor
- */
-function Context() {
-  /**
-   * @type {(Array<!Node>|undefined)}
-   */
-  this.created = notifications.nodesCreated && [];
-
-  /**
-   * @type {(Array<!Node>|undefined)}
-   */
-  this.deleted = notifications.nodesDeleted && [];
-}
-
-/**
- * @param {!Node} node
- */
-Context.prototype.markCreated = function (node) {
-  if (this.created) {
-    this.created.push(node);
-  }
-};
-
-/**
- * @param {!Node} node
- */
-Context.prototype.markDeleted = function (node) {
-  if (this.deleted) {
-    this.deleted.push(node);
-  }
-};
-
-/**
- * Notifies about nodes that were created during the patch opearation.
- */
-Context.prototype.notifyChanges = function () {
-  if (this.created && this.created.length > 0) {
-    notifications.nodesCreated(this.created);
-  }
-
-  if (this.deleted && this.deleted.length > 0) {
-    notifications.nodesDeleted(this.deleted);
-  }
-};
-
-/**
- * Copyright 2015 The Incremental DOM Authors. All Rights Reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS-IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-/**
-  * Keeps track whether or not we are in an attributes declaration (after
-  * elementOpenStart, but before elementOpenEnd).
-  * @type {boolean}
-  */
-var inAttributes = false;
-
-/**
-  * Keeps track whether or not we are in an element that should not have its
-  * children cleared.
-  * @type {boolean}
-  */
-var inSkip = false;
-
-/**
- * Makes sure that there is a current patch context.
- * @param {string} functionName
- * @param {*} context
- */
-var assertInPatch = function assertInPatch(functionName, context) {
-  if (!context) {
-    throw new Error('Cannot call ' + functionName + '() unless in patch.');
-  }
-};
-
-/**
- * Makes sure that a patch closes every node that it opened.
- * @param {?Node} openElement
- * @param {!Node|!DocumentFragment} root
- */
-var assertNoUnclosedTags = function assertNoUnclosedTags(openElement, root) {
-  if (openElement === root) {
-    return;
-  }
-
-  var currentElement = openElement;
-  var openTags = [];
-  while (currentElement && currentElement !== root) {
-    openTags.push(currentElement.nodeName.toLowerCase());
-    currentElement = currentElement.parentNode;
-  }
-
-  throw new Error('One or more tags were not closed:\n' + openTags.join('\n'));
-};
-
-/**
- * Makes sure that the caller is not where attributes are expected.
- * @param {string} functionName
- */
-var assertNotInAttributes = function assertNotInAttributes(functionName) {
-  if (inAttributes) {
-    throw new Error(functionName + '() can not be called between ' + 'elementOpenStart() and elementOpenEnd().');
-  }
-};
-
-/**
- * Makes sure that the caller is not inside an element that has declared skip.
- * @param {string} functionName
- */
-var assertNotInSkip = function assertNotInSkip(functionName) {
-  if (inSkip) {
-    throw new Error(functionName + '() may not be called inside an element ' + 'that has called skip().');
-  }
-};
-
-/**
- * Makes sure that the caller is where attributes are expected.
- * @param {string} functionName
- */
-var assertInAttributes = function assertInAttributes(functionName) {
-  if (!inAttributes) {
-    throw new Error(functionName + '() can only be called after calling ' + 'elementOpenStart().');
-  }
-};
-
-/**
- * Makes sure the patch closes virtual attributes call
- */
-var assertVirtualAttributesClosed = function assertVirtualAttributesClosed() {
-  if (inAttributes) {
-    throw new Error('elementOpenEnd() must be called after calling ' + 'elementOpenStart().');
-  }
-};
-
-/**
-  * Makes sure that tags are correctly nested.
-  * @param {string} nodeName
-  * @param {string} tag
-  */
-var assertCloseMatchesOpenTag = function assertCloseMatchesOpenTag(nodeName, tag) {
-  if (nodeName !== tag) {
-    throw new Error('Received a call to close "' + tag + '" but "' + nodeName + '" was open.');
-  }
-};
-
-/**
- * Makes sure that no children elements have been declared yet in the current
- * element.
- * @param {string} functionName
- * @param {?Node} previousNode
- */
-var assertNoChildrenDeclaredYet = function assertNoChildrenDeclaredYet(functionName, previousNode) {
-  if (previousNode !== null) {
-    throw new Error(functionName + '() must come before any child ' + 'declarations inside the current element.');
-  }
-};
-
-/**
- * Checks that a call to patchOuter actually patched the element.
- * @param {?Node} startNode The value for the currentNode when the patch
- *     started.
- * @param {?Node} currentNode The currentNode when the patch finished.
- * @param {?Node} expectedNextNode The Node that is expected to follow the
- *    currentNode after the patch;
- * @param {?Node} expectedPrevNode The Node that is expected to preceed the
- *    currentNode after the patch.
- */
-var assertPatchElementNoExtras = function assertPatchElementNoExtras(startNode, currentNode, expectedNextNode, expectedPrevNode) {
-  var wasUpdated = currentNode.nextSibling === expectedNextNode && currentNode.previousSibling === expectedPrevNode;
-  var wasChanged = currentNode.nextSibling === startNode.nextSibling && currentNode.previousSibling === expectedPrevNode;
-  var wasRemoved = currentNode === startNode;
-
-  if (!wasUpdated && !wasChanged && !wasRemoved) {
-    throw new Error('There must be exactly one top level call corresponding ' + 'to the patched element.');
-  }
-};
-
-/**
- * Updates the state of being in an attribute declaration.
- * @param {boolean} value
- * @return {boolean} the previous value.
- */
-var setInAttributes = function setInAttributes(value) {
-  var previous = inAttributes;
-  inAttributes = value;
-  return previous;
-};
-
-/**
- * Updates the state of being in a skip element.
- * @param {boolean} value
- * @return {boolean} the previous value.
- */
-var setInSkip = function setInSkip(value) {
-  var previous = inSkip;
-  inSkip = value;
-  return previous;
-};
-
-/**
- * Copyright 2016 The Incremental DOM Authors. All Rights Reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS-IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-/**
- * @param {!Node} node
- * @return {boolean} True if the node the root of a document, false otherwise.
- */
-var isDocumentRoot = function isDocumentRoot(node) {
-  // For ShadowRoots, check if they are a DocumentFragment instead of if they
-  // are a ShadowRoot so that this can work in 'use strict' if ShadowRoots are
-  // not supported.
-  return node instanceof Document || node instanceof DocumentFragment;
-};
-
-/**
- * @param {!Node} node The node to start at, inclusive.
- * @param {?Node} root The root ancestor to get until, exclusive.
- * @return {!Array<!Node>} The ancestry of DOM nodes.
- */
-var getAncestry = function getAncestry(node, root) {
-  var ancestry = [];
-  var cur = node;
-
-  while (cur !== root) {
-    ancestry.push(cur);
-    cur = cur.parentNode;
-  }
-
-  return ancestry;
-};
-
-/**
- * @param {!Node} node
- * @return {!Node} The root node of the DOM tree that contains node.
- */
-var getRoot = function getRoot(node) {
-  var cur = node;
-  var prev = cur;
-
-  while (cur) {
-    prev = cur;
-    cur = cur.parentNode;
-  }
-
-  return prev;
-};
-
-/**
- * @param {!Node} node The node to get the activeElement for.
- * @return {?Element} The activeElement in the Document or ShadowRoot
- *     corresponding to node, if present.
- */
-var getActiveElement = function getActiveElement(node) {
-  var root = getRoot(node);
-  return isDocumentRoot(root) ? root.activeElement : null;
-};
-
-/**
- * Gets the path of nodes that contain the focused node in the same document as
- * a reference node, up until the root.
- * @param {!Node} node The reference node to get the activeElement for.
- * @param {?Node} root The root to get the focused path until.
- * @return {!Array<Node>}
- */
-var getFocusedPath = function getFocusedPath(node, root) {
-  var activeElement = getActiveElement(node);
-
-  if (!activeElement || !node.contains(activeElement)) {
-    return [];
-  }
-
-  return getAncestry(activeElement, root);
-};
-
-/**
- * Like insertBefore, but instead instead of moving the desired node, instead
- * moves all the other nodes after.
- * @param {?Node} parentNode
- * @param {!Node} node
- * @param {?Node} referenceNode
- */
-var moveBefore = function moveBefore(parentNode, node, referenceNode) {
-  var insertReferenceNode = node.nextSibling;
-  var cur = referenceNode;
-
-  while (cur !== node) {
-    var next = cur.nextSibling;
-    parentNode.insertBefore(cur, insertReferenceNode);
-    cur = next;
-  }
-};
-
-/** @type {?Context} */
-var context = null;
-
-/** @type {?Node} */
-var currentNode = null;
-
-/** @type {?Node} */
-var currentParent = null;
-
-/** @type {?Document} */
-var doc = null;
-
-/**
- * @param {!Array<Node>} focusPath The nodes to mark.
- * @param {boolean} focused Whether or not they are focused.
- */
-var markFocused = function markFocused(focusPath, focused) {
-  for (var i = 0; i < focusPath.length; i += 1) {
-    getData(focusPath[i]).focused = focused;
-  }
-};
-
-/**
- * Returns a patcher function that sets up and restores a patch context,
- * running the run function with the provided data.
- * @param {function((!Element|!DocumentFragment),!function(T),T=): ?Node} run
- * @return {function((!Element|!DocumentFragment),!function(T),T=): ?Node}
- * @template T
- */
-var patchFactory = function patchFactory(run) {
-  /**
-   * TODO(moz): These annotations won't be necessary once we switch to Closure
-   * Compiler's new type inference. Remove these once the switch is done.
-   *
-   * @param {(!Element|!DocumentFragment)} node
-   * @param {!function(T)} fn
-   * @param {T=} data
-   * @return {?Node} node
-   * @template T
-   */
-  var f = function f(node, fn, data) {
-    var prevContext = context;
-    var prevDoc = doc;
-    var prevCurrentNode = currentNode;
-    var prevCurrentParent = currentParent;
-    var previousInAttributes = false;
-    var previousInSkip = false;
-
-    context = new Context();
-    doc = node.ownerDocument;
-    currentParent = node.parentNode;
-
-    if (process.env.NODE_ENV !== 'production') {
-      previousInAttributes = setInAttributes(false);
-      previousInSkip = setInSkip(false);
-    }
-
-    var focusPath = getFocusedPath(node, currentParent);
-    markFocused(focusPath, true);
-    var retVal = run(node, fn, data);
-    markFocused(focusPath, false);
-
-    if (process.env.NODE_ENV !== 'production') {
-      assertVirtualAttributesClosed();
-      setInAttributes(previousInAttributes);
-      setInSkip(previousInSkip);
-    }
-
-    context.notifyChanges();
-
-    context = prevContext;
-    doc = prevDoc;
-    currentNode = prevCurrentNode;
-    currentParent = prevCurrentParent;
-
-    return retVal;
-  };
-  return f;
-};
-
-/**
- * Patches the document starting at node with the provided function. This
- * function may be called during an existing patch operation.
- * @param {!Element|!DocumentFragment} node The Element or Document
- *     to patch.
- * @param {!function(T)} fn A function containing elementOpen/elementClose/etc.
- *     calls that describe the DOM.
- * @param {T=} data An argument passed to fn to represent DOM state.
- * @return {!Node} The patched node.
- * @template T
- */
-var patchInner = patchFactory(function (node, fn, data) {
-  currentNode = node;
-
-  enterNode();
-  fn(data);
-  exitNode();
-
-  if (process.env.NODE_ENV !== 'production') {
-    assertNoUnclosedTags(currentNode, node);
-  }
-
-  return node;
-});
-
-/**
- * Patches an Element with the the provided function. Exactly one top level
- * element call should be made corresponding to `node`.
- * @param {!Element} node The Element where the patch should start.
- * @param {!function(T)} fn A function containing elementOpen/elementClose/etc.
- *     calls that describe the DOM. This should have at most one top level
- *     element call.
- * @param {T=} data An argument passed to fn to represent DOM state.
- * @return {?Node} The node if it was updated, its replacedment or null if it
- *     was removed.
- * @template T
- */
-var patchOuter = patchFactory(function (node, fn, data) {
-  var startNode = /** @type {!Element} */{ nextSibling: node };
-  var expectedNextNode = null;
-  var expectedPrevNode = null;
-
-  if (process.env.NODE_ENV !== 'production') {
-    expectedNextNode = node.nextSibling;
-    expectedPrevNode = node.previousSibling;
-  }
-
-  currentNode = startNode;
-  fn(data);
-
-  if (process.env.NODE_ENV !== 'production') {
-    assertPatchElementNoExtras(startNode, currentNode, expectedNextNode, expectedPrevNode);
-  }
-
-  if (node !== currentNode && node.parentNode) {
-    removeChild(currentParent, node, getData(currentParent).keyMap);
-  }
-
-  return startNode === currentNode ? null : currentNode;
-});
-
-/**
- * Checks whether or not the current node matches the specified nodeName and
- * key.
- *
- * @param {!Node} matchNode A node to match the data to.
- * @param {?string} nodeName The nodeName for this node.
- * @param {?string=} key An optional key that identifies a node.
- * @return {boolean} True if the node matches, false otherwise.
- */
-var matches = function matches(matchNode, nodeName, key) {
-  var data = getData(matchNode);
-
-  // Key check is done using double equals as we want to treat a null key the
-  // same as undefined. This should be okay as the only values allowed are
-  // strings, null and undefined so the == semantics are not too weird.
-  return nodeName === data.nodeName && key == data.key;
-};
-
-/**
- * Aligns the virtual Element definition with the actual DOM, moving the
- * corresponding DOM node to the correct location or creating it if necessary.
- * @param {string} nodeName For an Element, this should be a valid tag string.
- *     For a Text, this should be #text.
- * @param {?string=} key The key used to identify this element.
- */
-var alignWithDOM = function alignWithDOM(nodeName, key) {
-  if (currentNode && matches(currentNode, nodeName, key)) {
-    return;
-  }
-
-  var parentData = getData(currentParent);
-  var currentNodeData = currentNode && getData(currentNode);
-  var keyMap = parentData.keyMap;
-  var node = undefined;
-
-  // Check to see if the node has moved within the parent.
-  if (key) {
-    var keyNode = keyMap[key];
-    if (keyNode) {
-      if (matches(keyNode, nodeName, key)) {
-        node = keyNode;
-      } else if (keyNode === currentNode) {
-        context.markDeleted(keyNode);
-      } else {
-        removeChild(currentParent, keyNode, keyMap);
-      }
-    }
-  }
-
-  // Create the node if it doesn't exist.
-  if (!node) {
-    if (nodeName === '#text') {
-      node = createText(doc);
-    } else {
-      node = createElement(doc, currentParent, nodeName, key);
-    }
-
-    if (key) {
-      keyMap[key] = node;
-    }
-
-    context.markCreated(node);
-  }
-
-  // Re-order the node into the right position, preserving focus if either
-  // node or currentNode are focused by making sure that they are not detached
-  // from the DOM.
-  if (getData(node).focused) {
-    // Move everything else before the node.
-    moveBefore(currentParent, node, currentNode);
-  } else if (currentNodeData && currentNodeData.key && !currentNodeData.focused) {
-    // Remove the currentNode, which can always be added back since we hold a
-    // reference through the keyMap. This prevents a large number of moves when
-    // a keyed item is removed or moved backwards in the DOM.
-    currentParent.replaceChild(node, currentNode);
-    parentData.keyMapValid = false;
-  } else {
-    currentParent.insertBefore(node, currentNode);
-  }
-
-  currentNode = node;
-};
-
-/**
- * @param {?Node} node
- * @param {?Node} child
- * @param {?Object<string, !Element>} keyMap
- */
-var removeChild = function removeChild(node, child, keyMap) {
-  node.removeChild(child);
-  context.markDeleted( /** @type {!Node}*/child);
-
-  var key = getData(child).key;
-  if (key) {
-    delete keyMap[key];
-  }
-};
-
-/**
- * Clears out any unvisited Nodes, as the corresponding virtual element
- * functions were never called for them.
- */
-var clearUnvisitedDOM = function clearUnvisitedDOM() {
-  var node = currentParent;
-  var data = getData(node);
-  var keyMap = data.keyMap;
-  var keyMapValid = data.keyMapValid;
-  var child = node.lastChild;
-  var key = undefined;
-
-  if (child === currentNode && keyMapValid) {
-    return;
-  }
-
-  while (child !== currentNode) {
-    removeChild(node, child, keyMap);
-    child = node.lastChild;
-  }
-
-  // Clean the keyMap, removing any unusued keys.
-  if (!keyMapValid) {
-    for (key in keyMap) {
-      child = keyMap[key];
-      if (child.parentNode !== node) {
-        context.markDeleted(child);
-        delete keyMap[key];
-      }
-    }
-
-    data.keyMapValid = true;
-  }
-};
-
-/**
- * Changes to the first child of the current node.
- */
-var enterNode = function enterNode() {
-  currentParent = currentNode;
-  currentNode = null;
-};
-
-/**
- * @return {?Node} The next Node to be patched.
- */
-var getNextNode = function getNextNode() {
-  if (currentNode) {
-    return currentNode.nextSibling;
-  } else {
-    return currentParent.firstChild;
-  }
-};
-
-/**
- * Changes to the next sibling of the current node.
- */
-var nextNode = function nextNode() {
-  currentNode = getNextNode();
-};
-
-/**
- * Changes to the parent of the current node, removing any unvisited children.
- */
-var exitNode = function exitNode() {
-  clearUnvisitedDOM();
-
-  currentNode = currentParent;
-  currentParent = currentParent.parentNode;
-};
-
-/**
- * Makes sure that the current node is an Element with a matching tagName and
- * key.
- *
- * @param {string} tag The element's tag.
- * @param {?string=} key The key used to identify this element. This can be an
- *     empty string, but performance may be better if a unique value is used
- *     when iterating over an array of items.
- * @return {!Element} The corresponding Element.
- */
-var coreElementOpen = function coreElementOpen(tag, key) {
-  nextNode();
-  alignWithDOM(tag, key);
-  enterNode();
-  return (/** @type {!Element} */currentParent
-  );
-};
-
-/**
- * Closes the currently open Element, removing any unvisited children if
- * necessary.
- *
- * @return {!Element} The corresponding Element.
- */
-var coreElementClose = function coreElementClose() {
-  if (process.env.NODE_ENV !== 'production') {
-    setInSkip(false);
-  }
-
-  exitNode();
-  return (/** @type {!Element} */currentNode
-  );
-};
-
-/**
- * Makes sure the current node is a Text node and creates a Text node if it is
- * not.
- *
- * @return {!Text} The corresponding Text Node.
- */
-var coreText = function coreText() {
-  nextNode();
-  alignWithDOM('#text', null);
-  return (/** @type {!Text} */currentNode
-  );
-};
-
-/**
- * Gets the current Element being patched.
- * @return {!Element}
- */
-var currentElement = function currentElement() {
-  if (process.env.NODE_ENV !== 'production') {
-    assertInPatch('currentElement', context);
-    assertNotInAttributes('currentElement');
-  }
-  return (/** @type {!Element} */currentParent
-  );
-};
-
-/**
- * @return {Node} The Node that will be evaluated for the next instruction.
- */
-var currentPointer = function currentPointer() {
-  if (process.env.NODE_ENV !== 'production') {
-    assertInPatch('currentPointer', context);
-    assertNotInAttributes('currentPointer');
-  }
-  return getNextNode();
-};
-
-/**
- * Skips the children in a subtree, allowing an Element to be closed without
- * clearing out the children.
- */
-var skip = function skip() {
-  if (process.env.NODE_ENV !== 'production') {
-    assertNoChildrenDeclaredYet('skip', currentNode);
-    setInSkip(true);
-  }
-  currentNode = currentParent.lastChild;
-};
-
-/**
- * Skips the next Node to be patched, moving the pointer forward to the next
- * sibling of the current pointer.
- */
-var skipNode = nextNode;
-
-/**
- * Copyright 2015 The Incremental DOM Authors. All Rights Reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS-IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-/** @const */
-var symbols = {
-  default: '__default'
-};
-
-/**
- * @param {string} name
- * @return {string|undefined} The namespace to use for the attribute.
- */
-var getNamespace = function getNamespace(name) {
-  if (name.lastIndexOf('xml:', 0) === 0) {
-    return 'http://www.w3.org/XML/1998/namespace';
-  }
-
-  if (name.lastIndexOf('xlink:', 0) === 0) {
-    return 'http://www.w3.org/1999/xlink';
-  }
-};
-
-/**
- * Applies an attribute or property to a given Element. If the value is null
- * or undefined, it is removed from the Element. Otherwise, the value is set
- * as an attribute.
- * @param {!Element} el
- * @param {string} name The attribute's name.
- * @param {?(boolean|number|string)=} value The attribute's value.
- */
-var applyAttr = function applyAttr(el, name, value) {
-  if (value == null) {
-    el.removeAttribute(name);
-  } else {
-    var attrNS = getNamespace(name);
-    if (attrNS) {
-      el.setAttributeNS(attrNS, name, value);
-    } else {
-      el.setAttribute(name, value);
-    }
-  }
-};
-
-/**
- * Applies a property to a given Element.
- * @param {!Element} el
- * @param {string} name The property's name.
- * @param {*} value The property's value.
- */
-var applyProp = function applyProp(el, name, value) {
-  el[name] = value;
-};
-
-/**
- * Applies a value to a style declaration. Supports CSS custom properties by
- * setting properties containing a dash using CSSStyleDeclaration.setProperty.
- * @param {CSSStyleDeclaration} style
- * @param {!string} prop
- * @param {*} value
- */
-var setStyleValue = function setStyleValue(style, prop, value) {
-  if (prop.indexOf('-') >= 0) {
-    style.setProperty(prop, /** @type {string} */value);
-  } else {
-    style[prop] = value;
-  }
-};
-
-/**
- * Applies a style to an Element. No vendor prefix expansion is done for
- * property names/values.
- * @param {!Element} el
- * @param {string} name The attribute's name.
- * @param {*} style The style to set. Either a string of css or an object
- *     containing property-value pairs.
- */
-var applyStyle = function applyStyle(el, name, style) {
-  if (typeof style === 'string') {
-    el.style.cssText = style;
-  } else {
-    el.style.cssText = '';
-    var elStyle = el.style;
-    var obj = /** @type {!Object<string,string>} */style;
-
-    for (var prop in obj) {
-      if (has(obj, prop)) {
-        setStyleValue(elStyle, prop, obj[prop]);
-      }
-    }
-  }
-};
-
-/**
- * Updates a single attribute on an Element.
- * @param {!Element} el
- * @param {string} name The attribute's name.
- * @param {*} value The attribute's value. If the value is an object or
- *     function it is set on the Element, otherwise, it is set as an HTML
- *     attribute.
- */
-var applyAttributeTyped = function applyAttributeTyped(el, name, value) {
-  var type = typeof value === 'undefined' ? 'undefined' : _typeof(value);
-
-  if (type === 'object' || type === 'function') {
-    applyProp(el, name, value);
-  } else {
-    applyAttr(el, name, /** @type {?(boolean|number|string)} */value);
-  }
-};
-
-/**
- * Calls the appropriate attribute mutator for this attribute.
- * @param {!Element} el
- * @param {string} name The attribute's name.
- * @param {*} value The attribute's value.
- */
-var updateAttribute = function updateAttribute(el, name, value) {
-  var data = getData(el);
-  var attrs = data.attrs;
-
-  if (attrs[name] === value) {
-    return;
-  }
-
-  var mutator = attributes[name] || attributes[symbols.default];
-  mutator(el, name, value);
-
-  attrs[name] = value;
-};
-
-/**
- * A publicly mutable object to provide custom mutators for attributes.
- * @const {!Object<string, function(!Element, string, *)>}
- */
-var attributes = createMap();
-
-// Special generic mutator that's called for any attribute that does not
-// have a specific mutator.
-attributes[symbols.default] = applyAttributeTyped;
-
-attributes['style'] = applyStyle;
-
-/**
- * The offset in the virtual element declaration where the attributes are
- * specified.
- * @const
- */
-var ATTRIBUTES_OFFSET = 3;
-
-/**
- * Builds an array of arguments for use with elementOpenStart, attr and
- * elementOpenEnd.
- * @const {Array<*>}
- */
-var argsBuilder = [];
-
-/**
- * @param {string} tag The element's tag.
- * @param {?string=} key The key used to identify this element. This can be an
- *     empty string, but performance may be better if a unique value is used
- *     when iterating over an array of items.
- * @param {?Array<*>=} statics An array of attribute name/value pairs of the
- *     static attributes for the Element. These will only be set once when the
- *     Element is created.
- * @param {...*} var_args, Attribute name/value pairs of the dynamic attributes
- *     for the Element.
- * @return {!Element} The corresponding Element.
- */
-var elementOpen = function elementOpen(tag, key, statics, var_args) {
-  if (process.env.NODE_ENV !== 'production') {
-    assertNotInAttributes('elementOpen');
-    assertNotInSkip('elementOpen');
-  }
-
-  var node = coreElementOpen(tag, key);
-  var data = getData(node);
-
-  if (!data.staticsApplied) {
-    if (statics) {
-      for (var _i = 0; _i < statics.length; _i += 2) {
-        var name = /** @type {string} */statics[_i];
-        var value = statics[_i + 1];
-        updateAttribute(node, name, value);
-      }
-    }
-    // Down the road, we may want to keep track of the statics array to use it
-    // as an additional signal about whether a node matches or not. For now,
-    // just use a marker so that we do not reapply statics.
-    data.staticsApplied = true;
-  }
-
-  /*
-   * Checks to see if one or more attributes have changed for a given Element.
-   * When no attributes have changed, this is much faster than checking each
-   * individual argument. When attributes have changed, the overhead of this is
-   * minimal.
-   */
-  var attrsArr = data.attrsArr;
-  var newAttrs = data.newAttrs;
-  var isNew = !attrsArr.length;
-  var i = ATTRIBUTES_OFFSET;
-  var j = 0;
-
-  for (; i < arguments.length; i += 2, j += 2) {
-    var _attr = arguments[i];
-    if (isNew) {
-      attrsArr[j] = _attr;
-      newAttrs[_attr] = undefined;
-    } else if (attrsArr[j] !== _attr) {
-      break;
-    }
-
-    var value = arguments[i + 1];
-    if (isNew || attrsArr[j + 1] !== value) {
-      attrsArr[j + 1] = value;
-      updateAttribute(node, _attr, value);
-    }
-  }
-
-  if (i < arguments.length || j < attrsArr.length) {
-    for (; i < arguments.length; i += 1, j += 1) {
-      attrsArr[j] = arguments[i];
-    }
-
-    if (j < attrsArr.length) {
-      attrsArr.length = j;
-    }
-
-    /*
-     * Actually perform the attribute update.
-     */
-    for (i = 0; i < attrsArr.length; i += 2) {
-      var name = /** @type {string} */attrsArr[i];
-      var value = attrsArr[i + 1];
-      newAttrs[name] = value;
-    }
-
-    for (var _attr2 in newAttrs) {
-      updateAttribute(node, _attr2, newAttrs[_attr2]);
-      newAttrs[_attr2] = undefined;
-    }
-  }
-
-  return node;
-};
-
-/**
- * Declares a virtual Element at the current location in the document. This
- * corresponds to an opening tag and a elementClose tag is required. This is
- * like elementOpen, but the attributes are defined using the attr function
- * rather than being passed as arguments. Must be folllowed by 0 or more calls
- * to attr, then a call to elementOpenEnd.
- * @param {string} tag The element's tag.
- * @param {?string=} key The key used to identify this element. This can be an
- *     empty string, but performance may be better if a unique value is used
- *     when iterating over an array of items.
- * @param {?Array<*>=} statics An array of attribute name/value pairs of the
- *     static attributes for the Element. These will only be set once when the
- *     Element is created.
- */
-var elementOpenStart = function elementOpenStart(tag, key, statics) {
-  if (process.env.NODE_ENV !== 'production') {
-    assertNotInAttributes('elementOpenStart');
-    setInAttributes(true);
-  }
-
-  argsBuilder[0] = tag;
-  argsBuilder[1] = key;
-  argsBuilder[2] = statics;
-};
-
-/***
- * Defines a virtual attribute at this point of the DOM. This is only valid
- * when called between elementOpenStart and elementOpenEnd.
- *
- * @param {string} name
- * @param {*} value
- */
-var attr = function attr(name, value) {
-  if (process.env.NODE_ENV !== 'production') {
-    assertInAttributes('attr');
-  }
-
-  argsBuilder.push(name);
-  argsBuilder.push(value);
-};
-
-/**
- * Closes an open tag started with elementOpenStart.
- * @return {!Element} The corresponding Element.
- */
-var elementOpenEnd = function elementOpenEnd() {
-  if (process.env.NODE_ENV !== 'production') {
-    assertInAttributes('elementOpenEnd');
-    setInAttributes(false);
-  }
-
-  var node = elementOpen.apply(null, argsBuilder);
-  argsBuilder.length = 0;
-  return node;
-};
-
-/**
- * Closes an open virtual Element.
- *
- * @param {string} tag The element's tag.
- * @return {!Element} The corresponding Element.
- */
-var elementClose = function elementClose(tag) {
-  if (process.env.NODE_ENV !== 'production') {
-    assertNotInAttributes('elementClose');
-  }
-
-  var node = coreElementClose();
-
-  if (process.env.NODE_ENV !== 'production') {
-    assertCloseMatchesOpenTag(getData(node).nodeName, tag);
-  }
-
-  return node;
-};
-
-/**
- * Declares a virtual Element at the current location in the document that has
- * no children.
- * @param {string} tag The element's tag.
- * @param {?string=} key The key used to identify this element. This can be an
- *     empty string, but performance may be better if a unique value is used
- *     when iterating over an array of items.
- * @param {?Array<*>=} statics An array of attribute name/value pairs of the
- *     static attributes for the Element. These will only be set once when the
- *     Element is created.
- * @param {...*} var_args Attribute name/value pairs of the dynamic attributes
- *     for the Element.
- * @return {!Element} The corresponding Element.
- */
-var elementVoid = function elementVoid(tag, key, statics, var_args) {
-  elementOpen.apply(null, arguments);
-  return elementClose(tag);
-};
-
-/**
- * Declares a virtual Text at this point in the document.
- *
- * @param {string|number|boolean} value The value of the Text.
- * @param {...(function((string|number|boolean)):string)} var_args
- *     Functions to format the value which are called only when the value has
- *     changed.
- * @return {!Text} The corresponding text node.
- */
-var text = function text(value, var_args) {
-  if (process.env.NODE_ENV !== 'production') {
-    assertNotInAttributes('text');
-    assertNotInSkip('text');
-  }
-
-  var node = coreText();
-  var data = getData(node);
-
-  if (data.text !== value) {
-    data.text = /** @type {string} */value;
-
-    var formatted = value;
-    for (var i = 1; i < arguments.length; i += 1) {
-      /*
-       * Call the formatter function directly to prevent leaking arguments.
-       * https://github.com/google/incremental-dom/pull/204#issuecomment-178223574
-       */
-      var fn = arguments[i];
-      formatted = fn(formatted);
-    }
-
-    node.data = formatted;
-  }
-
-  return node;
-};
-
-exports.patch = patchInner;
-exports.patchInner = patchInner;
-exports.patchOuter = patchOuter;
-exports.currentElement = currentElement;
-exports.currentPointer = currentPointer;
-exports.skip = skip;
-exports.skipNode = skipNode;
-exports.elementVoid = elementVoid;
-exports.elementOpenStart = elementOpenStart;
-exports.elementOpenEnd = elementOpenEnd;
-exports.elementOpen = elementOpen;
-exports.elementClose = elementClose;
-exports.text = text;
-exports.attr = attr;
-exports.symbols = symbols;
-exports.attributes = attributes;
-exports.applyAttr = applyAttr;
-exports.applyProp = applyProp;
-exports.notifications = notifications;
-exports.importNode = importNode;
-
-//# sourceMappingURL=incremental-dom-cjs.js.map
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__("../node_modules/process/browser.js")))
-
-/***/ }),
-
 /***/ "../node_modules/lodash.throttle/index.js":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10409,6 +9187,397 @@ module.exports = throttle;
 
 /***/ }),
 
+/***/ "../node_modules/object-keys/index.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+// modified from https://github.com/es-shims/es5-shim
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+var has = Object.prototype.hasOwnProperty;
+var toStr = Object.prototype.toString;
+var slice = Array.prototype.slice;
+var isArgs = __webpack_require__("../node_modules/object-keys/isArguments.js");
+var isEnumerable = Object.prototype.propertyIsEnumerable;
+var hasDontEnumBug = !isEnumerable.call({ toString: null }, 'toString');
+var hasProtoEnumBug = isEnumerable.call(function () {}, 'prototype');
+var dontEnums = ['toString', 'toLocaleString', 'valueOf', 'hasOwnProperty', 'isPrototypeOf', 'propertyIsEnumerable', 'constructor'];
+var equalsConstructorPrototype = function equalsConstructorPrototype(o) {
+	var ctor = o.constructor;
+	return ctor && ctor.prototype === o;
+};
+var excludedKeys = {
+	$console: true,
+	$external: true,
+	$frame: true,
+	$frameElement: true,
+	$frames: true,
+	$innerHeight: true,
+	$innerWidth: true,
+	$outerHeight: true,
+	$outerWidth: true,
+	$pageXOffset: true,
+	$pageYOffset: true,
+	$parent: true,
+	$scrollLeft: true,
+	$scrollTop: true,
+	$scrollX: true,
+	$scrollY: true,
+	$self: true,
+	$webkitIndexedDB: true,
+	$webkitStorageInfo: true,
+	$window: true
+};
+var hasAutomationEqualityBug = function () {
+	/* global window */
+	if (typeof window === 'undefined') {
+		return false;
+	}
+	for (var k in window) {
+		try {
+			if (!excludedKeys['$' + k] && has.call(window, k) && window[k] !== null && _typeof(window[k]) === 'object') {
+				try {
+					equalsConstructorPrototype(window[k]);
+				} catch (e) {
+					return true;
+				}
+			}
+		} catch (e) {
+			return true;
+		}
+	}
+	return false;
+}();
+var equalsConstructorPrototypeIfNotBuggy = function equalsConstructorPrototypeIfNotBuggy(o) {
+	/* global window */
+	if (typeof window === 'undefined' || !hasAutomationEqualityBug) {
+		return equalsConstructorPrototype(o);
+	}
+	try {
+		return equalsConstructorPrototype(o);
+	} catch (e) {
+		return false;
+	}
+};
+
+var keysShim = function keys(object) {
+	var isObject = object !== null && (typeof object === 'undefined' ? 'undefined' : _typeof(object)) === 'object';
+	var isFunction = toStr.call(object) === '[object Function]';
+	var isArguments = isArgs(object);
+	var isString = isObject && toStr.call(object) === '[object String]';
+	var theKeys = [];
+
+	if (!isObject && !isFunction && !isArguments) {
+		throw new TypeError('Object.keys called on a non-object');
+	}
+
+	var skipProto = hasProtoEnumBug && isFunction;
+	if (isString && object.length > 0 && !has.call(object, 0)) {
+		for (var i = 0; i < object.length; ++i) {
+			theKeys.push(String(i));
+		}
+	}
+
+	if (isArguments && object.length > 0) {
+		for (var j = 0; j < object.length; ++j) {
+			theKeys.push(String(j));
+		}
+	} else {
+		for (var name in object) {
+			if (!(skipProto && name === 'prototype') && has.call(object, name)) {
+				theKeys.push(String(name));
+			}
+		}
+	}
+
+	if (hasDontEnumBug) {
+		var skipConstructor = equalsConstructorPrototypeIfNotBuggy(object);
+
+		for (var k = 0; k < dontEnums.length; ++k) {
+			if (!(skipConstructor && dontEnums[k] === 'constructor') && has.call(object, dontEnums[k])) {
+				theKeys.push(dontEnums[k]);
+			}
+		}
+	}
+	return theKeys;
+};
+
+keysShim.shim = function shimObjectKeys() {
+	if (Object.keys) {
+		var keysWorksWithArguments = function () {
+			// Safari 5.0 bug
+			return (Object.keys(arguments) || '').length === 2;
+		}(1, 2);
+		if (!keysWorksWithArguments) {
+			var originalKeys = Object.keys;
+			Object.keys = function keys(object) {
+				if (isArgs(object)) {
+					return originalKeys(slice.call(object));
+				} else {
+					return originalKeys(object);
+				}
+			};
+		}
+	} else {
+		Object.keys = keysShim;
+	}
+	return Object.keys || keysShim;
+};
+
+module.exports = keysShim;
+
+/***/ }),
+
+/***/ "../node_modules/object-keys/isArguments.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+var toStr = Object.prototype.toString;
+
+module.exports = function isArguments(value) {
+	var str = toStr.call(value);
+	var isArgs = str === '[object Arguments]';
+	if (!isArgs) {
+		isArgs = str !== '[object Array]' && value !== null && (typeof value === 'undefined' ? 'undefined' : _typeof(value)) === 'object' && typeof value.length === 'number' && value.length >= 0 && toStr.call(value.callee) === '[object Function]';
+	}
+	return isArgs;
+};
+
+/***/ }),
+
+/***/ "../node_modules/object.assign/hasSymbols.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+var keys = __webpack_require__("../node_modules/object-keys/index.js");
+
+module.exports = function hasSymbols() {
+	if (typeof Symbol !== 'function' || typeof Object.getOwnPropertySymbols !== 'function') {
+		return false;
+	}
+	if (_typeof(Symbol.iterator) === 'symbol') {
+		return true;
+	}
+
+	var obj = {};
+	var sym = Symbol('test');
+	var symObj = Object(sym);
+	if (typeof sym === 'string') {
+		return false;
+	}
+
+	if (Object.prototype.toString.call(sym) !== '[object Symbol]') {
+		return false;
+	}
+	if (Object.prototype.toString.call(symObj) !== '[object Symbol]') {
+		return false;
+	}
+
+	// temp disabled per https://github.com/ljharb/object.assign/issues/17
+	// if (sym instanceof Symbol) { return false; }
+	// temp disabled per https://github.com/WebReflection/get-own-property-symbols/issues/4
+	// if (!(symObj instanceof Symbol)) { return false; }
+
+	var symVal = 42;
+	obj[sym] = symVal;
+	for (sym in obj) {
+		return false;
+	}
+	if (keys(obj).length !== 0) {
+		return false;
+	}
+	if (typeof Object.keys === 'function' && Object.keys(obj).length !== 0) {
+		return false;
+	}
+
+	if (typeof Object.getOwnPropertyNames === 'function' && Object.getOwnPropertyNames(obj).length !== 0) {
+		return false;
+	}
+
+	var syms = Object.getOwnPropertySymbols(obj);
+	if (syms.length !== 1 || syms[0] !== sym) {
+		return false;
+	}
+
+	if (!Object.prototype.propertyIsEnumerable.call(obj, sym)) {
+		return false;
+	}
+
+	if (typeof Object.getOwnPropertyDescriptor === 'function') {
+		var descriptor = Object.getOwnPropertyDescriptor(obj, sym);
+		if (descriptor.value !== symVal || descriptor.enumerable !== true) {
+			return false;
+		}
+	}
+
+	return true;
+};
+
+/***/ }),
+
+/***/ "../node_modules/object.assign/implementation.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+// modified from https://github.com/es-shims/es6-shim
+
+var keys = __webpack_require__("../node_modules/object-keys/index.js");
+var bind = __webpack_require__("../node_modules/function-bind/index.js");
+var canBeObject = function canBeObject(obj) {
+	return typeof obj !== 'undefined' && obj !== null;
+};
+var hasSymbols = __webpack_require__("../node_modules/object.assign/hasSymbols.js")();
+var toObject = Object;
+var push = bind.call(Function.call, Array.prototype.push);
+var propIsEnumerable = bind.call(Function.call, Object.prototype.propertyIsEnumerable);
+var originalGetSymbols = hasSymbols ? Object.getOwnPropertySymbols : null;
+
+module.exports = function assign(target, source1) {
+	if (!canBeObject(target)) {
+		throw new TypeError('target must be an object');
+	}
+	var objTarget = toObject(target);
+	var s, source, i, props, syms, value, key;
+	for (s = 1; s < arguments.length; ++s) {
+		source = toObject(arguments[s]);
+		props = keys(source);
+		var getSymbols = hasSymbols && (Object.getOwnPropertySymbols || originalGetSymbols);
+		if (getSymbols) {
+			syms = getSymbols(source);
+			for (i = 0; i < syms.length; ++i) {
+				key = syms[i];
+				if (propIsEnumerable(source, key)) {
+					push(props, key);
+				}
+			}
+		}
+		for (i = 0; i < props.length; ++i) {
+			key = props[i];
+			value = source[key];
+			if (propIsEnumerable(source, key)) {
+				objTarget[key] = value;
+			}
+		}
+	}
+	return objTarget;
+};
+
+/***/ }),
+
+/***/ "../node_modules/object.assign/index.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var defineProperties = __webpack_require__("../node_modules/define-properties/index.js");
+
+var implementation = __webpack_require__("../node_modules/object.assign/implementation.js");
+var getPolyfill = __webpack_require__("../node_modules/object.assign/polyfill.js");
+var shim = __webpack_require__("../node_modules/object.assign/shim.js");
+
+var polyfill = getPolyfill();
+
+defineProperties(polyfill, {
+	implementation: implementation,
+	getPolyfill: getPolyfill,
+	shim: shim
+});
+
+module.exports = polyfill;
+
+/***/ }),
+
+/***/ "../node_modules/object.assign/polyfill.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var implementation = __webpack_require__("../node_modules/object.assign/implementation.js");
+
+var lacksProperEnumerationOrder = function lacksProperEnumerationOrder() {
+	if (!Object.assign) {
+		return false;
+	}
+	// v8, specifically in node 4.x, has a bug with incorrect property enumeration order
+	// note: this does not detect the bug unless there's 20 characters
+	var str = 'abcdefghijklmnopqrst';
+	var letters = str.split('');
+	var map = {};
+	for (var i = 0; i < letters.length; ++i) {
+		map[letters[i]] = letters[i];
+	}
+	var obj = Object.assign({}, map);
+	var actual = '';
+	for (var k in obj) {
+		actual += k;
+	}
+	return str !== actual;
+};
+
+var assignHasPendingExceptions = function assignHasPendingExceptions() {
+	if (!Object.assign || !Object.preventExtensions) {
+		return false;
+	}
+	// Firefox 37 still has "pending exception" logic in its Object.assign implementation,
+	// which is 72% slower than our shim, and Firefox 40's native implementation.
+	var thrower = Object.preventExtensions({ 1: 2 });
+	try {
+		Object.assign(thrower, 'xy');
+	} catch (e) {
+		return thrower[1] === 'y';
+	}
+	return false;
+};
+
+module.exports = function getPolyfill() {
+	if (!Object.assign) {
+		return implementation;
+	}
+	if (lacksProperEnumerationOrder()) {
+		return implementation;
+	}
+	if (assignHasPendingExceptions()) {
+		return implementation;
+	}
+	return Object.assign;
+};
+
+/***/ }),
+
+/***/ "../node_modules/object.assign/shim.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var define = __webpack_require__("../node_modules/define-properties/index.js");
+var getPolyfill = __webpack_require__("../node_modules/object.assign/polyfill.js");
+
+module.exports = function shimAssign() {
+	var polyfill = getPolyfill();
+	define(Object, { assign: polyfill }, { assign: function assign() {
+			return Object.assign !== polyfill;
+		} });
+	return polyfill;
+};
+
+/***/ }),
+
 /***/ "../node_modules/process/browser.js":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10603,6 +9772,826 @@ process.umask = function () {
 
 /***/ }),
 
+/***/ "../node_modules/pwet/src/assertions.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.isUnknownElement = exports.isElement = exports.isComponent = exports.isInteger = exports.isNumber = exports.isFunction = exports.isString = exports.isBoolean = exports.isEmpty = exports.isObject = exports.ofType = exports.isArray = exports.isInstanceOf = exports.isNull = exports.isUndefined = exports.isTrue = exports.isEqualTo = exports.isDeeplyEqual = exports.assert = undefined;
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+var _lodash = __webpack_require__("../node_modules/lodash.isequal/index.js");
+
+var _lodash2 = _interopRequireDefault(_lodash);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var assert = exports.assert = function assert(condition, message) {
+
+  if (condition) return condition;
+
+  throw new Error(message);
+};
+
+var isDeeplyEqual = exports.isDeeplyEqual = _lodash2.default;
+var isEqualTo = exports.isEqualTo = function isEqualTo(value, input) {
+  return input === value;
+};
+var isTrue = exports.isTrue = function isTrue(input) {
+  return isEqualTo(true, input);
+};
+var isUndefined = exports.isUndefined = function isUndefined(input) {
+  return isEqualTo(void 0, input);
+};
+var isNull = exports.isNull = function isNull(input) {
+  return isEqualTo(null, input);
+};
+var isInstanceOf = exports.isInstanceOf = function isInstanceOf(type, input) {
+  return input instanceof type;
+};
+var isArray = exports.isArray = function isArray(input) {
+  return isInstanceOf(Array, input);
+};
+var ofType = exports.ofType = function ofType(type, input) {
+  return isEqualTo(type, typeof input === 'undefined' ? 'undefined' : _typeof(input));
+};
+var isObject = exports.isObject = function isObject(input) {
+  return ofType('object', input);
+};
+var isEmpty = exports.isEmpty = function isEmpty(input) {
+  return !input || input.length < 1;
+};
+var isBoolean = exports.isBoolean = function isBoolean(input) {
+  return ofType('boolean', input);
+};
+var isString = exports.isString = function isString(input) {
+
+  return ofType('string', input);
+};
+var isFunction = exports.isFunction = function isFunction(input) {
+  return ofType('function', input) && input;
+};
+var isNumber = exports.isNumber = function isNumber(input) {
+  return ofType('number', input);
+};
+var isInteger = exports.isInteger = function isInteger(input) {
+  return Number.isInteger(input);
+};
+var isComponent = exports.isComponent = function isComponent(input) {
+  return isObject(input) && input.isPwetComponent === true;
+};
+var isElement = exports.isElement = function isElement(input) {
+  return isInstanceOf(HTMLElement, input);
+};
+var isUnknownElement = exports.isUnknownElement = function isUnknownElement(input) {
+  return Object.prototype.toString.call(input) === '[object HTMLUnknownElement]';
+};
+
+/***/ }),
+
+/***/ "../node_modules/pwet/src/attribute.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _utilities = __webpack_require__("../node_modules/pwet/src/utilities.js");
+
+var _assertions = __webpack_require__("../node_modules/pwet/src/assertions.js");
+
+var internal = {};
+
+internal.empty = function (val) {
+  return val == null;
+};
+internal.nullOrType = function (type) {
+  return function (val) {
+    return !val ? null : type(val);
+  };
+};
+internal.zeroOrNumber = function (val) {
+  return !val ? 0 : Number(val);
+};
+
+internal.Attribute = module.exports = function (attribute) {
+
+  (0, _assertions.assert)((0, _assertions.isObject)(attribute), '\'attribute\' must be an object');
+
+  var _attribute$stringify = attribute.stringify,
+      stringify = _attribute$stringify === undefined ? JSON.stringify : _attribute$stringify,
+      _attribute$parse = attribute.parse,
+      parse = _attribute$parse === undefined ? JSON.parse : _attribute$parse,
+      _attribute$coerce = attribute.coerce,
+      coerce = _attribute$coerce === undefined ? _utilities.identity : _attribute$coerce,
+      defaultValue = attribute.defaultValue;
+
+
+  (0, _assertions.assert)((0, _assertions.isFunction)(stringify), '\'stringify\' must be a function');
+  (0, _assertions.assert)((0, _assertions.isFunction)(parse), '\'parse\' must be a function');
+
+  return Object.assign(attribute, {
+    isAttribute: true,
+    stringify: stringify,
+    parse: parse,
+    coerce: coerce,
+    defaultValue: defaultValue
+  });
+};
+
+internal.Attribute.array = function () {
+  var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  return internal.Attribute(Object.assign({
+    coerce: function coerce(val) {
+      return Array.isArray(val) ? val : !val ? null : [val];
+    },
+    defaultValue: []
+  }, options));
+};
+
+internal.Attribute.boolean = function () {
+  var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  return internal.Attribute(Object.assign({
+    coerce: Boolean,
+    defaultValue: false,
+    parse: function parse(val) {
+      return !!val;
+    },
+    stringify: function stringify(val) {
+      return val ? '' : null;
+    }
+  }, options));
+};
+
+internal.Attribute.number = function () {
+  var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  return internal.Attribute(Object.assign({
+    defaultValue: 0,
+    coerce: internal.zeroOrNumber,
+    parse: internal.zeroOrNumber,
+    stringify: internal.nullOrType(Number)
+  }, options));
+};
+
+internal.Attribute.integer = function () {
+  var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  return internal.Attribute.number(Object.assign(options, {
+    coerce: parseInt,
+    parse: parseInt
+  }));
+};
+
+internal.Attribute.float = function () {
+  var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  return internal.Attribute.number(Object.assign(options, {
+    coerce: parseFloat,
+    parse: parseFloat
+  }));
+};
+
+internal.Attribute.object = function () {
+  var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  return internal.Attribute(Object.assign({
+    defaultValue: {}
+  }, options));
+};
+
+internal.Attribute.string = function () {
+  var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  return internal.Attribute(Object.assign({
+    defaultValue: '',
+    coerce: String,
+    stringify: internal.nullOrType(String)
+  }, options));
+};
+
+/***/ }),
+
+/***/ "../node_modules/pwet/src/component.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.StatefulComponent = undefined;
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _utilities = __webpack_require__("../node_modules/pwet/src/utilities.js");
+
+var _filters = __webpack_require__("../node_modules/pwet/src/filters.js");
+
+var _assertions = __webpack_require__("../node_modules/pwet/src/assertions.js");
+
+var _property = __webpack_require__("../node_modules/pwet/src/property.js");
+
+var _property2 = _interopRequireDefault(_property);
+
+var _stateful = __webpack_require__("../node_modules/pwet/src/decorators/stateful.js");
+
+var _stateful2 = _interopRequireDefault(_stateful);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var internal = {
+  factories: [],
+  allowedHooks: ['attach', 'detach', 'initialize', 'render']
+};
+
+internal.parseProperties = function (input) {
+
+  var properties = [];
+
+  if (!(0, _assertions.isObject)(input)) return properties;
+
+  var keys = Object.keys(input);
+
+  if ((0, _assertions.isEmpty)(keys)) return properties;
+
+  return keys.reduce(function (properties, key) {
+
+    var property = input[key];
+
+    if (!(0, _assertions.isObject)(property)) property = { defaultValue: property };
+
+    property.name = key;
+
+    property = (0, _property2.default)(property);
+
+    properties.push(property);
+
+    return properties;
+  }, properties);
+};
+
+internal.StatelessError = function () {
+  throw new Error('Component is Stateless');
+};
+
+internal.isAllowedHook = function (factory, key) {
+  return factory.allowedHooks.includes(key);
+};
+
+internal.defaultsHooks = {
+  attach: function attach(component, _attach) {
+    _attach(!component.isRendered);
+  },
+  initialize: function initialize(component, newProperties, _initialize) {
+    _initialize(true);
+  }
+};
+
+var Component = function Component(factory, element) {
+
+  (0, _assertions.assert)(Component.get(factory), '\'factory\' must be a defined component factory');
+  (0, _assertions.assert)((0, _assertions.isElement)(element), '\'element\' must be a HTMLElement');
+
+  if (element.pwet !== void 0) return;
+
+  var _isAttached = false;
+  var _isRendered = false;
+  var _isInitializing = false;
+  var _properties = {};
+
+  var attach = function attach() {
+    // console.log('Component.attach()');
+
+    if (_isAttached) return;
+
+    if (factory.shadowRoot) element.shadowRoot = element.attachShadow(factory.shadowRoot);
+
+    component.hooks.attach(function () {
+      var shouldRender = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
+
+
+      _isAttached = true;
+
+      if (shouldRender) component.render();
+    });
+  };
+
+  var detach = function detach() {
+    // console.log('Component.detach()');
+
+    if (!_isAttached) return;
+
+    _isAttached = false;
+
+    component.hooks.detach();
+  };
+
+  var initialize = function initialize(newProperties) {
+    // console.log('Component.initialize()', 'before', _isInitializing);
+
+    if (_isInitializing) return;
+
+    (0, _assertions.assert)((0, _assertions.isObject)(newProperties) && !(0, _assertions.isNull)(newProperties), '\'newProperties\' must be an object');
+
+    _isInitializing = true;
+
+    newProperties = factory.properties.reduce(function (properties, _ref) {
+      var name = _ref.name,
+          coerce = _ref.coerce,
+          defaultValue = _ref.defaultValue;
+
+
+      return Object.assign(properties, _defineProperty({}, name, !(0, _assertions.isUndefined)(newProperties[name]) ? coerce(newProperties[name]) : !(0, _assertions.isUndefined)(_properties[name]) ? _properties[name] : defaultValue));
+    }, {});
+
+    component.hooks.initialize(newProperties, function () {
+      var shouldRender = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
+
+
+      _properties = newProperties;
+
+      if (shouldRender) component.render();
+
+      _isInitializing = false;
+    });
+  };
+
+  var render = function render() {
+    // console.log('Component.render()', _isAttached);
+
+    if (!_isAttached) return;
+
+    component.hooks.render();
+
+    _isRendered = true;
+  };
+
+  var component = element.pwet = {
+    isPwetComponent: true,
+    element: element,
+    attach: attach,
+    detach: detach,
+    initialize: initialize,
+    render: render,
+    get isRendered() {
+      return _isRendered;
+    },
+    get isInitializing() {
+      return _isInitializing;
+    },
+    get hooks() {
+      return _hooks;
+    },
+    get state() {
+      return _hooks;
+    },
+    set properties(newValue) {
+      return _hooks;
+    }
+  };
+
+  var _hooks = factory.allowedHooks.reduce(function (hooks, key) {
+    return Object.assign(hooks, _defineProperty({}, key, factory[key].bind(null, component)));
+  }, {});
+
+  (0, _assertions.assert)(_hooks.render !== _utilities.noop, '\'render\' method is required');
+
+  Object.defineProperty(component, 'state', {
+    configurable: true,
+    get: internal.StatelessError,
+    set: internal.StatelessError
+  });
+
+  Object.defineProperty(component, 'properties', {
+    get: function get() {
+      return Object.assign({}, _properties);
+    },
+
+    set: initialize
+  });
+
+  factory.create(component, factory);
+
+  var hooks = factory(component);
+
+  // factory.create(factory(component), factory);
+
+  if (!(0, _assertions.isObject)(hooks) || (0, _assertions.isNull)(hooks)) return component;
+
+  Object.keys(hooks).filter(internal.isAllowedHook.bind(null, factory)).forEach(function (key) {
+
+    var hook = hooks[key];
+
+    (0, _assertions.assert)((0, _assertions.isFunction)(hook), '\'' + key + '\' hook must be a function');
+
+    _hooks[key] = hook;
+  });
+
+  // first initialization
+  component.properties = factory.properties.reduce(function (properties, _ref2) {
+    var name = _ref2.name,
+        attribute = _ref2.attribute,
+        defaultValue = _ref2.defaultValue;
+
+
+    Object.defineProperty(element, name, {
+      get: function get() {
+        return component.properties[name];
+      },
+      set: function set(newValue) {
+
+        component.properties = Object.assign(component.properties, _defineProperty({}, name, newValue));
+      }
+    });
+
+    var value = defaultValue;
+
+    if (attribute !== false) {
+
+      var attributeValue = element.dataset[name];
+
+      if (!(0, _assertions.isUndefined)(attributeValue)) value = attributeValue;
+    }
+
+    return Object.assign(properties, _defineProperty({}, name, value));
+  }, {});
+
+  return component;
+};
+
+Component.get = function (input) {
+  return internal.factories.find((0, _filters.EqualFilter)(input));
+};
+
+Component.define = function (factory, options) {
+
+  (0, _assertions.assert)((0, _assertions.isFunction)(factory), '\'factory\' must be a function');
+
+  if (!(0, _assertions.isUndefined)(options)) (0, _assertions.assert)((0, _assertions.isObject)(options), '\'options\' must be an object');
+
+  var tagName = factory.tagName,
+      _factory$attributes = factory.attributes,
+      attributes = _factory$attributes === undefined ? {} : _factory$attributes;
+
+
+  (0, _assertions.assert)((0, _assertions.isString)(tagName) && /[a-z0-9-]+/i, '\'tagName\' must be a string');
+  (0, _assertions.assert)(!Component.get(factory), 'That component factory is already defined');
+  (0, _assertions.assert)(!internal.factories.find((0, _filters.ByFilter)('tagName', tagName)), '\'' + tagName + '\' component is already defined');
+
+  factory.properties = internal.parseProperties(factory.properties);
+
+  var _attributes = factory.properties.filter(function (property) {
+    return property.isAttribute === true;
+  });
+
+  var _attributesNames = _attributes.map(function (property) {
+    return property.name;
+  });
+
+  if (!(0, _assertions.isFunction)(factory.attach)) factory.attach = internal.defaultsHooks.attach;
+  if (!(0, _assertions.isFunction)(factory.initialize)) factory.initialize = internal.defaultsHooks.initialize;
+  if (!(0, _assertions.isFunction)(factory.detach)) factory.detach = _utilities.noop;
+  if (!(0, _assertions.isFunction)(factory.render)) factory.render = _utilities.noop;
+  if (!(0, _assertions.isFunction)(factory.create)) factory.create = _utilities.identity;
+
+  factory.allowedHooks = internal.allowedHooks; //.concat(allowedHooks);
+
+  if ((0, _assertions.isFunction)(factory.create.define)) factory.create.define(factory);
+
+  internal.factories.push(factory);
+
+  customElements.define(tagName, function (_HTMLElement) {
+    _inherits(_class, _HTMLElement);
+
+    function _class() {
+      _classCallCheck(this, _class);
+
+      var _this = _possibleConstructorReturn(this, (_class.__proto__ || Object.getPrototypeOf(_class)).call(this));
+
+      Component(factory, _this);
+      return _this;
+    }
+
+    _createClass(_class, [{
+      key: 'connectedCallback',
+      value: function connectedCallback() {
+
+        this.pwet.attach();
+      }
+    }, {
+      key: 'disconnectedCallback',
+      value: function disconnectedCallback() {
+
+        this.pwet.detach();
+      }
+    }, {
+      key: 'attributeChangedCallback',
+      value: function attributeChangedCallback(name, oldValue, newValue) {
+        var properties = this.pwet.properties;
+
+
+        _attributes.forEach(function (property) {
+
+          if (name === property.name) properties[name] = property.parse(newValue);
+        });
+
+        this.pwet.properties = properties;
+      }
+    }], [{
+      key: 'observedAttributes',
+      get: function get() {
+
+        return _attributesNames;
+      }
+    }]);
+
+    return _class;
+  }(HTMLElement));
+};
+
+exports.StatefulComponent = _stateful2.default;
+exports.default = Component;
+
+/***/ }),
+
+/***/ "../node_modules/pwet/src/decorators/stateful.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _utilities = __webpack_require__("../node_modules/pwet/src/utilities.js");
+
+var _assertions = __webpack_require__("../node_modules/pwet/src/assertions.js");
+
+var internal = {
+  allowedHooks: ['update']
+};
+
+internal.defaultsHooks = {
+  update: function update(component, newState, _update) {
+    _update(true);
+  }
+};
+
+var StatefulComponent = function StatefulComponent(component, factory) {
+
+  var _state = factory.initialState();
+  var _isUpdating = false;
+
+  var editState = function editState(partialState) {
+
+    (0, _assertions.assert)((0, _assertions.isObject)(partialState) && !(0, _assertions.isNull)(partialState), '\'partialState\' must be an object');
+
+    var state = component.state;
+
+    Object.assign(state, partialState);
+
+    update(state);
+  };
+
+  var update = function update(newState) {
+
+    if (_isUpdating) return;
+
+    (0, _assertions.assert)((0, _assertions.isObject)(newState) && !(0, _assertions.isNull)(newState), '\'newState\' must be an object');
+
+    (0, _assertions.assert)(_state !== newState, '\'newState\' must not be equal to previous state');
+
+    if (component.isInitializing) return void (_state = newState);
+
+    _isUpdating = true;
+
+    component.hooks.update(newState, function () {
+      var shouldRender = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
+
+
+      _state = newState;
+
+      if (shouldRender) component.render();
+
+      _isUpdating = false;
+    });
+  };
+
+  Object.assign(component, {
+    editState: editState,
+    update: update,
+    get isUpdating() {
+      return _isUpdating;
+    }
+  });
+
+  Object.defineProperty(component, 'state', {
+    configurable: true,
+    get: function get() {
+      return Object.assign({}, _state);
+    },
+    set: function set(newState) {
+
+      if (!_isUpdating) component.update(newState);
+    }
+  });
+
+  return component;
+};
+
+StatefulComponent.define = function (factory) {
+  var initialState = factory.initialState,
+      allowedHooks = factory.allowedHooks;
+
+
+  (0, _assertions.assert)((0, _assertions.isArray)(allowedHooks) && allowedHooks.every(_assertions.isString), '\'allowedHooks\' must be an array of string');
+
+  factory.allowedHooks = allowedHooks.concat(internal.allowedHooks);
+
+  factory.initialState = (0, _assertions.isObject)(initialState) && !(0, _assertions.isNull)(initialState) ? _utilities.identity.bind(null, initialState) : (0, _assertions.assert)((0, _assertions.isFunction)(initialState), '\'initialState\' must be an object or a function');
+
+  if (!(0, _assertions.isFunction)(factory.update)) factory.update = internal.defaultsHooks.update;
+};
+
+exports.default = StatefulComponent;
+
+/***/ }),
+
+/***/ "../node_modules/pwet/src/filters.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var ByFilter = exports.ByFilter = function ByFilter(key, value) {
+  return function (item) {
+    return item[key] === value;
+  };
+};
+var EqualFilter = exports.EqualFilter = function EqualFilter(value) {
+  return function (item) {
+    return item === value;
+  };
+};
+
+/***/ }),
+
+/***/ "../node_modules/pwet/src/polyfills/index.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+// NOTE!!!
+//
+// We have to load polyfills directly from source as non-minified files are not
+// published by the polyfills. An issue was raised to discuss this problem and
+// to see if it can be resolved.
+//
+// See https://github.com/webcomponents/custom-elements/issues/45
+
+// ES2015 polyfills required for the polyfills to work in older browsers.
+__webpack_require__("../node_modules/array.from/index.js").shim();
+__webpack_require__("../node_modules/object.assign/index.js").shim();
+__webpack_require__("../node_modules/es6-promise/dist/es6-promise.js").polyfill();
+
+// We have to include this first so that it can patch native. This must be done
+// before any polyfills are loaded.
+__webpack_require__("../node_modules/pwet/src/polyfills/native-shim.js");
+
+// // Template polyfill is necessary to use shadycss in IE11
+// // this comes before custom elements because of
+// // https://github.com/webcomponents/template/blob/master/template.js#L39
+// require('@webcomponents/template');
+
+// This comes after the native shim because it requries it to be patched first.
+__webpack_require__("../node_modules/@webcomponents/custom-elements/src/custom-elements.js");
+
+// // Force the polyfill in Safari 10.0.0 and 10.0.1.
+// const { navigator } = window;
+// const { userAgent } = navigator;
+// const safari = userAgent.indexOf('Safari/60') !== -1;
+// const safariVersion = safari && userAgent.match(/Version\/([^\s]+)/)[1];
+// const safariVersions = [0, 1].map(v => `10.0.${v}`).concat(['10.0']);
+//
+// if (safari && safariVersions.indexOf(safariVersion) > -1) {
+//   window.ShadyDOM = { force: true };
+// }
+//
+// // ShadyDOM comes first. Both because it may need to be forced and the
+// // ShadyCSS polyfill requires it to function.
+// require('cloudydom/src/shadydom');
+// require('@webcomponents/shadycss/index');
+
+/***/ }),
+
+/***/ "../node_modules/pwet/src/polyfills/native-shim.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+window.customElements && eval("/**\n * @license\n * Copyright (c) 2016 The Polymer Project Authors. All rights reserved.\n * This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt\n * The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt\n * The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt\n * Code distributed by Google as part of the polymer project is also\n * subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt\n */\n\n/**\n * This shim allows elements written in, or compiled to, ES5 to work on native\n * implementations of Custom Elements.\n *\n * ES5-style classes don't work with native Custom Elements because the\n * HTMLElement constructor uses the value of `new.target` to look up the custom\n * element definition for the currently called constructor. `new.target` is only\n * set when `new` is called and is only propagated via super() calls. super()\n * is not emulatable in ES5. The pattern of `SuperClass.call(this)`` only works\n * when extending other ES5-style classes, and does not propagate `new.target`.\n *\n * This shim allows the native HTMLElement constructor to work by generating and\n * registering a stand-in class instead of the users custom element class. This\n * stand-in class's constructor has an actual call to super().\n * `customElements.define()` and `customElements.get()` are both overridden to\n * hide this stand-in class from users.\n *\n * In order to create instance of the user-defined class, rather than the stand\n * in, the stand-in's constructor swizzles its instances prototype and invokes\n * the user-defined constructor. When the user-defined constructor is called\n * directly it creates an instance of the stand-in class to get a real extension\n * of HTMLElement and returns that.\n *\n * There are two important constructors: A patched HTMLElement constructor, and\n * the StandInElement constructor. They both will be called to create an element\n * but which is called first depends on whether the browser creates the element\n * or the user-defined constructor is called directly. The variables\n * `browserConstruction` and `userConstruction` control the flow between the\n * two constructors.\n *\n * This shim should be better than forcing the polyfill because:\n *   1. It's smaller\n *   2. All reaction timings are the same as native (mostly synchronous)\n *   3. All reaction triggering DOM operations are automatically supported\n *\n * There are some restrictions and requirements on ES5 constructors:\n *   1. All constructors in a inheritance hierarchy must be ES5-style, so that\n *      they can be called with Function.call(). This effectively means that the\n *      whole application must be compiled to ES5.\n *   2. Constructors must return the value of the emulated super() call. Like\n *      `return SuperClass.call(this)`\n *   3. The `this` reference should not be used before the emulated super() call\n *      just like `this` is illegal to use before super() in ES6.\n *   4. Constructors should not create other custom elements before the emulated\n *      super() call. This is the same restriction as with native custom\n *      elements.\n *\n *  Compiling valid class-based custom elements to ES5 will satisfy these\n *  requirements with the latest version of popular transpilers.\n */\n(() => {\n  'use strict';\n\n  // Do nothing if `customElements` does not exist.\n  if (!window.customElements) return;\n\n  const NativeHTMLElement = window.HTMLElement;\n  const nativeDefine = window.customElements.define;\n  const nativeGet = window.customElements.get;\n\n  /**\n   * Map of user-provided constructors to tag names.\n   *\n   * @type {Map<Function, string>}\n   */\n  const tagnameByConstructor = new Map();\n\n  /**\n   * Map of tag names to user-provided constructors.\n   *\n   * @type {Map<string, Function>}\n   */\n  const constructorByTagname = new Map();\n\n\n  /**\n   * Whether the constructors are being called by a browser process, ie parsing\n   * or createElement.\n   */\n  let browserConstruction = false;\n\n  /**\n   * Whether the constructors are being called by a user-space process, ie\n   * calling an element constructor.\n   */\n  let userConstruction = false;\n\n  window.HTMLElement = function() {\n    if (!browserConstruction) {\n      const tagname = tagnameByConstructor.get(this.constructor);\n      const fakeClass = nativeGet.call(window.customElements, tagname);\n\n      // Make sure that the fake constructor doesn't call back to this constructor\n      userConstruction = true;\n      const instance = new (fakeClass)();\n      return instance;\n    }\n    // Else do nothing. This will be reached by ES5-style classes doing\n    // HTMLElement.call() during initialization\n    browserConstruction = false;\n  };\n  // By setting the patched HTMLElement's prototype property to the native\n  // HTMLElement's prototype we make sure that:\n  //     document.createElement('a') instanceof HTMLElement\n  // works because instanceof uses HTMLElement.prototype, which is on the\n  // ptototype chain of built-in elements.\n  window.HTMLElement.prototype = NativeHTMLElement.prototype;\n\n  window.customElements.define = (tagname, elementClass) => {\n    const elementProto = elementClass.prototype;\n    const StandInElement = class extends NativeHTMLElement {\n      constructor() {\n        // Call the native HTMLElement constructor, this gives us the\n        // under-construction instance as `this`:\n        super();\n\n        // The prototype will be wrong up because the browser used our fake\n        // class, so fix it:\n        Object.setPrototypeOf(this, elementProto);\n\n        if (!userConstruction) {\n          // Make sure that user-defined constructor bottom's out to a do-nothing\n          // HTMLElement() call\n          browserConstruction = true;\n          // Call the user-defined constructor on our instance:\n          elementClass.call(this);\n        }\n        userConstruction = false;\n      }\n    };\n    const standInProto = StandInElement.prototype;\n    StandInElement.observedAttributes = elementClass.observedAttributes;\n    standInProto.connectedCallback = elementProto.connectedCallback;\n    standInProto.disconnectedCallback = elementProto.disconnectedCallback;\n    standInProto.attributeChangedCallback = elementProto.attributeChangedCallback;\n    standInProto.adoptedCallback = elementProto.adoptedCallback;\n\n    tagnameByConstructor.set(elementClass, tagname);\n    constructorByTagname.set(tagname, elementClass);\n    nativeDefine.call(window.customElements, tagname, StandInElement);\n  };\n\n  window.customElements.get = (tagname) => constructorByTagname.get(tagname);\n\n})();\n");
+
+/***/ }),
+
+/***/ "../node_modules/pwet/src/property.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _utilities = __webpack_require__("../node_modules/pwet/src/utilities.js");
+
+var _assertions = __webpack_require__("../node_modules/pwet/src/assertions.js");
+
+var internal = {};
+
+internal.Property = module.exports = function (property) {
+
+  (0, _assertions.assert)((0, _assertions.isObject)(property), '\'property\' must be an object');
+
+  var name = property.name,
+      _property$coerce = property.coerce,
+      coerce = _property$coerce === undefined ? _utilities.identity : _property$coerce,
+      defaultValue = property.defaultValue;
+
+  // console.log(property)
+
+  (0, _assertions.assert)((0, _assertions.isString)(name), '\'name\' must be a string');
+  (0, _assertions.assert)((0, _assertions.isFunction)(coerce), '\'coerce\' must be a function');
+
+  // if (attribute) {
+  //
+  //   assert(Attribute.isAttribute(attribute), `'attribute' is not an Attribute object`);
+  //
+  //   if (isUndefined(defaultValue) && !isUndefined(attribute.defaultValue))
+  //     defaultValue = attribute.defaultValue;
+  //
+  //   if (attribute.coerce !== coerce)
+  //     coerce = attribute.coerce;
+  //
+  // }
+
+  return Object.freeze(Object.assign(property, {
+    name: name,
+    coerce: coerce,
+    defaultValue: defaultValue
+  }));
+};
+
+/***/ }),
+
+/***/ "../node_modules/pwet/src/utilities.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.isAttached = exports.not = exports.toggle = exports.identity = exports.noop = exports.clone = undefined;
+
+var _assertions = __webpack_require__("../node_modules/pwet/src/assertions.js");
+
+var clone = exports.clone = function clone(input) {
+  return !(0, _assertions.isArray)(input) ? (0, _assertions.isObject)(input) ? Object.assign({}, input) : input : input.map(clone);
+};
+
+var noop = exports.noop = function noop() {};
+var identity = exports.identity = function identity(arg) {
+  return arg;
+};
+var toggle = exports.toggle = function toggle(input) {
+  return !input;
+};
+var not = exports.not = toggle;
+var isAttached = exports.isAttached = function isAttached(element) {
+
+  if (element === document) return true;
+
+  element = element.parentNode;
+  if (element) return isAttached(element);
+
+  return false;
+};
+
+/***/ }),
+
 /***/ "../node_modules/url-loader/index.js!./spinner.gif?mimetype=image/gif":
 /***/ (function(module, exports) {
 
@@ -10682,21 +10671,21 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _attribute = __webpack_require__("../../pwet/src/attribute.js");
+var _attribute = __webpack_require__("../node_modules/pwet/src/attribute.js");
 
 var _attribute2 = _interopRequireDefault(_attribute);
 
-var _utilities = __webpack_require__("../../pwet/src/utilities.js");
+var _utilities = __webpack_require__("../node_modules/pwet/src/utilities.js");
 
 var _lodash = __webpack_require__("../node_modules/lodash.throttle/index.js");
 
 var _lodash2 = _interopRequireDefault(_lodash);
 
-var _stateful = __webpack_require__("../../pwet/src/decorators/stateful.js");
+var _stateful = __webpack_require__("../node_modules/pwet/src/decorators/stateful.js");
 
 var _stateful2 = _interopRequireDefault(_stateful);
 
-var _assertions = __webpack_require__("../../pwet/src/assertions.js");
+var _assertions = __webpack_require__("../node_modules/pwet/src/assertions.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -10712,10 +10701,6 @@ internal.unsetListeners = function (image) {
 };
 
 internal.ImageLoader = function (component) {
-  var element = component.element;
-
-
-  console.log('ImageLoader()');
 
   var _loadImage = function _loadImage(src) {
     var index = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
@@ -10731,8 +10716,6 @@ internal.ImageLoader = function (component) {
         onError = properties.onError,
         onLoad = properties.onLoad;
 
-
-    console.log('ImageLoader._loadImage()', state.index);
 
     component.editState({
       status: 'loading'
@@ -10782,24 +10765,18 @@ internal.ImageLoader = function (component) {
   };
 
   var attach = function attach(_attach) {
-    console.log('ImageLoader.attach()', component.properties, component.state);
+
     _attach(!component.isRendered);
   };
 
-  var detach = function detach() {
-    console.log('ImageLoader.detach()');
-  };
-
   var initialize = function initialize(newProperties, _initialize) {
+    var properties = component.properties.properties;
 
-    console.log('ImageLoader.initialize()', 'before', newProperties, component.properties, component.state);
 
-    var oldProperties = component.properties;
-
-    if (newProperties.src.length > 0 && newProperties.src !== oldProperties.src) {
+    if (newProperties.src.length > 0 && newProperties.src !== properties.src) {
       var state = component.state,
-          properties = component.properties;
-      var pipeline = properties.pipeline;
+          _properties = component.properties;
+      var pipeline = _properties.pipeline;
 
 
       if (state.status === 'loading') return;
@@ -10819,14 +10796,12 @@ internal.ImageLoader = function (component) {
       newProperties.src.forEach(_loadImage);
     }
 
-    _initialize(!component.isRendered || !(0, _assertions.isDeeplyEqual)(oldProperties, newProperties));
+    _initialize(!component.isRendered || !(0, _assertions.isDeeplyEqual)(properties, newProperties));
   };
 
   var update = function update(newState, _update) {
     var state = component.state;
 
-
-    console.log('ImageLoader.update()', state.progress + '%');
 
     _update(true);
   };
@@ -10836,12 +10811,9 @@ internal.ImageLoader = function (component) {
         properties = component.properties;
     var status = state.status,
         loaded = state.loaded;
-    var renderImage = properties.renderImage,
-        renderImages = properties.renderImages,
+    var renderImages = properties.renderImages,
         renderSpinner = properties.renderSpinner;
 
-
-    console.error('ImageLoader.render()', properties, state);
 
     if (status === 'pending' || status === 'loading' && loaded.length < 1) return void renderSpinner(component);
 
@@ -10850,7 +10822,6 @@ internal.ImageLoader = function (component) {
 
   return {
     attach: attach,
-    detach: detach,
     update: update,
     initialize: initialize,
     render: (0, _lodash2.default)(render, internal.ImageLoader.maxWait)
@@ -10900,9 +10871,9 @@ exports.default = internal.ImageLoader;
 "use strict";
 
 
-__webpack_require__("../../pwet/src/polyfills/index.js");
+__webpack_require__("../node_modules/pwet/src/polyfills/index.js");
 
-var _component = __webpack_require__("../../pwet/src/component.js");
+var _component = __webpack_require__("../node_modules/pwet/src/component.js");
 
 var _component2 = _interopRequireDefault(_component);
 
@@ -10911,6 +10882,8 @@ var _component3 = __webpack_require__("../src/component.js");
 var _component4 = _interopRequireDefault(_component3);
 
 var _idomUtil = __webpack_require__("../node_modules/idom-util/src/index.js");
+
+var _incrementalDom = __webpack_require__("../node_modules/incremental-dom/dist/incremental-dom-cjs.js");
 
 var _gif = __webpack_require__("../node_modules/url-loader/index.js!./spinner.gif?mimetype=image/gif");
 
@@ -10925,8 +10898,11 @@ _component2.default.define(_component4.default);
 var container = document.getElementById('container');
 var imageLoader = document.createElement('x-image-loader');
 
-imageLoader.renderSpinner = function (component, src) {
-  (0, _idomUtil.renderImage)(_gif2.default);
+imageLoader.renderSpinner = function (_ref, src) {
+  var element = _ref.element;
+  return (0, _incrementalDom.patch)(element, function () {
+    return (0, _idomUtil.renderImage)(_gif2.default);
+  });
 };
 
 container.appendChild(imageLoader);
@@ -10939,15 +10915,23 @@ var src = new Array(42).fill(void 0).map(function (el, i) {
 
 imageLoader.pwet.initialize({
   src: src,
-  onProgress: function onProgress(component, src, _ref) {
-    var index = _ref.index,
-        queue = _ref.queue,
-        progress = _ref.progress;
+  onProgress: function onProgress(component, src, _ref2) {
+    var index = _ref2.index,
+        queue = _ref2.queue,
+        progress = _ref2.progress;
 
     console.log(index + ' / ' + queue.length + ' (' + progress + ')');
   },
-  renderImage: function renderImage(component, src) {
-    (0, _idomUtil.renderImage)(src, null, null, 'class', 'fade');
+  renderImages: function renderImages(_ref3, images) {
+    var element = _ref3.element;
+
+
+    (0, _incrementalDom.patch)(element, function () {
+
+      images.forEach(function (image, i) {
+        images[i] = (0, _idomUtil.renderImage)(image.src, i, null, 'class', 'fade');
+      });
+    });
   }
 });
 

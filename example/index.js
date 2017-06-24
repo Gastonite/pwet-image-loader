@@ -2,7 +2,8 @@
 import 'pwet/src/polyfills';
 import Component from 'pwet/src/component';
 import ImageLoader from '../src/component';
-import { renderImage, renderStrong } from 'idom-util';
+import { renderImage } from 'idom-util';
+import { patch } from 'incremental-dom';
 import SpinnerImageUrl from 'url-loader!./spinner.gif?mimetype=image/gif';
 
 ImageLoader.maxWait = 1000;
@@ -12,9 +13,7 @@ Component.define(ImageLoader);
 const container = document.getElementById('container');
 const imageLoader = document.createElement('x-image-loader');
 
-imageLoader.renderSpinner = (component, src) => {
-  renderImage(SpinnerImageUrl)
-};
+imageLoader.renderSpinner = ({ element }, src) => patch(element, () => renderImage(SpinnerImageUrl));
 
 container.appendChild(imageLoader);
 
@@ -29,7 +28,13 @@ imageLoader.pwet.initialize({
   onProgress(component, src, { index, queue, progress }) {
     console.log(`${index} / ${queue.length} (${progress})`);
   },
-  renderImage(component, src) {
-    renderImage(src, null, null, 'class', 'fade')
+  renderImages({ element }, images) {
+
+    patch(element, () => {
+
+      images.forEach((image, i) => {
+        images[i] = renderImage(image.src, i, null, 'class', 'fade')
+      });
+    });
   }
 });
