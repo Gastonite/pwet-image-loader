@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "75a1205f55476cd159c4"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "ee9219736da4aee5a9b7"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -10043,10 +10043,6 @@ internal.StatelessError = function () {
   throw new Error('Component is Stateless');
 };
 
-internal.isAllowedHook = function (factory, key) {
-  return factory.allowedHooks.includes(key);
-};
-
 internal.defaultsHooks = {
   attach: function attach(component, _attach) {
     _attach(!component.isRendered);
@@ -10079,6 +10075,7 @@ var Component = function Component(factory, element) {
       var shouldRender = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
 
 
+      console.log('shouldRender', shouldRender);
       _isAttached = true;
 
       if (shouldRender) component.render();
@@ -10095,7 +10092,9 @@ var Component = function Component(factory, element) {
     component.hooks.detach();
   };
 
-  var initialize = function initialize(newProperties) {
+  var initialize = function initialize() {
+    var newProperties = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+
     // console.log('Component.initialize()', 'before', _isInitializing);
 
     if (_isInitializing) return;
@@ -10145,6 +10144,9 @@ var Component = function Component(factory, element) {
     get isRendered() {
       return _isRendered;
     },
+    get isAttached() {
+      return _isAttached;
+    },
     get isInitializing() {
       return _isInitializing;
     },
@@ -10181,22 +10183,30 @@ var Component = function Component(factory, element) {
 
   factory.create(component, factory);
 
-  var hooks = factory(component);
+  var returned = factory(component);
 
-  // factory.create(factory(component), factory);
+  if (!(0, _assertions.isObject)(returned) || (0, _assertions.isNull)(returned)) return component;
 
-  if (!(0, _assertions.isObject)(hooks) || (0, _assertions.isNull)(hooks)) return component;
+  // let _initialProperties = {};
 
-  Object.keys(hooks).filter(internal.isAllowedHook.bind(null, factory)).forEach(function (key) {
+  Object.keys(returned).forEach(function (key) {
 
-    var hook = hooks[key];
+    // if (key === 'properties') {
+    //
+    //   _initialProperties = returned.properties;
+    //   return;
+    // }
+
+    if (!factory.allowedHooks.includes(key)) return;
+
+    var hook = returned[key];
 
     (0, _assertions.assert)((0, _assertions.isFunction)(hook), '\'' + key + '\' hook must be a function');
 
     _hooks[key] = hook;
   });
 
-  // first initialization
+  // First initialization
   component.properties = factory.properties.reduce(function (properties, _ref2) {
     var name = _ref2.name,
         attribute = _ref2.attribute,
@@ -10299,10 +10309,11 @@ Component.define = function (factory, options) {
         var properties = this.pwet.properties;
 
 
-        _attributes.forEach(function (property) {
-
-          if (name === property.name) properties[name] = property.parse(newValue);
+        var attribute = _attributes.find(function (attribute) {
+          return attribute.name === name;
         });
+
+        properties[name] = attribute.parse(newValue);
 
         this.pwet.properties = properties;
       }
