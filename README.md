@@ -3,8 +3,7 @@
 A [Pwet](https://github.com/Gastonyte/pwet) component to preload a set of images
  
 ### Run example (via webpack-dev-server)
-1. 
-    Install dependencies:
+1. Install dependencies:
     ```
     yarn
     ```
@@ -33,4 +32,5 @@ A [Pwet](https://github.com/Gastonyte/pwet) component to preload a set of images
     ```
     npm run dev
     ```
+    
 The example is now visible at [http://localhost:3000](http://localhost:3000)
