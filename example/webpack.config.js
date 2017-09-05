@@ -44,6 +44,7 @@ module.exports = (env) => {
 
   const loaders = [
     { test: /\.js$/, use: 'babel-loader' },
+    { test: /\.css$/, loader: 'raw-loader' },
     // { test: /\.html$/, loader: 'html-loader' },
     // { test: /\.gif/, use: [ "url-loader?mimetype=image/gif" ] }
   ];
